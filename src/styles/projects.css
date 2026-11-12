@@ -1,0 +1,1040 @@
+/* =============================================================================
+   projects.css — featured case card (section 01) + work rows (section 02).
+   Every value cited from the reference source CSS (home.html <style> blocks,
+   class g8nV5 / KOIvm and their variants) — see ARCHITECTURE.md.
+   Desktop-first: base ≥1280 (v-vp7otk / v-1015fht) · ≤1279.98 (v-a5bcgu /
+   v-16xvub0) · ≤809.98 (v-erg11y / v-2yvrvh). Inline width:100% on the
+   reference cards overrides their CSS artboard widths (960/810/360/390) —
+   mirrored here as width:100%.
+   ========================================================================== */
+
+/* -----------------------------------------------------------------------------
+   FEATURED CASE CARD (g8nV5) — base ROW gap 40
+   Structure: [text col j517y8 (w30%, space-between) > [1b8jy3o (gap14) >
+   [6ofyoz (gap10) > [iwxf4l (row gap60) > title, 1qikdor (row gap6) > chip],
+   1t4dcei (gap10) > [2bamb0 head, 1frsbu8 bullets]], 15eyd2 Read More],
+   image col 1ad0czt (flex1) > brjyk2 media]
+   -------------------------------------------------------------------------- */
+.featured-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  height: min-content;
+  position: relative;
+}
+
+.featured-card__text {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: flex-start;
+  width: 30%;
+  height: auto;
+}
+
+.featured-card__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+}
+
+.featured-card__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+/* title row: h2 (flex1) + tag chip */
+.featured-card__title-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.featured-card__title {
+  flex: 1 0 0;
+  width: 1px;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--font-display);
+  font-size: 42px; /* preset-1wml6uu base band */
+  font-weight: 500;
+  line-height: 1.1em;
+  letter-spacing: -0.02em;
+  color: var(--token-24044501); /* #0a0a0a (inline extracted) */
+}
+
+.featured-card__tags {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+}
+
+/* tag chip 1c64jau — data-border 1px all sides #2a2a2a, padding 4 */
+.featured-card__tag {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: min-content;
+  padding: 4px;
+  border: 1px solid var(--token-86117d10);
+}
+
+.featured-card__tag span {
+  margin: 0;
+  white-space: pre;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1em; /* a3dj5b */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-86117d10); /* #2a2a2a (extracted) */
+}
+
+/* Key Highlights block */
+.featured-card__highlights {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+
+/* 2bamb0 — row gap4, padding-bottom 4, data-border BOTTOM 1px #2a2a2a */
+.featured-card__highlights-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  padding: 0 0 4px;
+  border-bottom: 1px solid var(--token-86117d10);
+}
+
+/* Key Highlights — preset-2oriq6: SemiBold 600, 16/1.4/0em base;
+   14px at 810–1199 and <=809 (bands in media blocks). Color comes from the
+   inline extracted token (#2a2a2a), right-aligned. */
+.featured-card__highlights-head h6 {
+  margin: 0;
+  white-space: pre;
+  font-family: var(--font-semibold);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4em;
+  letter-spacing: 0em;
+  text-align: right;
+  color: var(--token-86117d10); /* #2a2a2a (extracted) */
+}
+
+.featured-card__bullets {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+/* vcy8u5 — z1, col gap10, padding-left 12, overflow hidden */
+.featured-card__bullet {
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding: 0 0 0 12px;
+  overflow: hidden;
+}
+
+.featured-card__bullet p {
+  margin: 0;
+  z-index: 1;
+  width: 100%;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--font-body);
+  font-size: 14px; /* preset-syhcz3 */
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0;
+  /* preset-syhcz3 resolves --framer-text-color to --token-24044501 in every
+     band (the #f5f4f0 value is the wrapper's --extracted-r6o4lv fallback and is
+     overridden by the preset rule) → #0a0a0a, matching the reference render. */
+  color: var(--token-24044501);
+}
+
+/* Read More (15eyd2-container > a.lNZ64.v-lxck61) — container flex:none
+   w-auto (mobile w100%); the button itself is Button variant=readMore
+   (160×32, bg #2a2a2a, label #e5e3db — measured) */
+.featured-card__read-more {
+  flex: none;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+/* image column */
+.featured-card__image {
+  z-index: 1;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  gap: 0;
+  width: 1px;
+}
+
+/* Media 440px is the reference's no-aspect-ratio FALLBACK; browsers that
+   support aspect-ratio use height:auto derived from the 1.43636 ratio
+   (source: aspect-ratio:1.43636;height:var(--framer-aspect-ratio-supported,440px)).
+   At 1168 this yields 720 × 501 — the measured image box. */
+.featured-card__media {
+  aspect-ratio: 1.43636;
+  height: auto;
+  flex: none;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.featured-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* -----------------------------------------------------------------------------
+   WORK ROW (KOIvm) — base ROW gap 40, width 100% (inline override of 960)
+   Structure desktop/tablet: [preview 1wbsv4y (absolute, opacity 0) >
+   8l2eok img], content oy1wcp (row gap32/20) > [number, text itg8bs >
+   [pvz5as > [title, desc]], right mr3qw1 > [meta 10dgss4, arrow box]]
+   Mobile: no preview; content order1; meta 1vwe2r4 inside itg8bs with
+   [category, square, year] ordering; arrow unrotated.
+   -------------------------------------------------------------------------- */
+.work-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  height: min-content;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* preview 1wbsv4y — absolute, aspect 1.5, z10, rest opacity 0 (inline on the
+   reference; class-controlled here so :hover can override) */
+.work-row__preview {
+  display: flex;
+  z-index: 10;
+  flex: none;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  aspect-ratio: 1.5;
+  width: auto;
+  position: absolute;
+  top: -41px;
+  bottom: -40px;
+  right: 247px;
+  opacity: 0;
+  transition: var(--transition-opacity); /* §4 census — A4 nearest-verified */
+}
+
+.work-row:hover .work-row__preview {
+  opacity: 1;
+}
+
+/* inner 8l2eok — rest: opacity .001 + translateX(-150px) (inline on the
+   reference; appear id 8l2eok spec truncated §A1 → reveal uses §4 census) */
+.work-row__preview-inner {
+  aspect-ratio: 1.5;
+  flex: 1 0 0;
+  width: 1px;
+  height: auto;
+  position: relative;
+  opacity: 0.001;
+  transform: translateX(-150px);
+  will-change: transform;
+  transition:
+    var(--transition-opacity),
+    var(--transition-transform);
+}
+
+.work-row:hover .work-row__preview-inner {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.work-row__preview-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* content row oy1wcp */
+.work-row__content {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+  width: 1px;
+  height: min-content;
+}
+
+.work-row__number {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  width: 60px;
+  padding: 6px 0 0;
+}
+
+.work-row__number span {
+  margin: 0;
+  white-space: pre;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1em; /* a3dj5b */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  text-align: right;
+  color: var(--token-86117d10); /* #2a2a2a (extracted) */
+}
+
+.work-row__text {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 1px;
+  height: min-content;
+}
+
+.work-row__text-main {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  max-width: 70%;
+}
+
+.work-row__title {
+  margin: 0;
+  width: 100%;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--font-display);
+  font-size: 26px; /* preset-1xzh7l3 base */
+  font-weight: 500;
+  line-height: 1.3em; /* 1.3em (33.8), ls 0 — source preset, not 1em/-.01 */
+  letter-spacing: 0em;
+  color: var(--token-24044501); /* #0a0a0a (extracted) */
+}
+
+.work-row__desc-wrap {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.work-row__desc {
+  margin: 0;
+  width: 100%;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--font-body);
+  font-size: 14px; /* preset-syhcz3 */
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0;
+  color: var(--token-86117d10); /* #2a2a2a (extracted) */
+}
+
+/* right cluster mr3qw1 — row gap60 justify-end */
+.work-row__right {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 60px;
+  width: min-content;
+}
+
+/* meta 10dgss4 — row space-between, min-w280 (desktop/tablet only; mobile
+   uses 1vwe2r4 instead) */
+.work-row__meta {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: min-content;
+  min-width: 280px;
+}
+
+.work-row__meta-category,
+.work-row__meta-year {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: min-content;
+  padding: 6px 0 0;
+}
+
+.work-row__meta-category span,
+.work-row__meta-year span {
+  margin: 0;
+  white-space: pre;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1em; /* a3dj5b */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-86117d10); /* #2a2a2a (desktop/tablet extracted) */
+}
+
+/* mobile meta 1vwe2r4 — rendered but hidden ≥810 (reference SSR omits it on
+   desktop/tablet; one DOM + media query) */
+.work-row__meta-mobile {
+  display: none;
+}
+
+/* arrow box 1ixtg66 — row justify-end, gap6, padding-top4; arrow container
+   rotated -45° (inline on the reference) */
+.work-row__arrow-box {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  width: min-content;
+  padding: 4px 0 0;
+}
+
+.work-row__arrow {
+  display: block;
+  width: 16px;
+  height: 16px;
+  transform: rotate(-45deg); /* desktop/tablet (inline rotate) */
+  color: var(--token-86117d10);
+}
+
+.work-row__arrow svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* mobile-only accent square 1hp1hvk — 6×6, hidden ≥810 */
+.work-row__square {
+  display: none;
+  width: 6px;
+  height: 6px;
+  flex: none;
+  background-color: var(--token-b86dbd64); /* #e5341b */
+}
+
+/* =============================================================================
+   Preset media bands (source CSS): 1wml6uu 42→30(810-1023)→24 ·
+   1xzh7l3 26→20(810-1099)→18 · 2oriq6 16→14(810-1199 and <=809)
+   ========================================================================== */
+@media (min-width: 810px) and (max-width: 1099.98px) {
+  .work-row__title {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 810px) and (max-width: 1199.98px) {
+  .featured-card__highlights-head h6 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 810px) and (max-width: 1023.98px) {
+  .featured-card__title {
+    font-size: 30px;
+    line-height: 1.15em;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* =============================================================================
+   Tier 2 — tablet 810–1279.98 (variant v-a5bcgu / v-16xvub0)
+   ========================================================================== */
+@media (max-width: 1279.98px) {
+  /* featured card: ROW gap 24; text flex1; image flex2 min-w450; media h365 */
+  .featured-card {
+    gap: 24px;
+  }
+  .featured-card__text {
+    flex: 1 0 0;
+    width: 1px;
+  }
+  .featured-card__image {
+    flex: 2 0 0;
+    min-width: 450px;
+  }
+  .featured-card__media {
+    height: auto; /* aspect-ratio drives the height (720×501 at 1168) */
+  }
+
+  /* work row tablet: content gap 20; number w40; right gap30; meta min-w220;
+     preview gap4 bottom12 (top/right unchanged) */
+  .work-row__content {
+    gap: 20px;
+  }
+  .work-row__number {
+    width: 40px;
+  }
+  .work-row__right {
+    gap: 30px;
+  }
+  .work-row__meta {
+    min-width: 220px;
+  }
+  .work-row__preview {
+    gap: 4px;
+    bottom: 12px;
+  }
+}
+
+/* hover interactions (desktop + tablet share these; §A4 timing → §4 census
+   transitions — nearest-verified) */
+@media (min-width: 810px) {
+  .work-row:hover .work-row__number,
+  .work-row:hover .work-row__text {
+    padding-left: 10px;
+  }
+}
+
+/* desktop-only hover geometry (v-1015fht.hover) */
+@media (min-width: 1280px) {
+  .work-row:hover .work-row__preview {
+    bottom: -80px;
+    right: 140px;
+  }
+  .work-row:hover .work-row__preview-inner {
+    height: unset;
+    flex: none;
+    width: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+  }
+}
+
+/* tablet-only hover geometry (v-16xvub0.hover) */
+@media (min-width: 810px) and (max-width: 1279.98px) {
+  .work-row:hover .work-row__preview {
+    z-index: 6;
+    bottom: -40px;
+    right: 138px;
+  }
+}
+
+/* =============================================================================
+   Tier 3 — mobile ≤809.98 (variant v-erg11y / v-2yvrvh)
+   ========================================================================== */
+@media (max-width: 809.98px) {
+  /* featured card: COLUMN gap 12; image order0 w100%; text order1 gap24;
+     media h139; head row space-between; Read More container w100% */
+  .featured-card {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .featured-card__image {
+    flex: none;
+    order: 0;
+    gap: 4px;
+    width: 100%;
+    min-width: 0;
+  }
+  .featured-card__media {
+    height: auto; /* aspect-ratio drives the height */
+  }
+  .featured-card__text {
+    align-self: unset;
+    order: 1;
+    justify-content: flex-start;
+    gap: 24px;
+    width: 100%;
+    height: min-content;
+  }
+  .featured-card__highlights-head {
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: unset;
+    justify-content: space-between;
+  }
+  .featured-card__read-more {
+    width: 100%; /* container stretches; the anchor itself stays w160 (source) */
+  }
+
+  /* work row mobile: COLUMN gap 12; content order1 row gap20 w100%;
+     number w min-content; text gap14; text-main order0 gap6 (max-w70% stays) */
+  .work-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .featured-card__title {
+    font-size: 24px; /* 1wml6uu mobile band */
+    line-height: 1.15em;
+    letter-spacing: -0.02em;
+  }
+  .work-row__title {
+    font-size: 18px; /* 1xzh7l3 mobile band */
+  }
+  .featured-card__highlights-head h6 {
+    font-size: 14px; /* 2oriq6 mobile band */
+  }
+  .work-row__preview {
+    display: none; /* mobile has no preview (SSR omits) */
+  }
+  .work-row__content {
+    flex: none;
+    order: 1;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+  }
+  .work-row__number {
+    width: min-content;
+  }
+  .work-row__text {
+    gap: 14px;
+  }
+  .work-row__text-main {
+    order: 0;
+    gap: 6px;
+  }
+
+  /* desktop/tablet meta hidden; mobile meta [category order0, square order1,
+     year order2] rendered — text color #6f6e6a (token e1eb4ea5) */
+  .work-row__meta {
+    display: none;
+  }
+  .work-row__meta-mobile {
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    order: 1;
+  }
+  .work-row__meta-mobile .work-row__meta-category {
+    order: 0;
+    padding: 0;
+  }
+  .work-row__square {
+    display: block;
+    order: 1;
+  }
+  .work-row__meta-mobile .work-row__meta-year {
+    order: 2;
+    padding: 0;
+  }
+  .work-row__meta-mobile span {
+    color: var(--token-e1eb4ea5); /* #6f6e6a (mobile extracted) */
+  }
+
+  /* arrow: width 20, NO rotation on mobile (inline transform:none);
+     padding 4px 0 0 unchanged (mobile rule only sets width) */
+  .work-row__arrow-box {
+    width: 20px;
+  }
+  .work-row__arrow {
+    transform: none;
+  }
+}
+
+/* =============================================================================
+   ARCHIVED ROW (DciDI) — /work "03 — Archived" (P.06–P.11), sticky rows with
+   preview + hover; desktop/tablet (v-93ir4v) / mobile (v-xrik3k).
+   Verified geometry at 1168: anchor h25.2, row section h46.2 (anchor + gap 20 +
+   light rule); preview rest top -86 / bottom -11 (h122.2, w183.3) opacity 0 +
+   translateX(-50%), hover top -56 / bottom -75 (h156.2, w234.3) opacity 1 + none;
+   hover: number/title padding-left 10, title → accent.
+   ========================================================================== */
+.archived {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.archived__row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.archived__sticky {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: sticky;
+}
+
+.archived-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  height: min-content;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* preview framer-fv27n8 — absolute, aspect 1.5, z10, rest opacity 0 + translateX(-50%) */
+.archived-row__preview {
+  display: flex;
+  z-index: 10;
+  flex: none;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  aspect-ratio: 1.5;
+  width: auto;
+  position: absolute;
+  top: -86px;
+  bottom: -59px;
+  right: 210px;
+  opacity: 0;
+  transition: var(--transition-opacity);
+}
+
+.archived-row:hover .archived-row__preview {
+  opacity: 1;
+}
+
+.archived-row__preview-inner {
+  aspect-ratio: 1.5;
+  flex: 1 0 0;
+  width: 1px;
+  height: auto;
+  position: relative;
+  opacity: 0.001;
+  transform: translateX(-50%);
+  will-change: transform;
+  transition:
+    var(--transition-opacity),
+    var(--transition-transform);
+}
+
+.archived-row:hover .archived-row__preview-inner {
+  opacity: 1;
+  transform: none;
+}
+
+.archived-row__preview-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* content framer-14ke6y9 — row gap 32 (base) / 20 (tablet) */
+.archived-row__content {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+  width: 1px;
+  height: min-content;
+}
+
+.archived-row__group {
+  display: flex;
+}
+
+.archived-row__group--left {
+  flex: 1 0 0;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.archived-row__group--right {
+  flex: none;
+  flex-direction: row;
+  justify-content: center flex-end;
+  align-items: center;
+  gap: 60px;
+}
+
+.archived-row__number {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  width: 60px;
+}
+
+.archived-row__title {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.archived-row__title h5 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 20px; /* preset-1w752jy base; 18 @810–1199, 16 @≤809 */
+  font-weight: 500;
+  line-height: 1.4em; /* 20px→28 base, 18→25.2 @810–1199, 16→22.4 @≤809 */
+  letter-spacing: 0em;
+  color: var(--token-24044501); /* #0a0a0a */
+}
+
+@media (min-width: 810px) and (max-width: 1199.98px) {
+  .archived-row__title h5 {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+}
+
+@media (max-width: 809.98px) {
+  .archived-row__title h5 {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+}
+
+.archived-row__meta {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 280px;
+}
+
+.archived-row__meta-category,
+.archived-row__meta-year {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.archived-row__meta-category span,
+.archived-row__meta-year span {
+  margin: 0;
+  white-space: pre;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1em; /* a3dj5b */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-86117d10); /* #2a2a2a */
+}
+
+.archived-row__arrow-box {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  min-width: 60px;
+}
+
+.archived-row__arrow {
+  display: block;
+  width: 16px;
+  height: 16px;
+  transform: rotate(-45deg);
+  color: var(--token-e1eb4ea5); /* #6f6e6a */
+}
+
+.archived-row__arrow svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* selected-row hover: title → accent (verified live) */
+.work-row:hover .work-row__title {
+  color: var(--color-accent); /* #e5341b */
+}
+
+/* archived hover: padding-left 10 on number + title, title → accent */
+@media (min-width: 810px) {
+  .archived-row:hover .archived-row__number,
+  .archived-row:hover .archived-row__title {
+    padding-left: 10px;
+  }
+
+  .archived-row:hover .archived-row__title h5 {
+    color: var(--color-accent); /* #e5341b */
+  }
+}
+
+/* archived hover geometry — desktop (v-1l1lcg5.hover): z6, bottom -86, right 140 */
+@media (min-width: 1280px) {
+  .archived-row:hover .archived-row__preview {
+    z-index: 6;
+    bottom: -86px;
+    right: 140px;
+  }
+}
+
+/* =============================================================================
+   Tier 2 — tablet 810–1279.98 (archived v-93ir4v: content gap 20, number w40,
+   right group gap 30, meta min-w 220, preview gap 4 / bottom 12, hover endpoints
+   top -56 / bottom -75 / right 210)
+   ========================================================================== */
+@media (max-width: 1279.98px) {
+  .archived-row {
+    gap: 20px;
+  }
+
+  .archived-row__content {
+    gap: 20px;
+  }
+
+  .archived-row__number {
+    width: 40px;
+  }
+
+  .archived-row__group--right {
+    gap: 30px;
+  }
+
+  .archived-row__meta {
+    min-width: 220px;
+  }
+
+  .archived-row__preview {
+    gap: 4px;
+    bottom: -11px;
+    left: 53%;
+    right: unset;
+  }
+
+  .archived-row:hover .archived-row__preview {
+    z-index: 6;
+    top: -56px;
+    bottom: -75px;
+    right: 210px;
+  }
+}
+
+/* =============================================================================
+   Tier 3 — mobile ≤809.98 (archived v-xrik3k: column layout, no preview, stacked
+   meta order, arrow unrotated)
+   ========================================================================== */
+@media (max-width: 809.98px) {
+  .archived {
+    gap: 12px;
+  }
+
+  .archived-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .archived-row__preview {
+    display: none;
+  }
+
+  .archived-row__content {
+    flex: none;
+    order: 1;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .archived-row__group--left {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .archived-row__number {
+    width: min-content;
+  }
+
+  .archived-row__title {
+    width: 100%;
+  }
+
+  .archived-row__group--right {
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-self: stretch;
+    flex: none;
+  }
+
+  .archived-row__meta {
+    justify-content: flex-start;
+    gap: 10px;
+    min-width: 0;
+    flex-wrap: wrap;
+  }
+
+  .archived-row__arrow-box {
+    order: 0;
+    width: auto;
+    min-width: 0;
+  }
+
+  .archived-row__arrow {
+    transform: none;
+  }
+}

@@ -1,0 +1,326 @@
+/* =============================================================================
+   nav.css — fixed site navigation (Phase 2, tasks 4 + 6)
+
+   SOURCE: reference CSS (.dgmr2u-container + children) and iframe probes.
+     - fixed; top 0; max-width 1280; centered; z-index var(--z-nav) (CSS: 4)
+     - padding 12px <gutter> 0  (40 / 32 / 16 per tier — responsive.css)
+     - content row: height 20, space-between [logo w100 | links gap24 | BOOK A CALL w95]
+     - 1px rule #2a2a2a at y44 (row 12→32, then 12px gap → rule at 44)
+     - logo y16 = row align-center (lh 12px inside 20px row starting y12)
+   ========================================================================== */
+
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-inline: auto; /* equivalent of the reference's left:50% + translateX(-50%)
+                          (keeps transform free for the appear animation) */
+  width: 100%;
+  max-width: 1280px;
+  z-index: var(--z-nav);
+  padding: var(--nav-pad-top) var(--gutter) 0;
+  background-color: #fff;
+}
+
+/* Full-width opaque backdrop so content cannot bleed through outside the
+   max-width nav box on wide viewports. Height matches --nav-height (45px). */
+.site-nav::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  background-color: #fff;
+  z-index: -1;
+}
+
+.site-nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
+}
+
+/* Logo: white-space:pre (source 1199g8r) — the measured 100px link width is the
+   text's intrinsic width, not a wrap box. */
+.site-nav__logo {
+  width: auto;
+  flex: none;
+  white-space: pre;
+}
+
+/* Links group: gap 24 (probe: HOME→WORK 24px), 12px/500/0.12px uppercase */
+.site-nav__links {
+  display: flex;
+  gap: 24px;
+}
+
+.site-nav__link {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--text-label);
+  line-height: 12px;
+  letter-spacing: var(--text-label-tracking);
+  text-transform: uppercase;
+  color: var(--color-ink-secondary);
+  transition: var(--transition-color, color 0.3s cubic-bezier(0.44, 0, 0.23, 0.99));
+}
+
+.site-nav__link:hover {
+  color: var(--color-accent); /* nav links #2a2a2a → accent on hover (verified) */
+}
+
+/* BOOK A CALL: width 95 (probe); row [label + 20×20 arrow]; 1px underline bar
+   that rests at width 1px centered and expands to full width on hover
+   (rest: layout width 1px at y29; hover: 95.2px, transform-origin center).
+   Bar EXPANSION duration is UNVERIFIED (animation-inventory §A3 — JS-driven)
+   → implemented as an instant width change; only the color transition is timed. */
+.site-nav__cta {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px; /* j7mroc row gap4 */
+  width: auto;
+  flex: none;
+  height: 20px;
+  overflow: hidden;
+  color: var(--color-ink-secondary);
+  transition: var(--transition-color);
+}
+
+.site-nav__cta:hover,
+.site-nav__cta:focus-visible {
+  color: var(--color-accent);
+}
+
+.site-nav__cta:hover .site-nav__cta-label,
+.site-nav__cta:focus-visible .site-nav__cta-label {
+  color: var(--color-accent);
+}
+
+.site-nav__cta:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-nav__cta,
+  .site-nav__cta-bar,
+  .site-nav__link {
+    transition: none;
+  }
+}
+
+.site-nav__cta-label {
+  white-space: pre; /* 1xms2hn */
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--text-label);
+  line-height: 12px;
+  letter-spacing: var(--text-label-tracking);
+  text-transform: uppercase;
+  color: var(--color-ink-secondary);
+}
+
+/* nav arrow box is 14×14 (source BZ7GV), not the CTA's 20×20 */
+.site-nav__cta-arrow {
+  width: 14px;
+  height: 14px;
+  flex: none;
+  color: var(--color-ink-secondary);
+  transition: var(--transition-color, color 0.3s cubic-bezier(0.44, 0, 0.23, 0.99));
+}
+
+.site-nav__cta:hover .site-nav__cta-arrow {
+  color: var(--color-accent); /* verified hover: arrow → rgb(229,52,27) */
+}
+
+.site-nav__cta-bar {
+  position: absolute;
+  left: 50%;
+  bottom: 2px; /* rule observed at y29 inside the 12–32 row */
+  transform: translateX(-50%) scaleX(0.01);
+  transform-origin: center;
+  height: 1px;
+  width: 100%;
+  background: var(--color-ink);
+  transition: transform 0.3s cubic-bezier(0.44, 0, 0.23, 0.99);
+}
+
+.site-nav__cta:hover .site-nav__cta-bar,
+.site-nav__cta:focus-visible .site-nav__cta-bar {
+  transform: translateX(-50%) scaleX(1); /* expands to full link width (verified) */
+}
+
+/* Bar is decorative (aria-hidden in markup); its hover/focus transform uses a
+   resting scaleX(0.01) so the expansion animates from the measured center. */
+
+/* 1px rule under the nav: y44, spans the padded content width (verified) */
+.site-nav__rule {
+  margin-top: 12px;
+  height: 1px;
+  width: 100%;
+  background: var(--rule-color);
+}
+
+/* -----------------------------------------------------------------------------
+   Mobile (<=809): logo + MENU trigger only; links + BOOK A CALL hidden
+   (verified probe). Trigger: row gap 8 = [text w40 right-aligned "MENU",
+   20×20 icon with two 16×1 bars at top:5/bottom:5]. Hover variant moves both
+   bars to the vertical center (top: calc(50% - .5px)) — verified CSS.
+   The OPEN-menu panel does not exist in captured markup: UNVERIFIED (D2) —
+   MobileMenuPanel renders null until that state is captured.
+   -------------------------------------------------------------------------- */
+.site-nav__links,
+.site-nav__cta {
+  display: flex;
+}
+
+.site-nav__menu {
+  display: none;
+}
+
+@media (max-width: 809.98px) {
+  .site-nav__links,
+  .site-nav__cta {
+    display: none;
+  }
+
+  .site-nav__menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    width: 68px; /* measured total 68×20 at 390 */
+    height: 20px;
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .site-nav__menu-label {
+    width: 40px;
+    text-align: right;
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: var(--text-label);
+    line-height: 12px;
+    letter-spacing: var(--text-label-tracking);
+    text-transform: uppercase;
+    color: var(--color-ink); /* extracted: token-24044501 (#0a0a0a) */
+  }
+
+  .site-nav__menu-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    aspect-ratio: 1;
+    flex: none;
+  }
+
+  .site-nav__menu-bar {
+    position: absolute;
+    left: calc(50% - 8px);
+    width: 16px;
+    height: 1px;
+    background: var(--color-ink); /* verified rgb(10,10,10) */
+  }
+
+  .site-nav__menu-bar--top {
+    top: 5px;
+  }
+
+  .site-nav__menu-bar--bottom {
+    bottom: 5px;
+  }
+
+  /* Hover variant (v-19gbqxh): both bars converge to the vertical center.
+     Transition timing UNVERIFIED (§A3) → state change only. */
+  .site-nav__menu:hover .site-nav__menu-bar--top,
+  .site-nav__menu:hover .site-nav__menu-bar--bottom {
+    top: calc(50% - 0.5px);
+    bottom: unset;
+  }
+
+  /* Open state: bars cross (functional close affordance) */
+  .site-nav__menu-icon.is-open .site-nav__menu-bar--top {
+    top: calc(50% - 0.5px);
+    bottom: auto;
+    transform: rotate(45deg);
+  }
+  .site-nav__menu-icon.is-open .site-nav__menu-bar--bottom {
+    top: calc(50% - 0.5px);
+    bottom: auto;
+    transform: rotate(-45deg);
+  }
+
+  /* Mobile menu panel (functional; open-state DOM not in reference capture) */
+  .site-nav__mobile-panel {
+    position: fixed;
+    top: 45px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 7; /* below nav (z-8), above page */
+    background: var(--color-page, #fff);
+    padding: 40px var(--gutter) 32px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .site-nav__mobile-panel-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    min-height: 100%;
+  }
+
+  .site-nav__mobile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .site-nav__mobile-link {
+    font-family: var(--font-display);
+    font-size: 42px;
+    line-height: 1em;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    color: var(--color-ink);
+    text-decoration: none;
+  }
+
+  .site-nav__mobile-cta {
+    margin-top: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-display);
+    font-size: var(--text-label);
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: var(--text-label-tracking);
+    text-transform: uppercase;
+    color: var(--color-ink);
+    text-decoration: none;
+    width: fit-content;
+  }
+
+  .site-nav__mobile-cta-arrow {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+  }
+}
+
+/* Keep panel hidden on desktop (rendered only when open, but guard) */
+@media (min-width: 810px) {
+  .site-nav__mobile-panel {
+    display: none !important;
+  }
+}

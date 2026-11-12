@@ -1,0 +1,613 @@
+/* =============================================================================
+   footer.css — shared site footer (P5Le7) + bubble-game shell.
+   Values cited from the reference source CSS (home.html <style>, class P5Le7
+   and variants v-dxiozy / v-gfs5rr / v-1vi7n4r) + the SSR inline styles of the
+   game shell (transcribed verbatim). See ARCHITECTURE.md.
+
+   Structure (verified by DOM path):
+   footer > [a2ocwx (email block), xuuv6k > [1hxtl7w (cols), 13spitu (game),
+   tbyhy4 (bottom)]]
+   ========================================================================== */
+
+/* -----------------------------------------------------------------------------
+   Root — col gap100 (tablet 80, mobile 20), centered, max-w1200 (the
+   reference container rule xeudp8-container sets width:100%;max-width:1200px)
+   -------------------------------------------------------------------------- */
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  width: 100%;
+  max-width: var(--content-max); /* 1200 */
+  overflow: hidden;
+}
+
+/* -----------------------------------------------------------------------------
+   Email block (a2ocwx) — col gap0 w100% [light rule, write-block, light rule]
+   -------------------------------------------------------------------------- */
+.footer__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+}
+
+/* rule containers: w100% h1 (157bbxo / 15e0di4 / d5c2h2) */
+.footer__rule {
+  flex: none;
+  width: 100%;
+  height: 1px;
+}
+
+/* write-block (fz57W v-1okzl6y) — row gap10 center, padding 24 0,
+   cursor pointer. CSS says width:1120px; the markup overrides inline to
+   width:100% (discrepancy note in ARCHITECTURE.md). Mobile v-wiuz5c: column. */
+.footer__write {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 24px 0;
+  cursor: pointer;
+}
+
+.footer__write-label {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 1px;
+  max-width: 110px;
+}
+
+.footer__write-label span {
+  flex: 1 0 0;
+  width: 1px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1em; /* a3dj5b */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-86117d10); /* #2a2a2a (extracted) */
+}
+
+.footer__write-mail {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 1px;
+}
+
+.footer__write-link {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* 14m4cyl place-content:center (email centered in its region) */
+  gap: 10px;
+  width: 1px;
+  text-decoration: none;
+}
+
+.footer__email-wrap {
+  white-space: pre;
+  flex: none;
+  width: auto;
+}
+
+/* email h1 — preset-3nqyhf bands: 52/65/-0.2 (>=1024), 26/32.5/-0.2
+   (810-1023), 22/27.5/-0.2 (<=809 base band). The mobile SSR copy uses
+   preset-12lj5ox instead: 18/27/-0.2 — implemented below (discrepancy:
+   22 → 18, see ARCHITECTURE.md). Color token-24044501 (#0a0a0a). */
+.footer__email {
+  margin: 0;
+  white-space: pre;
+  font-family: var(--font-display);
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 1.25em;
+  letter-spacing: -0.2px;
+  color: var(--token-24044501);
+  text-decoration: none;
+}
+
+.footer__write-aux {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  width: 120px;
+}
+
+/* 1h2a8wg-container 16×16 rotate(-45) — SSR empty, client-rendered arrow
+   (same Framer arrow component as nav/CTA/work rows → ArrowIcon) */
+.footer__write-arrow {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  transform: rotate(-45deg);
+  color: var(--token-86117d10);
+}
+
+.footer__write-arrow svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* -----------------------------------------------------------------------------
+   Main (xuuv6k) — col gap20 center w100% [cols row, game, bottom]
+   -------------------------------------------------------------------------- */
+.footer__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+/* cols row (1hxtl7w) — row gap24 align-start z1 */
+.footer__cols-row {
+  display: flex;
+  z-index: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+
+/* cols group (ufrr1u) — row flex1 gap24 (mobile column gap16 w100%).
+   Measured "49px column gap" = 24 + 1px rule + 24 (see tokens.css). */
+.footer__cols {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  width: 1px;
+}
+
+/* each col (1kzaltw / ez4mrv / h6qnqg) — col flex1 gap20 align-start w1
+   (mobile: row, flex-none, w100%) */
+.footer__col {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 1px;
+}
+
+/* label block (16chr8l / 1mtm8lo / h3q5l) — col gap6 w100%. The mobile SSR
+   copy OMITS label blocks entirely → display:none <=809 (verified: mobile
+   footer copy has no 16chr8l/1mtm8lo/h3q5l instances). */
+.footer__col-label {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+}
+
+.footer__col-label span {
+  width: 100%;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1em; /* a3dj5b */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-e1eb4ea5); /* #6f6e6a (extracted) */
+}
+
+/* links wrapper (12yt9a8 / d19qvx / 1wh6ap7) — col gap10 w100%
+   (mobile: flex1 w1 inside the col's row direction) */
+.footer__links {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+
+/* link list (2fbv7s / 893g9r / pm6wdz) — col gap16 w min-content
+   (mobile gap12) */
+.footer__link-list {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: min-content;
+  overflow: hidden;
+}
+
+/* link (SK7rU maa7l2) — col gap0 center w min-content, cursor pointer */
+.footer__link {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  width: min-content;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer__link-row {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  width: min-content;
+}
+
+.footer__link-row span {
+  white-space: pre;
+  flex: none;
+  width: auto;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0;
+  color: var(--token-86117d10); /* #2a2a2a (extracted) */
+}
+
+/* ELSEWHERE ↗ icon box (x9uwk8-container) 16×16 rotate(-45) — SSR empty,
+   client-rendered arrow (ArrowIcon, same component family) */
+.footer__link-arrow {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  transform: rotate(-45deg);
+  color: var(--token-86117d10);
+}
+
+.footer__link-arrow svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* column rules (je65lp / 1sd97o4) — base align-self stretch w1 h auto;
+   light tone (v-hpeqjj). Mobile: align-self unset, w100%, h1. */
+.footer__col-rule {
+  flex: none;
+  align-self: stretch;
+  width: 1px;
+  height: auto;
+}
+
+/* -----------------------------------------------------------------------------
+   Game (13spitu) — col gap10 center max-w1200 w100% > shell h600
+   -------------------------------------------------------------------------- */
+.footer__game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: var(--content-max); /* 1200 */
+}
+
+/* z85x0j-container: w100% h600. The shell div's inline styles (verbatim from
+   the SSR markup): relative, min-height 300, overflow hidden,
+   background rgb(250,249,247), crosshair data-URI cursor, touch-action none,
+   PP Neue Montreal Regular, color rgb(42,42,42).
+   Bubble spawning / timing is UNVERIFIED (§A5/A6) → static shell only. */
+.footer__game-shell {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  min-height: 300px;
+  overflow: hidden;
+  background: rgb(250, 249, 247);
+  cursor:
+    url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'30'%20height%3D'30'%20viewBox%3D'0%200%2030%2030'%20fill%3D'none'%20stroke%3D'var(--token-24044501-c8a3-4567-94c1-8e47e189b193%2C%20rgb(10%2C%2010%2C%2010))'%20stroke-width%3D'1'%3E%3Ccircle%20cx%3D'15'%20cy%3D'15'%20r%3D'9'%2F%3E%3Cpath%20d%3D'M15%20.5V6M15%2024v5.5M.5%2015H6M24%2015h5.5'%2F%3E%3Ccircle%20cx%3D'15'%20cy%3D'15'%20r%3D'1.1'%20fill%3D'var(--token-24044501-c8a3-4567-94c1-8e47e189b193%2C%20rgb(10%2C%2010%2C%2010))'%20stroke%3D'none'%2F%3E%3C%2Fsvg%3E")
+    15 15,
+    crosshair;
+  touch-action: none;
+  font-family: var(--font-body);
+  color: var(--token-86117d10); /* rgb(42,42,42) */
+}
+
+/* bubble layer (SSR: absolute inset 0, empty — bubbles are JS-spawned) */
+.footer__game-layer {
+  position: absolute;
+  inset: 0;
+}
+
+/* score (verbatim structure): absolute left0 bottom8, 10px/.04em uppercase,
+   token-24044501, tabular-nums, pointer-events none, z7; <b> weight 600 */
+.footer__game-score {
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  font-family: var(--font-body);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--token-24044501);
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+  z-index: var(--z-game-controls); /* 7 */
+}
+
+.footer__game-score b {
+  font-weight: 600;
+}
+
+/* controls: absolute right0 bottom0 gap4 z7; two 30×30 buttons (SSR SVGs
+   transcribed verbatim in BubbleGame.jsx) */
+.footer__game-controls {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  gap: 4px;
+  z-index: var(--z-game-controls); /* 7 */
+}
+
+.footer__game-btn {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: var(--token-24044501);
+  opacity: 0.55;
+  padding: 0;
+}
+
+/* -----------------------------------------------------------------------------
+   Bottom (tbyhy4) — col gap0 w100% [dark rule, bottom row]
+   -------------------------------------------------------------------------- */
+.footer__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+}
+
+/* 1lo0ifx — row gap10 center, padding 12 0, w100% */
+.footer__bottom-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 0;
+}
+
+/* groups: base gap9 (tablet gap10) */
+.footer__copyright,
+.footer__location,
+.footer__love {
+  display: flex;
+  flex: 1 0 0;
+  align-items: flex-end;
+  gap: 9px;
+  width: 1px;
+}
+
+.footer__copyright {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.footer__location {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__love {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* location sub-columns (14v25ka / j6fv9d) — col flex1 gap10; left aligns
+   its text to the END (right), right aligns to START (left) — they flank the
+   10×11 icon (j86gcr, SSR empty → placeholder box, glyph UNVERIFIED) */
+.footer__location-left {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  width: 1px;
+}
+
+.footer__location-icon {
+  flex: none;
+  width: 10px;
+  height: 11px;
+}
+
+.footer__location-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.footer__location-right {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 1px;
+}
+
+/* text wrappers (wqajot / lo6828 / xrfbi9 / 5c2ekf) — pre, auto width */
+.footer__bottom-row p {
+  margin: 0;
+  white-space: pre;
+  flex: none;
+  width: auto;
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1em;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-86117d10); /* #2a2a2a (extracted) */
+}
+
+/* =============================================================================
+   Tier 2 — tablet ≤1279.98 (variant v-gfs5rr: footer gap80; bottom groups
+   gap10; email band 26/32.5 at 810-1023)
+   ========================================================================== */
+@media (max-width: 1279.98px) {
+  .site-footer {
+    gap: var(--gap-footer); /* 80px */
+  }
+
+  .footer__copyright,
+  .footer__location,
+  .footer__love {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1023.98px) and (min-width: 810px) {
+  .footer__email {
+    font-size: 26px;
+    line-height: 1.25em;
+    letter-spacing: -0.2px;
+  }
+}
+
+/* =============================================================================
+   Tier 3 — mobile ≤809.98 (variant v-1vi7n4r + write-block v-wiuz5c)
+   ========================================================================== */
+@media (max-width: 809.98px) {
+  .site-footer {
+    gap: 20px;
+  }
+
+  /* write-block → column (v-wiuz5c); label max-w unset, justify start;
+     mail row w100%; link justify start; aux centered, width min-content.
+     (v-wiuz5c.hover .1x63u2k max-width:unset is already the rest state
+     here — mobile-only hover rule, no desktop equivalent.) */
+  .footer__write {
+    flex-direction: column;
+  }
+  .footer__write-label {
+    max-width: unset;
+    flex: none;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .footer__write-label span {
+    white-space: pre;
+    flex: none;
+    width: auto;
+  }
+  .footer__write-mail {
+    flex: none;
+    width: 100%;
+  }
+  .footer__write-link {
+    justify-content: flex-start;
+  }
+  .footer__write-aux {
+    align-content: center;
+    align-items: center;
+    width: min-content;
+  }
+
+  /* email: mobile copy uses preset-12lj5ox → 18/27/-0.2 (not 22 — see
+     discrepancy note) */
+  .footer__email {
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: -0.2px;
+  }
+
+  /* cols: row group → column; cols → column gap16 w100%; col → row w100%;
+     labels hidden; links flex1 w1; link lists gap12; col rules → h1 w100% */
+  .footer__cols-row {
+    flex-direction: column;
+  }
+  .footer__cols {
+    flex: none;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+  .footer__col {
+    flex: none;
+    flex-direction: row;
+    width: 100%;
+  }
+  .footer__col-label {
+    display: none; /* mobile SSR copy omits labels */
+  }
+  .footer__links {
+    flex: 1 0 0;
+    width: 1px;
+  }
+  .footer__link-list {
+    gap: 12px;
+  }
+  .footer__col-rule {
+    align-self: unset;
+    width: 100%;
+    height: 1px;
+  }
+
+  /* bottom row → column, align-content flex-start, align-items flex-start,
+     gap16; groups re-order: location (0), love (1), copyright (2), each
+     w100% centered per source */
+  .footer__bottom-row {
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .footer__location {
+    flex: none;
+    order: 0;
+    gap: 10px;
+    width: 100%;
+  }
+  .footer__love {
+    flex: none;
+    flex-direction: column;
+    order: 1;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+  }
+  .footer__copyright {
+    flex: none;
+    flex-direction: column;
+    order: 2;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+}

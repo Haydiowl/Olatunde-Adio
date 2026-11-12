@@ -1,0 +1,3494 @@
+{
+  "audit": {
+    "site": "https://www.sandeep.design/",
+    "generatedAt": "2026-11-06T09:46:58.016Z",
+    "method": "Extracted from server-rendered HTML of all 14 routes (/, /work, /about, 11 case studies); files downloaded with curl preserving original filenames; dimensions via sips.",
+    "pagesScanned": [
+      "/",
+      "/work",
+      "/about",
+      "/work/offx-redesign/",
+      "/work/herd-simplifying-blockchain-with-ai/",
+      "/work/no-code-data-builder/",
+      "/work/corestack-enterprise-control-panel/",
+      "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+      "/work/zenrock-webapp-design/",
+      "/work/zenrock-website-design(mvp)/",
+      "/work/getlit-webapp/",
+      "/work/houzecheck-webapp/",
+      "/work/mindlantic/",
+      "/work/swoop/"
+    ]
+  },
+  "counts": {
+    "images": 161,
+    "imageBytes": 83902535,
+    "fontFiles": 59,
+    "fontBytes": 1006624,
+    "videos": 0,
+    "svgOrGif": 0
+  },
+  "images": [
+    {
+      "filename": "07jYVpSmar4ifZlA6LxOU1TCkjc.png",
+      "sourceUrl": "https://framerusercontent.com/images/07jYVpSmar4ifZlA6LxOU1TCkjc.png",
+      "localPath": "assets/images/07jYVpSmar4ifZlA6LxOU1TCkjc.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 111439,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "0HVYUWJokoUFdCX48O2kjB4QiJA.png",
+      "sourceUrl": "https://framerusercontent.com/images/0HVYUWJokoUFdCX48O2kjB4QiJA.png",
+      "localPath": "assets/images/0HVYUWJokoUFdCX48O2kjB4QiJA.png",
+      "width": 5184,
+      "height": 3456,
+      "aspectRatio": 1.5,
+      "bytes": 3347336,
+      "usedOn": [
+        "/work",
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "0isj5JVL8we3CKcQ1he1UI2zkIs.png",
+      "sourceUrl": "https://framerusercontent.com/images/0isj5JVL8we3CKcQ1he1UI2zkIs.png",
+      "localPath": "assets/images/0isj5JVL8we3CKcQ1he1UI2zkIs.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 150878,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "2D6Fazz3lDPFtk3a2HQlw0XoxdA.png",
+      "sourceUrl": "https://framerusercontent.com/images/2D6Fazz3lDPFtk3a2HQlw0XoxdA.png",
+      "localPath": "assets/images/2D6Fazz3lDPFtk3a2HQlw0XoxdA.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 137540,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "2dtvH5TAOxZgmFk9ZW7R0IvEY.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/2dtvH5TAOxZgmFk9ZW7R0IvEY.jpg",
+      "localPath": "assets/images/2dtvH5TAOxZgmFk9ZW7R0IvEY.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 508744,
+      "usedOn": [
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "2Ja7uqIb1NyPzJztc7yuK2oAbg4.png",
+      "sourceUrl": "https://framerusercontent.com/images/2Ja7uqIb1NyPzJztc7yuK2oAbg4.png",
+      "localPath": "assets/images/2Ja7uqIb1NyPzJztc7yuK2oAbg4.png",
+      "width": 5184,
+      "height": 3351,
+      "aspectRatio": 1.547,
+      "bytes": 517555,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "34OC97lgMfLQTmfzHMPNRJ5csDo.png",
+      "sourceUrl": "https://framerusercontent.com/images/34OC97lgMfLQTmfzHMPNRJ5csDo.png",
+      "localPath": "assets/images/34OC97lgMfLQTmfzHMPNRJ5csDo.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 67158,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "3oHsJGHjH94FwIrJBG6hQdUnaU.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/3oHsJGHjH94FwIrJBG6hQdUnaU.jpg",
+      "localPath": "assets/images/3oHsJGHjH94FwIrJBG6hQdUnaU.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 247581,
+      "usedOn": [
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "3PRZ4oOCg1PUBZJ6x2W1TT3nhc.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/3PRZ4oOCg1PUBZJ6x2W1TT3nhc.jpg",
+      "localPath": "assets/images/3PRZ4oOCg1PUBZJ6x2W1TT3nhc.jpg",
+      "width": 3840,
+      "height": 2160,
+      "aspectRatio": 1.778,
+      "bytes": 175181,
+      "usedOn": [
+        "/work/no-code-data-builder/"
+      ]
+    },
+    {
+      "filename": "4crBo7ox3nLtlUrQTXFwQNU7xKE.png",
+      "sourceUrl": "https://framerusercontent.com/images/4crBo7ox3nLtlUrQTXFwQNU7xKE.png",
+      "localPath": "assets/images/4crBo7ox3nLtlUrQTXFwQNU7xKE.png",
+      "width": 273,
+      "height": 64,
+      "aspectRatio": 4.266,
+      "bytes": 1522,
+      "usedOn": [
+        "/"
+      ],
+      "note": "Phase 2 gap-fill: referenced by the homepage \"Previously trusted by\" ticker but missed in the Phase 1 download pass."
+    },
+    {
+      "filename": "4PsZtxJMh9pkEmURrbc1adz3mrA.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/4PsZtxJMh9pkEmURrbc1adz3mrA.jpg",
+      "localPath": "assets/images/4PsZtxJMh9pkEmURrbc1adz3mrA.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 379051,
+      "usedOn": [
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "4Rbi1hKHJ0h25ibaAAWjkttv15Q.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/4Rbi1hKHJ0h25ibaAAWjkttv15Q.jpeg",
+      "localPath": "assets/images/4Rbi1hKHJ0h25ibaAAWjkttv15Q.jpeg",
+      "width": 2400,
+      "height": 1400,
+      "aspectRatio": 1.714,
+      "bytes": 591745,
+      "usedOn": [
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "5R9ZvWqJOX2zn3b05zOckUCgrAA.png",
+      "sourceUrl": "https://framerusercontent.com/images/5R9ZvWqJOX2zn3b05zOckUCgrAA.png",
+      "localPath": "assets/images/5R9ZvWqJOX2zn3b05zOckUCgrAA.png",
+      "width": 6912,
+      "height": 4468,
+      "aspectRatio": 1.547,
+      "bytes": 1208874,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "5s0xYD0ggm2G6D5IIeb7QPF3iI.png",
+      "sourceUrl": "https://framerusercontent.com/images/5s0xYD0ggm2G6D5IIeb7QPF3iI.png",
+      "localPath": "assets/images/5s0xYD0ggm2G6D5IIeb7QPF3iI.png",
+      "width": 2880,
+      "height": 4402,
+      "aspectRatio": 0.654,
+      "bytes": 240656,
+      "usedOn": [
+        "/work/corestack-enterprise-control-panel/"
+      ]
+    },
+    {
+      "filename": "5VUolbukRXe3voYWXzNN9RPiN40.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/5VUolbukRXe3voYWXzNN9RPiN40.jpg",
+      "localPath": "assets/images/5VUolbukRXe3voYWXzNN9RPiN40.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 223656,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "685ZFLbuwwCd0RgQ5QrCcCoSEu4.png",
+      "sourceUrl": "https://framerusercontent.com/images/685ZFLbuwwCd0RgQ5QrCcCoSEu4.png",
+      "localPath": "assets/images/685ZFLbuwwCd0RgQ5QrCcCoSEu4.png",
+      "width": 2880,
+      "height": 3982,
+      "aspectRatio": 0.723,
+      "bytes": 284977,
+      "usedOn": [
+        "/work/corestack-enterprise-control-panel/"
+      ]
+    },
+    {
+      "filename": "68hRhGTZIg4BCKTkaEYHnh4z7A.png",
+      "sourceUrl": "https://framerusercontent.com/images/68hRhGTZIg4BCKTkaEYHnh4z7A.png",
+      "localPath": "assets/images/68hRhGTZIg4BCKTkaEYHnh4z7A.png",
+      "width": 1600,
+      "height": 1200,
+      "aspectRatio": 1.333,
+      "bytes": 216761,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "6aOSPjNTg5MvRqqzid0IVuFh1Q.png",
+      "sourceUrl": "https://framerusercontent.com/images/6aOSPjNTg5MvRqqzid0IVuFh1Q.png",
+      "localPath": "assets/images/6aOSPjNTg5MvRqqzid0IVuFh1Q.png",
+      "width": 3200,
+      "height": 2000,
+      "aspectRatio": 1.6,
+      "bytes": 79001,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "7ggofMFsJRh3SN64yn3hGnTmAs.png",
+      "sourceUrl": "https://framerusercontent.com/images/7ggofMFsJRh3SN64yn3hGnTmAs.png",
+      "localPath": "assets/images/7ggofMFsJRh3SN64yn3hGnTmAs.png",
+      "width": 2180,
+      "height": 1210,
+      "aspectRatio": 1.802,
+      "bytes": 117716,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "8OtZn0CrkirpQBhBtxTRwbpMU.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/8OtZn0CrkirpQBhBtxTRwbpMU.jpg",
+      "localPath": "assets/images/8OtZn0CrkirpQBhBtxTRwbpMU.jpg",
+      "width": 3840,
+      "height": 2160,
+      "aspectRatio": 1.778,
+      "bytes": 480967,
+      "usedOn": [
+        "/work/no-code-data-builder/"
+      ]
+    },
+    {
+      "filename": "8RVZrOfL9OizR3hF2MHfNcyt4.png",
+      "sourceUrl": "https://framerusercontent.com/images/8RVZrOfL9OizR3hF2MHfNcyt4.png",
+      "localPath": "assets/images/8RVZrOfL9OizR3hF2MHfNcyt4.png",
+      "width": 2142,
+      "height": 1456,
+      "aspectRatio": 1.471,
+      "bytes": 64297,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "964fh0jCyjYlVDk5s1WNIFHObg0.png",
+      "sourceUrl": "https://framerusercontent.com/images/964fh0jCyjYlVDk5s1WNIFHObg0.png",
+      "localPath": "assets/images/964fh0jCyjYlVDk5s1WNIFHObg0.png",
+      "width": 5184,
+      "height": 3351,
+      "aspectRatio": 1.547,
+      "bytes": 322475,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "9QSb6jWu0m2C5S6eYBG8ppzFB8o.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/9QSb6jWu0m2C5S6eYBG8ppzFB8o.jpg",
+      "localPath": "assets/images/9QSb6jWu0m2C5S6eYBG8ppzFB8o.jpg",
+      "width": 3840,
+      "height": 2160,
+      "aspectRatio": 1.778,
+      "bytes": 352527,
+      "usedOn": [
+        "/work/no-code-data-builder/"
+      ]
+    },
+    {
+      "filename": "9tIFy4oKAd2vcgl4koydzlYQ8.png",
+      "sourceUrl": "https://framerusercontent.com/images/9tIFy4oKAd2vcgl4koydzlYQ8.png",
+      "localPath": "assets/images/9tIFy4oKAd2vcgl4koydzlYQ8.png",
+      "width": 2836,
+      "height": 1916,
+      "aspectRatio": 1.48,
+      "bytes": 1261410,
+      "usedOn": [
+        "/",
+        "/work",
+        "/work/corestack-enterprise-control-panel/"
+      ]
+    },
+    {
+      "filename": "A3l43SmnH6N81ZXZfR8to3PL19U.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/A3l43SmnH6N81ZXZfR8to3PL19U.jpg",
+      "localPath": "assets/images/A3l43SmnH6N81ZXZfR8to3PL19U.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 475789,
+      "usedOn": [
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "ACoLajtCzyKd0amdloaOcTowicI.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/ACoLajtCzyKd0amdloaOcTowicI.jpg",
+      "localPath": "assets/images/ACoLajtCzyKd0amdloaOcTowicI.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 356296,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "Aj5LkNsZ1fmdSva59wUwKpizmw4.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/Aj5LkNsZ1fmdSva59wUwKpizmw4.jpg",
+      "localPath": "assets/images/Aj5LkNsZ1fmdSva59wUwKpizmw4.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 452900,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "AqijvuCeD4hWp9zUciUKULepgcE.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/AqijvuCeD4hWp9zUciUKULepgcE.jpg",
+      "localPath": "assets/images/AqijvuCeD4hWp9zUciUKULepgcE.jpg",
+      "width": 3840,
+      "height": 2160,
+      "aspectRatio": 1.778,
+      "bytes": 416134,
+      "usedOn": [
+        "/work/no-code-data-builder/"
+      ]
+    },
+    {
+      "filename": "aXk6x4wk8oswGVcICf1Ocijig.png",
+      "sourceUrl": "https://framerusercontent.com/images/aXk6x4wk8oswGVcICf1Ocijig.png",
+      "localPath": "assets/images/aXk6x4wk8oswGVcICf1Ocijig.png",
+      "width": 64,
+      "height": 64,
+      "aspectRatio": 1,
+      "bytes": 1642,
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "bBC74rdN5bYhQZgAdbYSLNEFFKU.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/bBC74rdN5bYhQZgAdbYSLNEFFKU.jpg",
+      "localPath": "assets/images/bBC74rdN5bYhQZgAdbYSLNEFFKU.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 1321933,
+      "usedOn": [
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "BBKIE883HOy4iEVqdC0FxrmQM.png",
+      "sourceUrl": "https://framerusercontent.com/images/BBKIE883HOy4iEVqdC0FxrmQM.png",
+      "localPath": "assets/images/BBKIE883HOy4iEVqdC0FxrmQM.png",
+      "width": 2236,
+      "height": 1266,
+      "aspectRatio": 1.766,
+      "bytes": 105285,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "bEpCa3XW7wCB7hHtqoySJGVYM8E.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/bEpCa3XW7wCB7hHtqoySJGVYM8E.jpeg",
+      "localPath": "assets/images/bEpCa3XW7wCB7hHtqoySJGVYM8E.jpeg",
+      "width": 2960,
+      "height": 1968,
+      "aspectRatio": 1.504,
+      "bytes": 371000,
+      "usedOn": [
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "bgevLnRv4XmBsVRAQiplgVYxvY.png",
+      "sourceUrl": "https://framerusercontent.com/images/bgevLnRv4XmBsVRAQiplgVYxvY.png",
+      "localPath": "assets/images/bgevLnRv4XmBsVRAQiplgVYxvY.png",
+      "width": 2850,
+      "height": 2027,
+      "aspectRatio": 1.406,
+      "bytes": 164359,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "bin6vivTjf7oNqgZMr51mPIBpjk.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/bin6vivTjf7oNqgZMr51mPIBpjk.jpg",
+      "localPath": "assets/images/bin6vivTjf7oNqgZMr51mPIBpjk.jpg",
+      "width": 6000,
+      "height": 3375,
+      "aspectRatio": 1.778,
+      "bytes": 1801346,
+      "usedOn": [
+        "/",
+        "/work",
+        "/work/no-code-data-builder/"
+      ]
+    },
+    {
+      "filename": "Bm2uteGrVn1XEBEbGM5Lxx8A.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/Bm2uteGrVn1XEBEbGM5Lxx8A.jpg",
+      "localPath": "assets/images/Bm2uteGrVn1XEBEbGM5Lxx8A.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 244659,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "CA2ilDuLBFGhmAp8oKIAU6ODzjA.png",
+      "sourceUrl": "https://framerusercontent.com/images/CA2ilDuLBFGhmAp8oKIAU6ODzjA.png",
+      "localPath": "assets/images/CA2ilDuLBFGhmAp8oKIAU6ODzjA.png",
+      "width": 2850,
+      "height": 2027,
+      "aspectRatio": 1.406,
+      "bytes": 148048,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "cefHhtZ3oZygyHEeSWw8Mdimljg.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/cefHhtZ3oZygyHEeSWw8Mdimljg.jpg",
+      "localPath": "assets/images/cefHhtZ3oZygyHEeSWw8Mdimljg.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 451699,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "CeyUdB5SoPeSKWXjIjUmQZKlD3g.png",
+      "sourceUrl": "https://framerusercontent.com/images/CeyUdB5SoPeSKWXjIjUmQZKlD3g.png",
+      "localPath": "assets/images/CeyUdB5SoPeSKWXjIjUmQZKlD3g.png",
+      "width": 2400,
+      "height": 600,
+      "aspectRatio": 4,
+      "bytes": 7326,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "cJJJMJZbKVp0wNSCNI0LUWuXAR4.png",
+      "sourceUrl": "https://framerusercontent.com/images/cJJJMJZbKVp0wNSCNI0LUWuXAR4.png",
+      "localPath": "assets/images/cJJJMJZbKVp0wNSCNI0LUWuXAR4.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 105250,
+      "usedOn": [
+        "/work/corestack-enterprise-control-panel/"
+      ]
+    },
+    {
+      "filename": "CK1X0T2MmUjpS1zfj0KNVHtHlk.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/CK1X0T2MmUjpS1zfj0KNVHtHlk.jpg",
+      "localPath": "assets/images/CK1X0T2MmUjpS1zfj0KNVHtHlk.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 804007,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "dFcfHFBKYfLSwGry9DoZOOPrjA.png",
+      "sourceUrl": "https://framerusercontent.com/images/dFcfHFBKYfLSwGry9DoZOOPrjA.png",
+      "localPath": "assets/images/dFcfHFBKYfLSwGry9DoZOOPrjA.png",
+      "width": 3408,
+      "height": 1666,
+      "aspectRatio": 2.046,
+      "bytes": 300178,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "dGJ9MTaY9qPSJOqvCUN4cMsLwQ.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/dGJ9MTaY9qPSJOqvCUN4cMsLwQ.jpeg",
+      "localPath": "assets/images/dGJ9MTaY9qPSJOqvCUN4cMsLwQ.jpeg",
+      "width": 3601,
+      "height": 2101,
+      "aspectRatio": 1.714,
+      "bytes": 812175,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "DwcprmfsRFAG5QDLxOcqz3uS2xQ.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/DwcprmfsRFAG5QDLxOcqz3uS2xQ.jpg",
+      "localPath": "assets/images/DwcprmfsRFAG5QDLxOcqz3uS2xQ.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 314827,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "e1hMwyHXBMmr47rlrYEK01ai5s.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/e1hMwyHXBMmr47rlrYEK01ai5s.jpg",
+      "localPath": "assets/images/e1hMwyHXBMmr47rlrYEK01ai5s.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 302180,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "e5SKQZcb7BxAogLgNgygNaXKPw.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/e5SKQZcb7BxAogLgNgygNaXKPw.jpeg",
+      "localPath": "assets/images/e5SKQZcb7BxAogLgNgygNaXKPw.jpeg",
+      "width": 2240,
+      "height": 1600,
+      "aspectRatio": 1.4,
+      "bytes": 311513,
+      "usedOn": [
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "ElK9VCY8451XVVrPfeObyVLZEHs.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/ElK9VCY8451XVVrPfeObyVLZEHs.jpg",
+      "localPath": "assets/images/ElK9VCY8451XVVrPfeObyVLZEHs.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 622971,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "eZfyOaximLZxvlPJpJ9myr826Ws.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/eZfyOaximLZxvlPJpJ9myr826Ws.jpg",
+      "localPath": "assets/images/eZfyOaximLZxvlPJpJ9myr826Ws.jpg",
+      "width": 6056,
+      "height": 4037,
+      "aspectRatio": 1.5,
+      "bytes": 1771595,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "f2Obk3MLkjgkyLx17NbiLSREyTQ.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/f2Obk3MLkjgkyLx17NbiLSREyTQ.jpg",
+      "localPath": "assets/images/f2Obk3MLkjgkyLx17NbiLSREyTQ.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 194808,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "F5TYP92d4QIPlFS1u13qv6T8GE.png",
+      "sourceUrl": "https://framerusercontent.com/images/F5TYP92d4QIPlFS1u13qv6T8GE.png",
+      "localPath": "assets/images/F5TYP92d4QIPlFS1u13qv6T8GE.png",
+      "width": 1383,
+      "height": 9888,
+      "aspectRatio": 0.14,
+      "bytes": 229324,
+      "usedOn": [
+        "/work/zenrock-website-design(mvp)/"
+      ]
+    },
+    {
+      "filename": "F6WdeS8H16vN8MNXIrcOKMoUM4o.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/F6WdeS8H16vN8MNXIrcOKMoUM4o.jpg",
+      "localPath": "assets/images/F6WdeS8H16vN8MNXIrcOKMoUM4o.jpg",
+      "width": 3883,
+      "height": 2589,
+      "aspectRatio": 1.5,
+      "bytes": 1578337,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "FK5LrakcpTMcWQEhXswyCCQPBsY.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/FK5LrakcpTMcWQEhXswyCCQPBsY.jpg",
+      "localPath": "assets/images/FK5LrakcpTMcWQEhXswyCCQPBsY.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 1256349,
+      "usedOn": [
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "fNtiXZaHrilCtcTs6V6FxIIpvho.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/fNtiXZaHrilCtcTs6V6FxIIpvho.jpg",
+      "localPath": "assets/images/fNtiXZaHrilCtcTs6V6FxIIpvho.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 356493,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "FuGF3ZAwBbV9MdUjn4M9g9pRs8Y.png",
+      "sourceUrl": "https://framerusercontent.com/images/FuGF3ZAwBbV9MdUjn4M9g9pRs8Y.png",
+      "localPath": "assets/images/FuGF3ZAwBbV9MdUjn4M9g9pRs8Y.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 36125,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "fZlFdX1dkWSMxBw2Ug2PwKrIlI.png",
+      "sourceUrl": "https://framerusercontent.com/images/fZlFdX1dkWSMxBw2Ug2PwKrIlI.png",
+      "localPath": "assets/images/fZlFdX1dkWSMxBw2Ug2PwKrIlI.png",
+      "width": 1383,
+      "height": 5939,
+      "aspectRatio": 0.233,
+      "bytes": 428163,
+      "usedOn": [
+        "/work/zenrock-website-design(mvp)/"
+      ]
+    },
+    {
+      "filename": "g7cS1MmuLK3gBM0JjBkUwUhs.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/g7cS1MmuLK3gBM0JjBkUwUhs.jpg",
+      "localPath": "assets/images/g7cS1MmuLK3gBM0JjBkUwUhs.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 276827,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "GiQiGlghktGsSDIZ8A6dqzFMhdw.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/GiQiGlghktGsSDIZ8A6dqzFMhdw.jpeg",
+      "localPath": "assets/images/GiQiGlghktGsSDIZ8A6dqzFMhdw.jpeg",
+      "width": 4800,
+      "height": 2800,
+      "aspectRatio": 1.714,
+      "bytes": 1102859,
+      "usedOn": [
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "glpz3GgpWPqQbXAfF8bzk9lEVs.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/glpz3GgpWPqQbXAfF8bzk9lEVs.jpg",
+      "localPath": "assets/images/glpz3GgpWPqQbXAfF8bzk9lEVs.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 872814,
+      "usedOn": [
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "Glvi7LeIJK1Ceeb05cvZtNc5uW4.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/Glvi7LeIJK1Ceeb05cvZtNc5uW4.jpeg",
+      "localPath": "assets/images/Glvi7LeIJK1Ceeb05cvZtNc5uW4.jpeg",
+      "width": 2240,
+      "height": 1600,
+      "aspectRatio": 1.4,
+      "bytes": 314226,
+      "usedOn": [
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "hcq52ADLB0siLKT6VH2YM8ZQAg.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/hcq52ADLB0siLKT6VH2YM8ZQAg.jpg",
+      "localPath": "assets/images/hcq52ADLB0siLKT6VH2YM8ZQAg.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 223282,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "HIKSkZY1Yxbut3Ve3kyzpFZQSUM.png",
+      "sourceUrl": "https://framerusercontent.com/images/HIKSkZY1Yxbut3Ve3kyzpFZQSUM.png",
+      "localPath": "assets/images/HIKSkZY1Yxbut3Ve3kyzpFZQSUM.png",
+      "width": 5184,
+      "height": 3352,
+      "aspectRatio": 1.547,
+      "bytes": 535690,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "hKxuTSOIpz5FOWDkBia3OOdy2g.png",
+      "sourceUrl": "https://framerusercontent.com/images/hKxuTSOIpz5FOWDkBia3OOdy2g.png",
+      "localPath": "assets/images/hKxuTSOIpz5FOWDkBia3OOdy2g.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 61553,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "I83GiBzRWojsWdPiJb07EL4GQs.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/I83GiBzRWojsWdPiJb07EL4GQs.jpg",
+      "localPath": "assets/images/I83GiBzRWojsWdPiJb07EL4GQs.jpg",
+      "width": 4204,
+      "height": 2363,
+      "aspectRatio": 1.779,
+      "bytes": 808396,
+      "usedOn": [
+        "/work",
+        "/work/zenrock-website-design(mvp)/"
+      ]
+    },
+    {
+      "filename": "IMYjrRXmo7LH6JB9A3s0zEY2IM.png",
+      "sourceUrl": "https://framerusercontent.com/images/IMYjrRXmo7LH6JB9A3s0zEY2IM.png",
+      "localPath": "assets/images/IMYjrRXmo7LH6JB9A3s0zEY2IM.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 139791,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "INcjo9risToTLV1Cy5Wyz8FSKvs.png",
+      "sourceUrl": "https://framerusercontent.com/images/INcjo9risToTLV1Cy5Wyz8FSKvs.png",
+      "localPath": "assets/images/INcjo9risToTLV1Cy5Wyz8FSKvs.png",
+      "width": 5184,
+      "height": 3351,
+      "aspectRatio": 1.547,
+      "bytes": 455856,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "Iw35VY0yWclHzpoASLoZOukWU.png",
+      "sourceUrl": "https://framerusercontent.com/images/Iw35VY0yWclHzpoASLoZOukWU.png",
+      "localPath": "assets/images/Iw35VY0yWclHzpoASLoZOukWU.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 86481,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "Iy5NUrKMUA4nxLneUJyRhuL3aHw.png",
+      "sourceUrl": "https://framerusercontent.com/images/Iy5NUrKMUA4nxLneUJyRhuL3aHw.png",
+      "localPath": "assets/images/Iy5NUrKMUA4nxLneUJyRhuL3aHw.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 105887,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "J1XIaTlOxLbHoY6FHWgPab5q9TI.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/J1XIaTlOxLbHoY6FHWgPab5q9TI.jpg",
+      "localPath": "assets/images/J1XIaTlOxLbHoY6FHWgPab5q9TI.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 227087,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "J2HTU88swaybgiw5ShjwvRNUaM8.png",
+      "sourceUrl": "https://framerusercontent.com/images/J2HTU88swaybgiw5ShjwvRNUaM8.png",
+      "localPath": "assets/images/J2HTU88swaybgiw5ShjwvRNUaM8.png",
+      "width": 3876,
+      "height": 2780,
+      "aspectRatio": 1.394,
+      "bytes": 339337,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "J5KI9joaNc3dmK1b0TGZbA8sELw.png",
+      "sourceUrl": "https://framerusercontent.com/images/J5KI9joaNc3dmK1b0TGZbA8sELw.png",
+      "localPath": "assets/images/J5KI9joaNc3dmK1b0TGZbA8sELw.png",
+      "width": 2400,
+      "height": 600,
+      "aspectRatio": 4,
+      "bytes": 11665,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "jBcD3MLtHNWcmSkUXCSKCS6gk.png",
+      "sourceUrl": "https://framerusercontent.com/images/jBcD3MLtHNWcmSkUXCSKCS6gk.png",
+      "localPath": "assets/images/jBcD3MLtHNWcmSkUXCSKCS6gk.png",
+      "width": 5184,
+      "height": 3351,
+      "aspectRatio": 1.547,
+      "bytes": 466104,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "JDHiigaCVbCsF3DBdtkAk6BeOU.png",
+      "sourceUrl": "https://framerusercontent.com/images/JDHiigaCVbCsF3DBdtkAk6BeOU.png",
+      "localPath": "assets/images/JDHiigaCVbCsF3DBdtkAk6BeOU.png",
+      "width": 5760,
+      "height": 4096,
+      "aspectRatio": 1.406,
+      "bytes": 310443,
+      "usedOn": [
+        "/work/corestack-enterprise-control-panel/"
+      ]
+    },
+    {
+      "filename": "Jt8qZNYXokMUYwEP1J9OFkl2k.png",
+      "sourceUrl": "https://framerusercontent.com/images/Jt8qZNYXokMUYwEP1J9OFkl2k.png",
+      "localPath": "assets/images/Jt8qZNYXokMUYwEP1J9OFkl2k.png",
+      "width": 2142,
+      "height": 1456,
+      "aspectRatio": 1.471,
+      "bytes": 56632,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "kA4Pi2YQp4xzYYrLZRpcRyxqrE.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/kA4Pi2YQp4xzYYrLZRpcRyxqrE.jpg",
+      "localPath": "assets/images/kA4Pi2YQp4xzYYrLZRpcRyxqrE.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 444849,
+      "usedOn": [
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "kjszqWN8j7WhabAlghEI2KOE3Zw.png",
+      "sourceUrl": "https://framerusercontent.com/images/kjszqWN8j7WhabAlghEI2KOE3Zw.png",
+      "localPath": "assets/images/kjszqWN8j7WhabAlghEI2KOE3Zw.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 91443,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "KP9PFiT6LM2hIfGv1QlkurqRGc.png",
+      "sourceUrl": "https://framerusercontent.com/images/KP9PFiT6LM2hIfGv1QlkurqRGc.png",
+      "localPath": "assets/images/KP9PFiT6LM2hIfGv1QlkurqRGc.png",
+      "width": 1920,
+      "height": 1080,
+      "aspectRatio": 1.778,
+      "bytes": 361454,
+      "usedOn": [
+        "/work",
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "KXozwjMcR1rVjwUktGAIeP4p5I.png",
+      "sourceUrl": "https://framerusercontent.com/images/KXozwjMcR1rVjwUktGAIeP4p5I.png",
+      "localPath": "assets/images/KXozwjMcR1rVjwUktGAIeP4p5I.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 91642,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "kZqxQPhKTNCAT64zLEwTb7mIks.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/kZqxQPhKTNCAT64zLEwTb7mIks.jpg",
+      "localPath": "assets/images/kZqxQPhKTNCAT64zLEwTb7mIks.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 528787,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "L4e6YzVhvbNdUbceQny71K0Npw.png",
+      "sourceUrl": "https://framerusercontent.com/images/L4e6YzVhvbNdUbceQny71K0Npw.png",
+      "localPath": "assets/images/L4e6YzVhvbNdUbceQny71K0Npw.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 100619,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "lBNMj9TCA9UIwT90FxTDafQDEKc.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/lBNMj9TCA9UIwT90FxTDafQDEKc.jpeg",
+      "localPath": "assets/images/lBNMj9TCA9UIwT90FxTDafQDEKc.jpeg",
+      "width": 2240,
+      "height": 1600,
+      "aspectRatio": 1.4,
+      "bytes": 213647,
+      "usedOn": [
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "LS6dB3qD8KsH8QeCrUZT0sMQAs.png",
+      "sourceUrl": "https://framerusercontent.com/images/LS6dB3qD8KsH8QeCrUZT0sMQAs.png",
+      "localPath": "assets/images/LS6dB3qD8KsH8QeCrUZT0sMQAs.png",
+      "width": 2142,
+      "height": 1456,
+      "aspectRatio": 1.471,
+      "bytes": 125352,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "lv3wcLxp8pEqp1ULaO7iCuw1yY.png",
+      "sourceUrl": "https://framerusercontent.com/images/lv3wcLxp8pEqp1ULaO7iCuw1yY.png",
+      "localPath": "assets/images/lv3wcLxp8pEqp1ULaO7iCuw1yY.png",
+      "width": 3306,
+      "height": 2162,
+      "aspectRatio": 1.529,
+      "bytes": 1846430,
+      "usedOn": [
+        "/",
+        "/work",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "LzJuKhu0iKOwl9XjSk35BiVhnQg.png",
+      "sourceUrl": "https://framerusercontent.com/images/LzJuKhu0iKOwl9XjSk35BiVhnQg.png",
+      "localPath": "assets/images/LzJuKhu0iKOwl9XjSk35BiVhnQg.png",
+      "width": 2236,
+      "height": 1358,
+      "aspectRatio": 1.647,
+      "bytes": 109923,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "MCKYKOpCCjWkZw7KaWfYdiaZn0.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/MCKYKOpCCjWkZw7KaWfYdiaZn0.jpg",
+      "localPath": "assets/images/MCKYKOpCCjWkZw7KaWfYdiaZn0.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 503570,
+      "usedOn": [
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "MD0NHbYkmpq90EbuqZcFhZh8bQ.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/MD0NHbYkmpq90EbuqZcFhZh8bQ.jpg",
+      "localPath": "assets/images/MD0NHbYkmpq90EbuqZcFhZh8bQ.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 926622,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "megW5ssQTyCr50qulHeJ8O7R7w.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/megW5ssQTyCr50qulHeJ8O7R7w.jpg",
+      "localPath": "assets/images/megW5ssQTyCr50qulHeJ8O7R7w.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 209537,
+      "usedOn": [
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "mhb1VlcGpDRDYlkXYfUDOeI0q8.svg",
+      "sourceUrl": "https://framerusercontent.com/images/mhb1VlcGpDRDYlkXYfUDOeI0q8.svg",
+      "localPath": "assets/images/mhb1VlcGpDRDYlkXYfUDOeI0q8.svg",
+      "width": 119,
+      "height": 25,
+      "aspectRatio": 4.76,
+      "bytes": 13161,
+      "usedOn": [
+        "/"
+      ],
+      "note": "Phase 2 gap-fill: referenced by the homepage \"Previously trusted by\" ticker but missed in the Phase 1 download pass."
+    },
+    {
+      "filename": "mJdgEamhHG5SioZyikEWOx2D2g.png",
+      "sourceUrl": "https://framerusercontent.com/images/mJdgEamhHG5SioZyikEWOx2D2g.png",
+      "localPath": "assets/images/mJdgEamhHG5SioZyikEWOx2D2g.png",
+      "width": 2880,
+      "height": 3142,
+      "aspectRatio": 0.917,
+      "bytes": 166154,
+      "usedOn": [
+        "/work/corestack-enterprise-control-panel/"
+      ]
+    },
+    {
+      "filename": "MMe9Y6HPhAam6kWVbPyPhmfZw4.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/MMe9Y6HPhAam6kWVbPyPhmfZw4.jpeg",
+      "localPath": "assets/images/MMe9Y6HPhAam6kWVbPyPhmfZw4.jpeg",
+      "width": 4064,
+      "height": 2048,
+      "aspectRatio": 1.984,
+      "bytes": 220237,
+      "usedOn": [
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "mn724Bfz268nlXOladP9OAUDpQ.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/mn724Bfz268nlXOladP9OAUDpQ.jpg",
+      "localPath": "assets/images/mn724Bfz268nlXOladP9OAUDpQ.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 242852,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "mPICsxWI1GlH4WwHjS2026D7a0.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/mPICsxWI1GlH4WwHjS2026D7a0.jpg",
+      "localPath": "assets/images/mPICsxWI1GlH4WwHjS2026D7a0.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 405266,
+      "usedOn": [
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "mTB35lF8jJQmN33VchdHxt23saA.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/mTB35lF8jJQmN33VchdHxt23saA.jpg",
+      "localPath": "assets/images/mTB35lF8jJQmN33VchdHxt23saA.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 366462,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "MufuhRXjgBqjTNePPoGP8SJgyII.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/MufuhRXjgBqjTNePPoGP8SJgyII.jpg",
+      "localPath": "assets/images/MufuhRXjgBqjTNePPoGP8SJgyII.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 350559,
+      "usedOn": [
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "MVSzB4zgOVZmSOB9UVNCpSAJvo.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/MVSzB4zgOVZmSOB9UVNCpSAJvo.jpeg",
+      "localPath": "assets/images/MVSzB4zgOVZmSOB9UVNCpSAJvo.jpeg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 142545,
+      "usedOn": [
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "mWVucGQqeh3c5cnZ3JBSX4aYFUo.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/mWVucGQqeh3c5cnZ3JBSX4aYFUo.jpg",
+      "localPath": "assets/images/mWVucGQqeh3c5cnZ3JBSX4aYFUo.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 455683,
+      "usedOn": [
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "mYUvYEgwdH4BoUR4Px5pIpEgw.png",
+      "sourceUrl": "https://framerusercontent.com/images/mYUvYEgwdH4BoUR4Px5pIpEgw.png",
+      "localPath": "assets/images/mYUvYEgwdH4BoUR4Px5pIpEgw.png",
+      "width": 3372,
+      "height": 1668,
+      "aspectRatio": 2.022,
+      "bytes": 178530,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "nHgrC81JPyog1gBOpqDhSuvhM.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/nHgrC81JPyog1gBOpqDhSuvhM.jpg",
+      "localPath": "assets/images/nHgrC81JPyog1gBOpqDhSuvhM.jpg",
+      "width": 5500,
+      "height": 3668,
+      "aspectRatio": 1.499,
+      "bytes": 4429359,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "NIinApzdK3XU0yliEv9fy3CtxU.png",
+      "sourceUrl": "https://framerusercontent.com/images/NIinApzdK3XU0yliEv9fy3CtxU.png",
+      "localPath": "assets/images/NIinApzdK3XU0yliEv9fy3CtxU.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 320261,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "nlJyD8AW1vrfA5TK67mEO3vYsYc.png",
+      "sourceUrl": "https://framerusercontent.com/images/nlJyD8AW1vrfA5TK67mEO3vYsYc.png",
+      "localPath": "assets/images/nlJyD8AW1vrfA5TK67mEO3vYsYc.png",
+      "width": 2400,
+      "height": 600,
+      "aspectRatio": 4,
+      "bytes": 13034,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "NPQMjEXpbC0kuCkKN2J6hgLGhKU.png",
+      "sourceUrl": "https://framerusercontent.com/images/NPQMjEXpbC0kuCkKN2J6hgLGhKU.png",
+      "localPath": "assets/images/NPQMjEXpbC0kuCkKN2J6hgLGhKU.png",
+      "width": 1383,
+      "height": 6685,
+      "aspectRatio": 0.207,
+      "bytes": 141500,
+      "usedOn": [
+        "/work/zenrock-website-design(mvp)/"
+      ]
+    },
+    {
+      "filename": "nthnCoMcg1b0wa0QdeoSoG82CM.png",
+      "sourceUrl": "https://framerusercontent.com/images/nthnCoMcg1b0wa0QdeoSoG82CM.png",
+      "localPath": "assets/images/nthnCoMcg1b0wa0QdeoSoG82CM.png",
+      "width": 1383,
+      "height": 7892,
+      "aspectRatio": 0.175,
+      "bytes": 719288,
+      "usedOn": [
+        "/work/zenrock-website-design(mvp)/"
+      ]
+    },
+    {
+      "filename": "o4hupICSJ5sW8EDkPwbfosp8LRw.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/o4hupICSJ5sW8EDkPwbfosp8LRw.jpg",
+      "localPath": "assets/images/o4hupICSJ5sW8EDkPwbfosp8LRw.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 318425,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "o8UtT22B8yQyQIlEcdP0Eu4.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/o8UtT22B8yQyQIlEcdP0Eu4.jpg",
+      "localPath": "assets/images/o8UtT22B8yQyQIlEcdP0Eu4.jpg",
+      "width": 2880,
+      "height": 2969,
+      "aspectRatio": 0.97,
+      "bytes": 568967,
+      "usedOn": [
+        "/work/no-code-data-builder/"
+      ]
+    },
+    {
+      "filename": "oAoXRhotsUEqkLRTjCd33QfW7AQ.png",
+      "sourceUrl": "https://framerusercontent.com/images/oAoXRhotsUEqkLRTjCd33QfW7AQ.png",
+      "localPath": "assets/images/oAoXRhotsUEqkLRTjCd33QfW7AQ.png",
+      "width": 1920,
+      "height": 1080,
+      "aspectRatio": 1.778,
+      "bytes": 314023,
+      "usedOn": [
+        "/work",
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "OHoIvH4eVrZiZwJHsoSyBuG4K4.png",
+      "sourceUrl": "https://framerusercontent.com/images/OHoIvH4eVrZiZwJHsoSyBuG4K4.png",
+      "localPath": "assets/images/OHoIvH4eVrZiZwJHsoSyBuG4K4.png",
+      "width": 2850,
+      "height": 2027,
+      "aspectRatio": 1.406,
+      "bytes": 228818,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "OS2W1eIUfNndUrRlVVt3xDezsE.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/OS2W1eIUfNndUrRlVVt3xDezsE.jpg",
+      "localPath": "assets/images/OS2W1eIUfNndUrRlVVt3xDezsE.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 636711,
+      "usedOn": [
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "oSQcaHOUQHpFg8TgRjJvaJPhW7A.png",
+      "sourceUrl": "https://framerusercontent.com/images/oSQcaHOUQHpFg8TgRjJvaJPhW7A.png",
+      "localPath": "assets/images/oSQcaHOUQHpFg8TgRjJvaJPhW7A.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 168703,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "owSbHM3jeu6Gx6laW0uMVx4DbA.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/owSbHM3jeu6Gx6laW0uMVx4DbA.jpg",
+      "localPath": "assets/images/owSbHM3jeu6Gx6laW0uMVx4DbA.jpg",
+      "width": 3983,
+      "height": 2655,
+      "aspectRatio": 1.5,
+      "bytes": 1313945,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "pelGva4dLZFzlwNgUtbzVH2uU8.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/pelGva4dLZFzlwNgUtbzVH2uU8.jpeg",
+      "localPath": "assets/images/pelGva4dLZFzlwNgUtbzVH2uU8.jpeg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 102012,
+      "usedOn": [
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "PGhbXFVUREO41fHPZOGUHzJhc0.png",
+      "sourceUrl": "https://framerusercontent.com/images/PGhbXFVUREO41fHPZOGUHzJhc0.png",
+      "localPath": "assets/images/PGhbXFVUREO41fHPZOGUHzJhc0.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 106942,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "pLBX5pc7XEiTyMtASMXiWUIt90.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/pLBX5pc7XEiTyMtASMXiWUIt90.jpg",
+      "localPath": "assets/images/pLBX5pc7XEiTyMtASMXiWUIt90.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 299092,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "PnUZOcSeSUN64bQ4fCOKfcV3J1Q.png",
+      "sourceUrl": "https://framerusercontent.com/images/PnUZOcSeSUN64bQ4fCOKfcV3J1Q.png",
+      "localPath": "assets/images/PnUZOcSeSUN64bQ4fCOKfcV3J1Q.png",
+      "width": 2850,
+      "height": 2027,
+      "aspectRatio": 1.406,
+      "bytes": 178536,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "pPmxBMf8iAAd6qmdeSv8CJmk.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/pPmxBMf8iAAd6qmdeSv8CJmk.jpg",
+      "localPath": "assets/images/pPmxBMf8iAAd6qmdeSv8CJmk.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 188561,
+      "usedOn": [
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "PqWB7i8Z3fZwoKQTGiimWNYk.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/PqWB7i8Z3fZwoKQTGiimWNYk.jpg",
+      "localPath": "assets/images/PqWB7i8Z3fZwoKQTGiimWNYk.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 234550,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "prfK0IDXciU6ukf3dkXsqstRps.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/prfK0IDXciU6ukf3dkXsqstRps.jpeg",
+      "localPath": "assets/images/prfK0IDXciU6ukf3dkXsqstRps.jpeg",
+      "width": 2240,
+      "height": 1600,
+      "aspectRatio": 1.4,
+      "bytes": 198845,
+      "usedOn": [
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "PRTcQna1MwLEGmXuz5bnHyVoUr4.png",
+      "sourceUrl": "https://framerusercontent.com/images/PRTcQna1MwLEGmXuz5bnHyVoUr4.png",
+      "localPath": "assets/images/PRTcQna1MwLEGmXuz5bnHyVoUr4.png",
+      "width": 5184,
+      "height": 3351,
+      "aspectRatio": 1.547,
+      "bytes": 567882,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "Q6fGp87l9NTe8WtsNBf1ur67pg.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/Q6fGp87l9NTe8WtsNBf1ur67pg.jpg",
+      "localPath": "assets/images/Q6fGp87l9NTe8WtsNBf1ur67pg.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 662848,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "QAOt3fwhoTShV9SSqNgtup3oQ8g.png",
+      "sourceUrl": "https://framerusercontent.com/images/QAOt3fwhoTShV9SSqNgtup3oQ8g.png",
+      "localPath": "assets/images/QAOt3fwhoTShV9SSqNgtup3oQ8g.png",
+      "width": 5184,
+      "height": 3687,
+      "aspectRatio": 1.406,
+      "bytes": 472760,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "qi9dV7vELcTaZQc5iqwcHfh2sIQ.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/qi9dV7vELcTaZQc5iqwcHfh2sIQ.jpg",
+      "localPath": "assets/images/qi9dV7vELcTaZQc5iqwcHfh2sIQ.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 632879,
+      "usedOn": [
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "Qk9diWiDYYsRBxja1wXoiAenSA.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/Qk9diWiDYYsRBxja1wXoiAenSA.jpeg",
+      "localPath": "assets/images/Qk9diWiDYYsRBxja1wXoiAenSA.jpeg",
+      "width": 4800,
+      "height": 2800,
+      "aspectRatio": 1.714,
+      "bytes": 836521,
+      "usedOn": [
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "qNVGtO0Vx72STDsqa0e1m5TQz0.png",
+      "sourceUrl": "https://framerusercontent.com/images/qNVGtO0Vx72STDsqa0e1m5TQz0.png",
+      "localPath": "assets/images/qNVGtO0Vx72STDsqa0e1m5TQz0.png",
+      "width": 1200,
+      "height": 630,
+      "aspectRatio": 1.905,
+      "bytes": 22112,
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "R1qma76q3QZDsOqSW5faNuwej2M.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/R1qma76q3QZDsOqSW5faNuwej2M.jpg",
+      "localPath": "assets/images/R1qma76q3QZDsOqSW5faNuwej2M.jpg",
+      "width": 1600,
+      "height": 12331,
+      "aspectRatio": 0.13,
+      "bytes": 1737218,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "R7rQf0AvfN1p4v7gOUF2CeAQcTU.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/R7rQf0AvfN1p4v7gOUF2CeAQcTU.jpg",
+      "localPath": "assets/images/R7rQf0AvfN1p4v7gOUF2CeAQcTU.jpg",
+      "width": 3220,
+      "height": 2147,
+      "aspectRatio": 1.5,
+      "bytes": 978753,
+      "usedOn": [
+        "/work",
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "Rci9kTSsTeNLTiaJkbzu71q5nM.png",
+      "sourceUrl": "https://framerusercontent.com/images/Rci9kTSsTeNLTiaJkbzu71q5nM.png",
+      "localPath": "assets/images/Rci9kTSsTeNLTiaJkbzu71q5nM.png",
+      "width": 2518,
+      "height": 3666,
+      "aspectRatio": 0.687,
+      "bytes": 207074,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "RDh73OsVezrntZgnYtqzW8AOZtU.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/RDh73OsVezrntZgnYtqzW8AOZtU.jpg",
+      "localPath": "assets/images/RDh73OsVezrntZgnYtqzW8AOZtU.jpg",
+      "width": 3840,
+      "height": 2160,
+      "aspectRatio": 1.778,
+      "bytes": 283406,
+      "usedOn": [
+        "/work/no-code-data-builder/"
+      ]
+    },
+    {
+      "filename": "rH1afs6NmR6U5Q7bdrph68F0MMk.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/rH1afs6NmR6U5Q7bdrph68F0MMk.jpg",
+      "localPath": "assets/images/rH1afs6NmR6U5Q7bdrph68F0MMk.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 612871,
+      "usedOn": [
+        "/work/mindlantic/"
+      ]
+    },
+    {
+      "filename": "rhkz4TWEujUph6tdSzfYnrvPGc.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/rhkz4TWEujUph6tdSzfYnrvPGc.jpeg",
+      "localPath": "assets/images/rhkz4TWEujUph6tdSzfYnrvPGc.jpeg",
+      "width": 2240,
+      "height": 1600,
+      "aspectRatio": 1.4,
+      "bytes": 202840,
+      "usedOn": [
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "RjcBXmMKtcjYhvv3xzL7x0GhNE.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/RjcBXmMKtcjYhvv3xzL7x0GhNE.jpg",
+      "localPath": "assets/images/RjcBXmMKtcjYhvv3xzL7x0GhNE.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 1237744,
+      "usedOn": [
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "RtJK8HsTbfVsCZcheruWFMYDyKI.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/RtJK8HsTbfVsCZcheruWFMYDyKI.jpg",
+      "localPath": "assets/images/RtJK8HsTbfVsCZcheruWFMYDyKI.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 430749,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "RyTIDibqosLDiLqwTKVG5WoKhfs.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/RyTIDibqosLDiLqwTKVG5WoKhfs.jpg",
+      "localPath": "assets/images/RyTIDibqosLDiLqwTKVG5WoKhfs.jpg",
+      "width": 4053,
+      "height": 2424,
+      "aspectRatio": 1.672,
+      "bytes": 1100257,
+      "usedOn": [
+        "/",
+        "/work",
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "sDi6RW0AuVNX32LCMbnPRq7SHDM.png",
+      "sourceUrl": "https://framerusercontent.com/images/sDi6RW0AuVNX32LCMbnPRq7SHDM.png",
+      "localPath": "assets/images/sDi6RW0AuVNX32LCMbnPRq7SHDM.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 136059,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "SGNJV8FZBZRAkYrHs5ZPhPtimA.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/SGNJV8FZBZRAkYrHs5ZPhPtimA.jpg",
+      "localPath": "assets/images/SGNJV8FZBZRAkYrHs5ZPhPtimA.jpg",
+      "width": 1600,
+      "height": 11747,
+      "aspectRatio": 0.136,
+      "bytes": 1864363,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "sKiBvFzDs150WDXtv7iv2g3eVr0.png",
+      "sourceUrl": "https://framerusercontent.com/images/sKiBvFzDs150WDXtv7iv2g3eVr0.png",
+      "localPath": "assets/images/sKiBvFzDs150WDXtv7iv2g3eVr0.png",
+      "width": 5184,
+      "height": 3351,
+      "aspectRatio": 1.547,
+      "bytes": 614095,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "SYtozAW8SSwmGJfcEYpO5m142fQ.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/SYtozAW8SSwmGJfcEYpO5m142fQ.jpg",
+      "localPath": "assets/images/SYtozAW8SSwmGJfcEYpO5m142fQ.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 162825,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "SZ1J1oIFClhLRbda4hn8uvXqBk.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/SZ1J1oIFClhLRbda4hn8uvXqBk.jpg",
+      "localPath": "assets/images/SZ1J1oIFClhLRbda4hn8uvXqBk.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 428098,
+      "usedOn": [
+        "/work/houzecheck-webapp/"
+      ]
+    },
+    {
+      "filename": "TjNkNnC1P5BQkK2rQ14TE4nl44.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/TjNkNnC1P5BQkK2rQ14TE4nl44.jpg",
+      "localPath": "assets/images/TjNkNnC1P5BQkK2rQ14TE4nl44.jpg",
+      "width": 3840,
+      "height": 2160,
+      "aspectRatio": 1.778,
+      "bytes": 313757,
+      "usedOn": [
+        "/work/no-code-data-builder/"
+      ]
+    },
+    {
+      "filename": "TKBUcKGhJP3sOU92gZhDcsG1jlw.png",
+      "sourceUrl": "https://framerusercontent.com/images/TKBUcKGhJP3sOU92gZhDcsG1jlw.png",
+      "localPath": "assets/images/TKBUcKGhJP3sOU92gZhDcsG1jlw.png",
+      "width": 2180,
+      "height": 1209,
+      "aspectRatio": 1.803,
+      "bytes": 64414,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "tnb7IzytV9XvsnxfILUyquyNyk.png",
+      "sourceUrl": "https://framerusercontent.com/images/tnb7IzytV9XvsnxfILUyquyNyk.png",
+      "localPath": "assets/images/tnb7IzytV9XvsnxfILUyquyNyk.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 67678,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "tOQcDC3QFdxrYQvWClXV7PnpNpE.png",
+      "sourceUrl": "https://framerusercontent.com/images/tOQcDC3QFdxrYQvWClXV7PnpNpE.png",
+      "localPath": "assets/images/tOQcDC3QFdxrYQvWClXV7PnpNpE.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 93412,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "tqETsdqwaYzbswyeHKJyZXALJfg.png",
+      "sourceUrl": "https://framerusercontent.com/images/tqETsdqwaYzbswyeHKJyZXALJfg.png",
+      "localPath": "assets/images/tqETsdqwaYzbswyeHKJyZXALJfg.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 116935,
+      "usedOn": [
+        "/work/corestack-enterprise-control-panel/"
+      ]
+    },
+    {
+      "filename": "TYt8f1F3QfPZomgu5Ed6y6cOPA.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/TYt8f1F3QfPZomgu5Ed6y6cOPA.jpg",
+      "localPath": "assets/images/TYt8f1F3QfPZomgu5Ed6y6cOPA.jpg",
+      "width": 4480,
+      "height": 3200,
+      "aspectRatio": 1.4,
+      "bytes": 164737,
+      "usedOn": [
+        "/work/getlit-webapp/"
+      ]
+    },
+    {
+      "filename": "uAVapywthCvnQOF39HesON2Ykw.png",
+      "sourceUrl": "https://framerusercontent.com/images/uAVapywthCvnQOF39HesON2Ykw.png",
+      "localPath": "assets/images/uAVapywthCvnQOF39HesON2Ykw.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 148278,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "upncO6I8coqVyl13FiyxeXoPE.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/upncO6I8coqVyl13FiyxeXoPE.jpg",
+      "localPath": "assets/images/upncO6I8coqVyl13FiyxeXoPE.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 193128,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "uRyjagOVqyrhurMKLpuHaliIB7Q.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/uRyjagOVqyrhurMKLpuHaliIB7Q.jpg",
+      "localPath": "assets/images/uRyjagOVqyrhurMKLpuHaliIB7Q.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 289102,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "v0DsYcLqvfL1OQVDju2L2D6SfXs.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/v0DsYcLqvfL1OQVDju2L2D6SfXs.jpg",
+      "localPath": "assets/images/v0DsYcLqvfL1OQVDju2L2D6SfXs.jpg",
+      "width": 3840,
+      "height": 2160,
+      "aspectRatio": 1.778,
+      "bytes": 306979,
+      "usedOn": [
+        "/work/no-code-data-builder/"
+      ]
+    },
+    {
+      "filename": "VedQBSPyyANLOFZDoFdXchga8.png",
+      "sourceUrl": "https://framerusercontent.com/images/VedQBSPyyANLOFZDoFdXchga8.png",
+      "localPath": "assets/images/VedQBSPyyANLOFZDoFdXchga8.png",
+      "width": 1383,
+      "height": 2995,
+      "aspectRatio": 0.462,
+      "bytes": 53852,
+      "usedOn": [
+        "/work/zenrock-website-design(mvp)/"
+      ]
+    },
+    {
+      "filename": "VfbU5x6uhHI6wbHb8xDch3I3FA.png",
+      "sourceUrl": "https://framerusercontent.com/images/VfbU5x6uhHI6wbHb8xDch3I3FA.png",
+      "localPath": "assets/images/VfbU5x6uhHI6wbHb8xDch3I3FA.png",
+      "width": 2850,
+      "height": 2027,
+      "aspectRatio": 1.406,
+      "bytes": 142460,
+      "usedOn": [
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./"
+      ]
+    },
+    {
+      "filename": "vOjQPFNzO4h9JA5DzHtvoTygBtE.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/vOjQPFNzO4h9JA5DzHtvoTygBtE.jpg",
+      "localPath": "assets/images/vOjQPFNzO4h9JA5DzHtvoTygBtE.jpg",
+      "width": 2880,
+      "height": 6750,
+      "aspectRatio": 0.427,
+      "bytes": 1044124,
+      "usedOn": [
+        "/work/no-code-data-builder/"
+      ]
+    },
+    {
+      "filename": "vr1FXxbosUfqSkkhKtA1iR3kxw.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/vr1FXxbosUfqSkkhKtA1iR3kxw.jpg",
+      "localPath": "assets/images/vr1FXxbosUfqSkkhKtA1iR3kxw.jpg",
+      "width": 3840,
+      "height": 2160,
+      "aspectRatio": 1.778,
+      "bytes": 340150,
+      "usedOn": [
+        "/work/no-code-data-builder/"
+      ]
+    },
+    {
+      "filename": "wCghvxetwPycgi3rFyvXOTEE4.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/wCghvxetwPycgi3rFyvXOTEE4.jpeg",
+      "localPath": "assets/images/wCghvxetwPycgi3rFyvXOTEE4.jpeg",
+      "width": 2240,
+      "height": 1600,
+      "aspectRatio": 1.4,
+      "bytes": 390934,
+      "usedOn": [
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "WfDIJ0KRJ019FAQYHr30yJGl0c.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/WfDIJ0KRJ019FAQYHr30yJGl0c.jpg",
+      "localPath": "assets/images/WfDIJ0KRJ019FAQYHr30yJGl0c.jpg",
+      "width": 5184,
+      "height": 3456,
+      "aspectRatio": 1.5,
+      "bytes": 1757761,
+      "usedOn": [
+        "/",
+        "/work",
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "WzMSD3FcUnl94oMTqQJ9JDPrCo.png",
+      "sourceUrl": "https://framerusercontent.com/images/WzMSD3FcUnl94oMTqQJ9JDPrCo.png",
+      "localPath": "assets/images/WzMSD3FcUnl94oMTqQJ9JDPrCo.png",
+      "width": 5184,
+      "height": 3351,
+      "aspectRatio": 1.547,
+      "bytes": 495618,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "XFCcAHWT01IfOD6nXF7xn2DFdM.png",
+      "sourceUrl": "https://framerusercontent.com/images/XFCcAHWT01IfOD6nXF7xn2DFdM.png",
+      "localPath": "assets/images/XFCcAHWT01IfOD6nXF7xn2DFdM.png",
+      "width": 5500,
+      "height": 3668,
+      "aspectRatio": 1.499,
+      "bytes": 10011923,
+      "usedOn": [
+        "/work",
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "XLL6g2RyObdhkR0bdeQwos3yuBs.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/XLL6g2RyObdhkR0bdeQwos3yuBs.jpg",
+      "localPath": "assets/images/XLL6g2RyObdhkR0bdeQwos3yuBs.jpg",
+      "width": 5642,
+      "height": 3315,
+      "aspectRatio": 1.702,
+      "bytes": 890088,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "YpmhpATYjphGb9m0H4ETB26pXd0.png",
+      "sourceUrl": "https://framerusercontent.com/images/YpmhpATYjphGb9m0H4ETB26pXd0.png",
+      "localPath": "assets/images/YpmhpATYjphGb9m0H4ETB26pXd0.png",
+      "width": 5184,
+      "height": 3351,
+      "aspectRatio": 1.547,
+      "bytes": 484175,
+      "usedOn": [
+        "/work/zenrock-webapp-design/"
+      ]
+    },
+    {
+      "filename": "yrAJfwTGyTomd5TgaGAErEjWn8.jpeg",
+      "sourceUrl": "https://framerusercontent.com/images/yrAJfwTGyTomd5TgaGAErEjWn8.jpeg",
+      "localPath": "assets/images/yrAJfwTGyTomd5TgaGAErEjWn8.jpeg",
+      "width": 3600,
+      "height": 2101,
+      "aspectRatio": 1.713,
+      "bytes": 889582,
+      "usedOn": [
+        "/work/swoop/"
+      ]
+    },
+    {
+      "filename": "ysjKosNx8c3mJnw3L2pVJwosGw.png",
+      "sourceUrl": "https://framerusercontent.com/images/ysjKosNx8c3mJnw3L2pVJwosGw.png",
+      "localPath": "assets/images/ysjKosNx8c3mJnw3L2pVJwosGw.png",
+      "width": 1383,
+      "height": 3084,
+      "aspectRatio": 0.448,
+      "bytes": 60506,
+      "usedOn": [
+        "/work/zenrock-website-design(mvp)/"
+      ]
+    },
+    {
+      "filename": "ZIpaWSvCFoUGXvOBYogEwos8Kl0.png",
+      "sourceUrl": "https://framerusercontent.com/images/ZIpaWSvCFoUGXvOBYogEwos8Kl0.png",
+      "localPath": "assets/images/ZIpaWSvCFoUGXvOBYogEwos8Kl0.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 92444,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "ZLhnW4YzXOO05k4nhhbCTV8U.png",
+      "sourceUrl": "https://framerusercontent.com/images/ZLhnW4YzXOO05k4nhhbCTV8U.png",
+      "localPath": "assets/images/ZLhnW4YzXOO05k4nhhbCTV8U.png",
+      "width": 394,
+      "height": 108,
+      "aspectRatio": 3.648,
+      "bytes": 3937,
+      "usedOn": [
+        "/"
+      ],
+      "note": "Phase 2 gap-fill: referenced by the homepage \"Previously trusted by\" ticker but missed in the Phase 1 download pass."
+    },
+    {
+      "filename": "zlOx7c1isb8BPBK2ScuMMkrehXw.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/zlOx7c1isb8BPBK2ScuMMkrehXw.jpg",
+      "localPath": "assets/images/zlOx7c1isb8BPBK2ScuMMkrehXw.jpg",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 280898,
+      "usedOn": [
+        "/work/offx-redesign/"
+      ]
+    },
+    {
+      "filename": "ZpiO1mmhYzwlEZ99nrK67yZMVJQ.png",
+      "sourceUrl": "https://framerusercontent.com/images/ZpiO1mmhYzwlEZ99nrK67yZMVJQ.png",
+      "localPath": "assets/images/ZpiO1mmhYzwlEZ99nrK67yZMVJQ.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 133088,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    },
+    {
+      "filename": "ZPoTtu2fI57HGWvui6Qu1XYwr5A.png",
+      "sourceUrl": "https://framerusercontent.com/images/ZPoTtu2fI57HGWvui6Qu1XYwr5A.png",
+      "localPath": "assets/images/ZPoTtu2fI57HGWvui6Qu1XYwr5A.png",
+      "width": 2880,
+      "height": 2048,
+      "aspectRatio": 1.406,
+      "bytes": 96257,
+      "usedOn": [
+        "/work/herd-simplifying-blockchain-with-ai/"
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": "U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+      "sourceUrl": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2",
+      "localPath": "assets/fonts/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 3020
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "sourceUrl": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2",
+      "localPath": "assets/fonts/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 14112
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "sourceUrl": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "localPath": "assets/fonts/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 25224
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+      "sourceUrl": "https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+      "localPath": "assets/fonts/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 8896
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116",
+      "sourceUrl": "https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+      "localPath": "assets/fonts/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 7116
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": "U+1F00-1FFF",
+      "sourceUrl": "https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+      "localPath": "assets/fonts/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4504
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": "U+0370-03FF",
+      "sourceUrl": "https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+      "localPath": "assets/fonts/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 6652
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": "U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "sourceUrl": "https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+      "localPath": "assets/fonts/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 25348
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "sourceUrl": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "localPath": "assets/fonts/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 27380
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB",
+      "sourceUrl": "https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
+      "localPath": "assets/fonts/b6Y37FthZeALduNqHicBT6FutY.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4168
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "unicodeRange": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+      "sourceUrl": "https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2",
+      "localPath": "assets/fonts/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 8892
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116",
+      "sourceUrl": "https://framerusercontent.com/assets/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2",
+      "localPath": "assets/fonts/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 7080
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "unicodeRange": "U+1F00-1FFF",
+      "sourceUrl": "https://framerusercontent.com/assets/1K3W8DizY3v4emK8Mb08YHxTbs.woff2",
+      "localPath": "assets/fonts/1K3W8DizY3v4emK8Mb08YHxTbs.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4628
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "unicodeRange": "U+0370-03FF",
+      "sourceUrl": "https://framerusercontent.com/assets/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2",
+      "localPath": "assets/fonts/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 6672
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "unicodeRange": "U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "sourceUrl": "https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2",
+      "localPath": "assets/fonts/VgYFWiwsAC5OYxAycRXXvhze58.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 26076
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "sourceUrl": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "localPath": "assets/fonts/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 27900
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB",
+      "sourceUrl": "https://framerusercontent.com/assets/GIryZETIX4IFypco5pYZONKhJIo.woff2",
+      "localPath": "assets/fonts/GIryZETIX4IFypco5pYZONKhJIo.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4268
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "unicodeRange": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+      "sourceUrl": "https://framerusercontent.com/assets/H89BbHkbHDzlxZzxi8uPzTsp90.woff2",
+      "localPath": "assets/fonts/H89BbHkbHDzlxZzxi8uPzTsp90.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 9564
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116",
+      "sourceUrl": "https://framerusercontent.com/assets/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2",
+      "localPath": "assets/fonts/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 7556
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "unicodeRange": "U+1F00-1FFF",
+      "sourceUrl": "https://framerusercontent.com/assets/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2",
+      "localPath": "assets/fonts/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4960
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "unicodeRange": "U+0370-03FF",
+      "sourceUrl": "https://framerusercontent.com/assets/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2",
+      "localPath": "assets/fonts/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 7360
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "unicodeRange": "U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "sourceUrl": "https://framerusercontent.com/assets/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2",
+      "localPath": "assets/fonts/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 27736
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "sourceUrl": "https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+      "localPath": "assets/fonts/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 30368
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB",
+      "sourceUrl": "https://framerusercontent.com/assets/2A4Xx7CngadFGlVV4xrO06OBHY.woff2",
+      "localPath": "assets/fonts/2A4Xx7CngadFGlVV4xrO06OBHY.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4236
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "unicodeRange": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+      "sourceUrl": "https://framerusercontent.com/assets/CfMzU8w2e7tHgF4T4rATMPuWosA.woff2",
+      "localPath": "assets/fonts/CfMzU8w2e7tHgF4T4rATMPuWosA.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 9500
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116",
+      "sourceUrl": "https://framerusercontent.com/assets/867QObYax8ANsfX4TGEVU9YiCM.woff2",
+      "localPath": "assets/fonts/867QObYax8ANsfX4TGEVU9YiCM.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 7408
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "unicodeRange": "U+1F00-1FFF",
+      "sourceUrl": "https://framerusercontent.com/assets/Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2",
+      "localPath": "assets/fonts/Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4756
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "unicodeRange": "U+0370-03FF",
+      "sourceUrl": "https://framerusercontent.com/assets/cdAe8hgZ1cMyLu9g005pAW3xMo.woff2",
+      "localPath": "assets/fonts/cdAe8hgZ1cMyLu9g005pAW3xMo.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 7228
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "unicodeRange": "U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "sourceUrl": "https://framerusercontent.com/assets/DOfvtmE1UplCq161m6Hj8CSQYg.woff2",
+      "localPath": "assets/fonts/DOfvtmE1UplCq161m6Hj8CSQYg.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 26696
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "sourceUrl": "https://framerusercontent.com/assets/pKRFNWFoZl77qYCAIp84lN1h944.woff2",
+      "localPath": "assets/fonts/pKRFNWFoZl77qYCAIp84lN1h944.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 29380
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB",
+      "sourceUrl": "https://framerusercontent.com/assets/tKtBcDnBMevsEEJKdNGhhkLzYo.woff2",
+      "localPath": "assets/fonts/tKtBcDnBMevsEEJKdNGhhkLzYo.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4052
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "unicodeRange": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+      "sourceUrl": "https://framerusercontent.com/assets/vxBnBhH8768IFAXAb4Qf6wQHKs.woff2",
+      "localPath": "assets/fonts/vxBnBhH8768IFAXAb4Qf6wQHKs.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 9524
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116",
+      "sourceUrl": "https://framerusercontent.com/assets/zSsEuoJdh8mcFVk976C05ZfQr8.woff2",
+      "localPath": "assets/fonts/zSsEuoJdh8mcFVk976C05ZfQr8.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 7540
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "unicodeRange": "U+1F00-1FFF",
+      "sourceUrl": "https://framerusercontent.com/assets/b8ezwLrN7h2AUoPEENcsTMVJ0.woff2",
+      "localPath": "assets/fonts/b8ezwLrN7h2AUoPEENcsTMVJ0.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4948
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "unicodeRange": "U+0370-03FF",
+      "sourceUrl": "https://framerusercontent.com/assets/mvNEIBLyHbscgHtwfsByjXUz3XY.woff2",
+      "localPath": "assets/fonts/mvNEIBLyHbscgHtwfsByjXUz3XY.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 7332
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "unicodeRange": "U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "sourceUrl": "https://framerusercontent.com/assets/6FI2EneKzM3qBy5foOZXey7coCA.woff2",
+      "localPath": "assets/fonts/6FI2EneKzM3qBy5foOZXey7coCA.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 27624
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "sourceUrl": "https://framerusercontent.com/assets/fuyXZpVvOjq8NesCOfgirHCWyg.woff2",
+      "localPath": "assets/fonts/fuyXZpVvOjq8NesCOfgirHCWyg.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 30176
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB",
+      "sourceUrl": "https://framerusercontent.com/assets/NHHeAKJVP0ZWHk5YZnQQChIsBM.woff2",
+      "localPath": "assets/fonts/NHHeAKJVP0ZWHk5YZnQQChIsBM.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4276
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "unicodeRange": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+      "sourceUrl": "https://framerusercontent.com/assets/5A3Ce6C9YYmCjpQx9M4inSaKU.woff2",
+      "localPath": "assets/fonts/5A3Ce6C9YYmCjpQx9M4inSaKU.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 8956
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116",
+      "sourceUrl": "https://framerusercontent.com/assets/Qx95Xyt0Ka3SGhinnbXIGpEIyP4.woff2",
+      "localPath": "assets/fonts/Qx95Xyt0Ka3SGhinnbXIGpEIyP4.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 7176
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "unicodeRange": "U+1F00-1FFF",
+      "sourceUrl": "https://framerusercontent.com/assets/6mJuEAguuIuMog10gGvH5d3cl8.woff2",
+      "localPath": "assets/fonts/6mJuEAguuIuMog10gGvH5d3cl8.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4644
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "unicodeRange": "U+0370-03FF",
+      "sourceUrl": "https://framerusercontent.com/assets/xYYWaj7wCU5zSQH0eXvSaS19wo.woff2",
+      "localPath": "assets/fonts/xYYWaj7wCU5zSQH0eXvSaS19wo.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 6676
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "unicodeRange": "U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "sourceUrl": "https://framerusercontent.com/assets/otTaNuNpVK4RbdlT7zDDdKvQBA.woff2",
+      "localPath": "assets/fonts/otTaNuNpVK4RbdlT7zDDdKvQBA.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 26264
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "sourceUrl": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "localPath": "assets/fonts/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 27996
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB",
+      "sourceUrl": "https://framerusercontent.com/assets/DolVirEGb34pEXEp8t8FQBSK4.woff2",
+      "localPath": "assets/fonts/DolVirEGb34pEXEp8t8FQBSK4.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4288
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "unicodeRange": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+      "sourceUrl": "https://framerusercontent.com/assets/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2",
+      "localPath": "assets/fonts/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 8908
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116",
+      "sourceUrl": "https://framerusercontent.com/assets/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2",
+      "localPath": "assets/fonts/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 7152
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "unicodeRange": "U+1F00-1FFF",
+      "sourceUrl": "https://framerusercontent.com/assets/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2",
+      "localPath": "assets/fonts/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4660
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "unicodeRange": "U+0370-03FF",
+      "sourceUrl": "https://framerusercontent.com/assets/lEJLP4R0yuCaMCjSXYHtJw72M.woff2",
+      "localPath": "assets/fonts/lEJLP4R0yuCaMCjSXYHtJw72M.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 6668
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "unicodeRange": "U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "sourceUrl": "https://framerusercontent.com/assets/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2",
+      "localPath": "assets/fonts/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 26280
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "sourceUrl": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "localPath": "assets/fonts/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 28088
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB",
+      "sourceUrl": "https://framerusercontent.com/assets/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2",
+      "localPath": "assets/fonts/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 4316
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": null,
+      "sourceUrl": "https://framerusercontent.com/third-party-assets/fontshare/wf/TZ2PMVPWEVHUPJWOPNSWLOXAF6QPOEMZ/O4OZKA7ZLZGT4JOGT5IEKURK6U3RXYGM/EO5MKE3BUDOZN44BP4HDPXAJAC2BIMCD.woff2",
+      "localPath": "assets/fonts/EO5MKE3BUDOZN44BP4HDPXAJAC2BIMCD.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 51432
+    },
+    {
+      "family": "Neue Montreal Regular",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": null,
+      "sourceUrl": "https://framerusercontent.com/assets/EN0wrjjcgDdG3SMgxfEI19PNHRs.woff2",
+      "localPath": "assets/fonts/EN0wrjjcgDdG3SMgxfEI19PNHRs.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 23580
+    },
+    {
+      "family": "PP Neue Montreal Bold",
+      "weight": "700",
+      "style": "normal",
+      "unicodeRange": null,
+      "sourceUrl": "https://framerusercontent.com/assets/wa1QQCb6cXOn2xBXS059rEsCfsc.woff2",
+      "localPath": "assets/fonts/wa1QQCb6cXOn2xBXS059rEsCfsc.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 54812
+    },
+    {
+      "family": "PP Neue Montreal Book",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": null,
+      "sourceUrl": "https://framerusercontent.com/assets/yUScEiZtXZCqdRimefTfBx1Q4.woff2",
+      "localPath": "assets/fonts/yUScEiZtXZCqdRimefTfBx1Q4.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 54844
+    },
+    {
+      "family": "PP Neue Montreal Medium",
+      "weight": "500",
+      "style": "normal",
+      "unicodeRange": null,
+      "sourceUrl": "https://framerusercontent.com/assets/6uIfYl8bnz9kOy3KOuV7PxhFPhA.woff2",
+      "localPath": "assets/fonts/6uIfYl8bnz9kOy3KOuV7PxhFPhA.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 56548
+    },
+    {
+      "family": "PP Neue Montreal Regular",
+      "weight": "400",
+      "style": "normal",
+      "unicodeRange": null,
+      "sourceUrl": "https://framerusercontent.com/assets/kJNAUoYMYbf89EGcrWXRKqEeMc.woff2",
+      "localPath": "assets/fonts/kJNAUoYMYbf89EGcrWXRKqEeMc.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 51984
+    },
+    {
+      "family": "PP Neue Montreal SemiBold",
+      "weight": "600",
+      "style": "normal",
+      "unicodeRange": null,
+      "sourceUrl": "https://framerusercontent.com/assets/4MKMq3fAUvPlUf3nRWmLMzBRBc.woff2",
+      "localPath": "assets/fonts/4MKMq3fAUvPlUf3nRWmLMzBRBc.woff2",
+      "usedOn": [
+        "/",
+        "/work",
+        "/about",
+        "/work/offx-redesign/",
+        "/work/herd-simplifying-blockchain-with-ai/",
+        "/work/no-code-data-builder/",
+        "/work/corestack-enterprise-control-panel/",
+        "/work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./",
+        "/work/zenrock-webapp-design/",
+        "/work/zenrock-website-design(mvp)/",
+        "/work/getlit-webapp/",
+        "/work/houzecheck-webapp/",
+        "/work/mindlantic/",
+        "/work/swoop/"
+      ],
+      "bytes": 57196
+    }
+  ],
+  "otherMedia": [],
+  "notes": [
+    "No <video> elements or mp4/webm assets found on any route (checked all 14 pages).",
+    "Framer CDN serves responsive variants via query params (?width=N) at runtime; base files stored here with original filenames.",
+    "Some images are referenced with srcset widths (e.g. ?width=518) — same base file.",
+    "Fonts include Google Fonts (Fragment Mono), Fontshare, and Framer-hosted PP Neue Montreal woff2 files."
+  ]
+}

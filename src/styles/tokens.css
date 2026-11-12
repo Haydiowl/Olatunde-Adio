@@ -1,0 +1,195 @@
+/* =============================================================================
+   tokens.css — design tokens (Phase 2, task 1)
+
+   SOURCE OF TRUTH: reference-audit/design-tokens.json + verbatim Framer token
+   extraction from the reference site's HTML (both color schemes).
+
+   The reference defines its tokens on `body` and overrides 2 of them under
+   `@media (prefers-color-scheme: dark)` — that override is reproduced here.
+
+   CORRECTIONS vs the Phase 1 design-tokens.json census (recorded stale var()
+   fallbacks rather than the token definitions — amended in that file too):
+     - --token-86117d10 = #2a2a2a  (census said #212121 — that was a var() fallback)
+     - --token-24044501 = #0a0a0a  (census said #0E0E0F — fallback)
+     - --token-cd708a3c = #eceae3 light / #fff dark (census said #F9FAFB — fallback)
+
+   Do not add new colors: every value below was extracted from the reference.
+   ========================================================================== */
+
+:root {
+  /* --- Framer raw tokens (light scheme: the default) ---------------------- */
+  --token-24044501: #0a0a0a; /* ink / nav ink / headings */
+  --token-cd708a3c: #eceae3; /* page + nav surface (light) */
+  --token-5e9e8e0f: #fff;
+  --token-d607af31: #f5f4f0;
+  --token-3a5c8f06: #ffffffc2;
+  --token-86117d10: #2a2a2a; /* secondary text / labels / rules */
+  --token-8b7699fe: #1fb46a; /* green status dot */
+  --token-b86dbd64: #e5341b; /* accent (red-orange) */
+  --token-d5d5843f: #fff; /* selection text */
+  --token-7171c7ce: #2e6bdb; /* blue */
+  --token-e1eb4ea5: #6f6e6a; /* muted (row arrow) */
+  --token-16e34404: #ffffffc2;
+  --token-123b8b4d: #e5e3db; /* CTA card beige */
+  --token-baeb5cb5: #cccaca;
+
+  /* --- Dark scheme (reference: @media prefers-color-scheme:dark on body) --- */
+  /* Only cd708a3c and d607af31 change; the other 12 are scheme-independent. */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --token-cd708a3c: #fff;
+    --token-d607af31: #f4f3ee;
+  }
+}
+
+/* =============================================================================
+   Semantic aliases — named for readability. Values are the tokens above only;
+   these aliases introduce NO new colors.
+   ========================================================================== */
+:root {
+  /* surfaces */
+  --color-page: var(--token-cd708a3c); /* page bg + nav bg */
+  --color-surface-soft: var(--token-d607af31);
+  --color-cta-card: var(--token-123b8b4d);
+  --color-game-field: #faf9f7; /* bubble-game container bg (verified, layout-measurements) */
+  --color-white: var(--token-5e9e8e0f);
+
+  /* text */
+  --color-ink: var(--token-24044501); /* headings, primary text #0a0a0a */
+  --color-ink-secondary: var(--token-86117d10); /* nav links, labels, rules #2a2a2a */
+  --color-muted: var(--token-e1eb4ea5); /* row arrow #6f6e6a */
+  --color-on-accent: var(--token-d5d5843f); /* #fff (button labels, selection text) */
+  --color-beige: var(--token-baeb5cb5);
+
+  /* accents */
+  --color-accent: var(--token-b86dbd64); /* #e5341b — HIGHLIGHT spans, EMAIL ME button, hover arrows */
+  --color-green: var(--token-8b7699fe); /* status dot */
+  --color-blue: var(--token-7171c7ce);
+
+  /* selection (reference: --selection-background-color / --selection-color) */
+  --selection-background: var(--token-b86dbd64);
+  --selection-color: var(--token-d5d5843f);
+
+  /* rules / hairlines */
+  --rule-color: var(--token-86117d10); /* nav rule + section dividers: 1px #2a2a2a */
+
+  /* shadows (from design-tokens.json shadows — verified box-shadow census) */
+  --shadow-hairline-inset: rgba(255, 255, 255, 0.9) 0px 0px 0px 0.75px inset;
+  --shadow-glass: rgba(255, 255, 255, 0.55) 0px 0px 0px 1px inset,
+    rgba(255, 255, 255, 0.95) 1.6px 2.5px 5px -1px inset,
+    rgba(92, 108, 138, 0.5) -3.3px -5.5px 12.1px -3.3px inset,
+    rgba(255, 255, 255, 0.7) 0px -2px 10px -2px inset,
+    rgba(40, 50, 74, 0.5) 0px 8px 19px -9px;
+
+  /* radii (design-tokens.json radii: default is square) */
+  --radius-none: 0px;
+  --radius-circle: 50%;
+  --radius-subtle: 0px 0px 1px;
+  --radius-small: 10px;
+
+  /* Transitions (computed census, animation-inventory §4):
+     color 0.3s cubic-bezier(0.44,0,0.23,0.99) · opacity 0.6s ease ·
+     transform 0.75s cubic-bezier(0.2,0.7,0.2,1).
+     Hover STATE changes are JS-driven in the reference and their durations are
+     UNVERIFIED (§A3) — only these three computed transitions are used. */
+  --transition-color: color 0.3s cubic-bezier(0.44, 0, 0.23, 0.99);
+  --transition-opacity: opacity 0.6s ease;
+  --transition-transform: transform 0.75s cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  /* z-index (game controls 7: animation-inventory §7; nav: the CSS rule for the
+     home nav container .dgmr2u-container sets z-index 4 — the §7 census recorded
+     8 for a wrapper element; the CSS rule is authoritative for this implementation) */
+  --z-nav: 4;
+  --z-game-controls: 7;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    /* Disable motion while preserving instant state changes for accessibility.
+       Specific hover/reveal timings are UNVERIFIED in the reference (§A3);
+       this is a user-preference override, not a reference behavior. */
+    --transition-color: color 0s linear;
+    --transition-opacity: opacity 0s linear;
+    --transition-transform: transform 0s linear;
+  }
+}
+
+/* =============================================================================
+   Spacing & container system (Phase 2, task 3)
+   SOURCE: reference-audit/design-tokens.json → spacing + responsive-breakpoints.md.
+   Every gap/padding below was measured on the reference — no generic scale.
+   ========================================================================== */
+:root {
+  /* Observed gaps (design-tokens.json spacing.observedGaps) */
+  --gap-root: 100px; /* page-wrapper flex gap, all pages */
+  --gap-section-label-to-card: 24px; /* section wrapper gap (label → card), verified */
+  --gap-section-block: 40px; /* work-row gap; case-study section-block gap */
+  --gap-featured-card: 40px; /* featured-case card gap at >=1280 */
+  --gap-featured-card-tablet: 24px; /* featured-case card gap at 810-1279 */
+  --gap-row-inner: 20px; /* work-row inner content gap (label → title column) */
+  --gap-hero: 40px; /* hero section gap; hero column gap on mobile */
+  --gap-footer: 100px; /* footer column gap >=1280 (variant base); 80px 810-1279
+                          (measured live at 1168); 20px <=809 — responsive.css */
+  --gap-footer-cols: 49px; /* footer 3-column gap (derived + verified at 6 widths) */
+  --gap-case-root: 60px; /* case-study page root flex gap */
+  --gap-nav: 12px; /* nav inner row gap */
+  --gap-label-row: 10px; /* section-label row gap (number → rule → text) */
+  --gap-label-stack: 20px; /* section-label column gap (row → divider) */
+  --gap-hero-actions: 24px; /* hero action links gap (measured ≈24) */
+  --gap-cta: 10px; /* CTA card inner gap */
+  --gap-status-dot: 4px; /* OPEN TO WORK dot → text gap; game controls gap */
+
+  /* Root/page padding: 64px <gutter> 0 (all pages, verified across widths) */
+  --root-pad-top: 64px;
+
+  /* Gutters (3-tier, verified): 16px <=809 | 32px 810-1279 | 40px >=1280.
+     Desktop-first: base = >=1280 value; responsive.css steps down. */
+  --gutter: 40px;
+
+  /* Content container: width - 2*gutter, capped at 1200px (R3: cap engages
+     somewhere in 1201-1279 — see responsive.css for the implemented rule) */
+  --content-max: 1200px;
+
+  /* Nav: fixed, height 45px, padding 12px <gutter> 0, 1px rule at y44 */
+  --nav-height: 45px;
+  --nav-pad-top: 12px;
+
+  /* Case-study page: padding 144px 32px 0 (verified at 1168) */
+  --case-pad-top: 144px;
+  --case-rail-width: 266px;
+  --case-content-width: 798px;
+  --case-sticky-top: 60px;
+
+  /* Featured-case card: left column fixed 360px (all widths >=1280; 30% of 1200) */
+  --featured-col: 360px;
+
+  /* CTA card padding: 100px >=1280 / 60px 810-1279 / 40px <=809 (all probed) */
+  --cta-pad: 100px;
+
+  /* --- Home section gaps (iframe probes + CSS variant rules) --------------- */
+  --gap-hero-wrap: 60px; /* hero wrapper (H1 block -> subcopy/actions row) */
+  --gap-hero-sub: 8px; /* subcopy internal column gap */
+  --gap-home-block: 40px; /* section 01 wrapper (label -> featured card), >=1280;
+                             24px <=1279 (probe at 1168) — responsive.css */
+  --gap-home-block-02: 30px; /* section 02 wrapper (label -> rows), >=1280;
+                                24px <=1279 (probe at 1168) — responsive.css */
+  --gap-section-03: 20px; /* "Why work with me" section column gap (probe) */
+  --gap-section-04: 40px; /* "How I work" section column gap (probe) */
+  --gap-section-05: 40px; /* "Previously trusted" section column gap (probe) */
+  --gap-principle-cards: 24px; /* section 03 card row gap */
+  --principle-card-pad: 32px; /* section 03 card padding */
+  --gap-principle-card: 32px; /* section 03 card internal gap */
+  --gap-how-row: 60px; /* section 04 heading -> items row gap */
+  --gap-logos: 50px; /* section 05 logo list gap */
+
+  /* CTA card inner structure (probe): pad -> column gap 20 [label,
+     column gap 40 [column gap 36 [heading, buttons], status row]] */
+  --gap-cta-card: 20px;
+  --gap-cta-block: 40px;
+  --gap-cta-cluster: 36px;
+
+  /* Hero actions row gap */
+  --gap-actions: 24px;
+}

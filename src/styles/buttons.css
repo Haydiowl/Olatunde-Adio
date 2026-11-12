@@ -1,0 +1,177 @@
+/* =============================================================================
+   buttons.css — buttons + action links (Phase 2, task 4)
+
+   SOURCE: live-DOM probes of the reference's resting states + CSS:
+     - CTA buttons (wDguu): row, center, gap 8px, padding 12px 16px 12px 20px,
+       20×20 arrow box (overflow hidden, svg rotated -45deg) → natural size
+       185×44 (HIRE ME ON CONTRA) / 120×44 (EMAIL ME) — sizes fall out of the
+       padding+gap, no hard-coded widths.
+     - READ MORE (featured card): 160×32, padding 10px 20px, gap 16px,
+       bg #2a2a2a, label #e5e3db 12px/500, border 0 (computed), centered.
+     - DOWNLOAD RESUME (/about): 160×32, bg rgba(230,228,220,0) → hover
+       rgba(230,228,220,0.27) (live hover test).
+     - Hero/nav action links (BZ7GV): column gap 0 = [row gap 4: label,
+       14×14 arrow box (overflow hidden, rotated -45deg), underline bar 1×1
+       opacity 0 → hover stretches to full width (A7: final opacity UNVERIFIED)].
+   Hover durations are JS-driven in the reference and UNVERIFIED (§A3) —
+   only the verified color transition is applied.
+   ========================================================================== */
+
+/* --- Base button (CTA geometry: gap 8, padding 12/16/12/20) --------------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 16px 12px 20px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--text-label);
+  line-height: 12px;
+  letter-spacing: var(--text-label-tracking);
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: var(--transition-color), background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.btn__arrow {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn__arrow svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: rotate(-45deg); /* verified: arrow container rotate(-45deg) */
+  fill: currentColor;
+}
+
+/* dark: bg #2a2a2a, label #fff (measured CTA HIRE ME ON CONTRA 185×44) */
+.btn--dark {
+  background: var(--color-ink-secondary);
+  color: var(--color-white);
+}
+
+/* accent: bg #e5341b, label #fff (measured EMAIL ME 120×44) */
+.btn--accent {
+  background: var(--color-accent);
+  color: var(--color-white);
+}
+
+/* read-more: 160×32, bg #2a2a2a, label #e5e3db, padding 10/20, gap 16 */
+.btn--read-more {
+  width: 160px;
+  height: 32px;
+  padding: 10px 20px;
+  gap: 16px;
+  background: var(--color-ink-secondary);
+  color: var(--color-cta-card); /* measured rgb(229,227,219) */
+}
+
+/* ghost (DOWNLOAD RESUME): 160×32, transparent beige → hover 27% beige */
+.btn--ghost {
+  width: 160px;
+  height: 32px;
+  padding: 10px 20px;
+  gap: 16px;
+  background: rgba(230, 228, 220, 0);
+  color: var(--color-ink-secondary);
+  transition: background-color 0.3s ease, var(--transition-color);
+}
+
+.btn--ghost:hover,
+.btn--ghost:focus-visible {
+  background: rgba(230, 228, 220, 0.27); /* verified live hover state */
+}
+
+/* --- Action links (hero HIRE ME ON CONTRA / GET IN TOUCH, nav BOOK A CALL) -
+   structure: column gap 0 = [row gap 4 (label + 14×14 arrow), underline bar] */
+.action-link {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.action-link__row {
+  display: flex;
+  align-items: center;
+  gap: 4px; /* measured: j7mroc gap 4px */
+}
+
+.action-link__arrow {
+  width: 14px; /* measured: qpfs04 14×14 (rotated bbox 19.8, clipped) */
+  height: 14px;
+  flex: none;
+  overflow: hidden;
+  position: relative;
+}
+
+.action-link__arrow svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: rotate(-45deg);
+  fill: currentColor;
+}
+
+/* underline bar: rest 1px centered (observed) expanding to full width on hover.
+   Timing is JS-driven/unverified in reference; animated here for consistent motion
+   while preserving observed states (width expansion + arrow/label color). */
+.action-link__bar {
+  width: 100%;
+  height: 1px;
+  background: var(--color-ink);
+  opacity: 0;
+  transform: scaleX(0.01);
+  transform-origin: center;
+  transition: transform 0.3s cubic-bezier(0.44, 0, 0.23, 0.99), opacity 0.2s ease;
+}
+
+.action-link:hover .action-link__bar,
+.action-link:focus-visible .action-link__bar {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
+/* hover: label + arrow → accent (verified for the nav BOOK A CALL arrow and
+   for hero/nav links resting #2a2a2a → accent). The underline bar keeps its
+   measured #0a0a0a fill (its hover color is not separately verified). */
+.action-link {
+  color: var(--color-ink-secondary);
+  transition: var(--transition-color);
+}
+
+.action-link:hover,
+.action-link:focus-visible {
+  color: var(--color-accent);
+}
+
+.action-link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .btn--ghost,
+  .action-link,
+  .action-link__bar {
+    transition: none;
+  }
+}

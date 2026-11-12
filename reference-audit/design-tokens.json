@@ -1,0 +1,345 @@
+{
+  "$schema": "design-tokens (extracted from live reference site)",
+  "meta": {
+    "site": "https://www.sandeep.design/",
+    "engine": "Framer SSG (server: Framer/4207944, assets: framerusercontent.com)",
+    "extractedOn": "2026-11-06",
+    "primaryViewport": "1168x975 CSS px, DPR 2 (in-app browser window; width fluctuated with Review pane — see responsive-breakpoints.md for controlled iframe probes)",
+    "method": "getComputedStyle census over every DOM node + stylesheet rule walk + Framer --token-* inline style inspection",
+    "note": "Every value below lists where it was observed. Counts = number of DOM elements with that computed value on the homepage at the time of the census pass.",
+    "amendments": [
+      "2026-11-08 Phase 2: nav-surface corrected #F9FAFB → #ECEAE3 (light) / #FFFFFF (dark) — the census recorded the var() fallback.",
+      "2026-11-08 Phase 2: nav-ink corrected #0E0E0F → #0A0A0A — token definition, not the fallback.",
+      "2026-11-08 Phase 2: nav-rule corrected #212121 → #2A2A2A — token definition, not the #212121 fallback embedded in inline styles."
+    ]
+  },
+  "color": {
+    "ink": {
+      "value": "#000000",
+      "css": "rgb(0, 0, 0)",
+      "observedCount": 935,
+      "usage": "body color, default text, deepest black",
+      "source": "computed-style census, homepage, viewport 1168x975"
+    },
+    "ink-900": {
+      "value": "#0A0A0A",
+      "css": "rgb(10, 10, 10)",
+      "observedCount": 793,
+      "usage": "primary headings (H1/H2/H4), work-row titles, score text, dark button backgrounds (READ MORE bg uses ink-700)",
+      "source": "computed-style census + hero H1 / work row / CTA H2 measurements, homepage, viewport 1168x975"
+    },
+    "ink-700": {
+      "value": "#2A2A2A",
+      "css": "rgb(42, 42, 42)",
+      "observedCount": 417,
+      "usage": "secondary text: nav links, section labels, descriptions, meta (P.01 / PRODUCT DESIGN / year), row arrow uses muted instead; READ MORE button background",
+      "source": "computed-style census + nav link / work row leaf measurements, viewport 1168x975"
+    },
+    "accent": {
+      "value": "#E5341B",
+      "css": "rgb(229, 52, 27)",
+      "observedCount": 100,
+      "usage": "hero highlight words (\"Product design\"), CTA highlight span (\"complex product\"), OPEN TO WORK pulsing dot, nav BOOK A CALL arrow on hover",
+      "source": "computed-style census; hero H1 span; CTA H2 span (x220 y3601 w295); hover test (arrow rgb(42,42,42)->rgb(229,52,27)), viewport 1168x975"
+    },
+    "muted": {
+      "value": "#6F6E6A",
+      "css": "rgb(111, 110, 106)",
+      "observedCount": 26,
+      "usage": "work-row trailing arrow SVG fill/stroke (23x23 at x1117), muted copy",
+      "source": "computed-style census + work row svg leaf, viewport 1168x975"
+    },
+    "muted-line": {
+      "value": "rgba(111, 110, 106, 0.2)",
+      "observedCount": 11,
+      "usage": "hairline dividers / borders",
+      "source": "computed-style census, homepage, viewport 1168x975"
+    },
+    "white": {
+      "value": "#FFFFFF",
+      "css": "rgb(255, 255, 255)",
+      "observedCount": 17,
+      "usage": "page background (body bg), button label text (HIRE ME ON CONTRA / EMAIL ME = rgb(255,255,255))",
+      "source": "computed-style census + CTA button label measurements, viewport 1168x975"
+    },
+    "beige-100": {
+      "value": "#F4F3EE",
+      "css": "rgb(244, 243, 238)",
+      "observedCount": 6,
+      "usage": "light beige surface",
+      "source": "computed-style census, homepage, viewport 1168x975"
+    },
+    "beige-200": {
+      "value": "#E5E3DB",
+      "css": "rgb(229, 227, 219)",
+      "observedCount": 4,
+      "usage": "CTA card background (verified: CTA section bg, x32 y3491 w1104 h376, pad 60 at 1168 / pad 100 at 1440)",
+      "source": "computed-style census + CTA section measurement, viewport 1168x975; pad re-probed at 1440 via iframe"
+    },
+    "surface-game": {
+      "value": "#FAF9F7",
+      "css": "rgb(250, 249, 247)",
+      "observedCount": 1,
+      "usage": "bubble-game playfield background (1104x600, overflow hidden)",
+      "source": "game container measurement, homepage footer, viewport 1168x975"
+    },
+    "nav-surface": {
+      "value": "#ECEAE3",
+      "css": "rgb(236, 234, 227)",
+      "framerToken": "--token-cd708a3c-25bb-4606-92f4-351c74f13945",
+      "usage": "nav bar background-color (inline style on nav element); the token resolves to #ECEAE3 in the light scheme and #FFFFFF under prefers-color-scheme: dark",
+      "source": "Framer token definition block (home.html <style>): --token-cd708a3c:#eceae3; dark override #fff"
+    },
+    "nav-ink": {
+      "value": "#0A0A0A",
+      "css": "rgb(10, 10, 10)",
+      "framerToken": "--token-24044501-c8a3-4567-94c1-8e47e189b193",
+      "usage": "logo wordmark text (via --extracted-r6o4lv), mobile 'menu' label, menu hamburger bars (2x 16x1px)",
+      "source": "Framer token definition: --token-24044501:#0a0a0a (the earlier #0E0E0F was the var() fallback, not the token value)"
+    },
+    "nav-rule": {
+      "value": "#2A2A2A",
+      "css": "rgb(42, 42, 42)",
+      "framerToken": "--token-86117d10-82c0-48ca-83b9-ad514639102d",
+      "usage": "1px horizontal rule under nav (framer-kum8tb-container, y44 h1 w1104)",
+      "source": "Framer token definition: --token-86117d10:#2a2a2a (inline styles carry a #212121 var() fallback; the token itself is authoritative)"
+    },
+    "hover-beige": {
+      "value": "rgba(230, 228, 220, 0.27)",
+      "restValue": "rgba(230, 228, 220, 0)",
+      "usage": "DOWNLOAD RESUME button background on hover (160x32 at x976 y485 on /about)",
+      "source": "synthetic mouseover test on /about, viewport 1168x975"
+    },
+    "link-default": {
+      "value": "rgb(0, 0, 238)",
+      "observedCount": 300,
+      "usage": "computed color of anchors where Framer did not override (SERIOUS CAVEAT: this is the UA default; rendered link colors are set per-element via --framer-link-text-color — e.g. logo renders rgb(14,14,15), nav links render rgb(42,42,42)). Do not use #0000EE in the rebuild without checking the specific element.",
+      "source": "computed-style census, homepage, viewport 1168x975"
+    }
+  },
+  "typographyTokens": {
+    "fontFamilies": {
+      "display": "\"PP Neue Montreal Medium\", sans-serif (weight 500)",
+      "body": "\"PP Neue Montreal Regular\", sans-serif (weight 400)",
+      "semibold": "\"PP Neue Montreal SemiBold\", sans-serif (weight 600)",
+      "mono": "\"Fragment Mono\", monospace (weight 400, Google Fonts)",
+      "alsoDeclared": [
+        "PP Neue Montreal Bold (700)",
+        "PP Neue Montreal Book (400)",
+        "Neue Montreal Regular (400)",
+        "Inter (400)",
+        "JetBrains Mono (400)"
+      ]
+    },
+    "loadedOnHome": [
+      "PP Neue Montreal Medium (500) — framerusercontent.com/assets/6uIfYl8bnz9kOy3KOuV7PxhFPhA.woff2",
+      "PP Neue Montreal Regular (400)",
+      "PP Neue Montreal SemiBold (600)"
+    ],
+    "source": "document.fonts enumeration + @font-face rule walk, homepage, viewport 1168x975; full file list in asset-inventory.json"
+  },
+  "radii": {
+    "none": {
+      "value": "0px",
+      "note": "CTA card, READ MORE button, nav — default is square"
+    },
+    "circle": {
+      "value": "50%",
+      "observedCount": 86,
+      "usage": "pulsing dot, bubble-game circles, avatar-like elements"
+    },
+    "subtle": {
+      "value": "0px 0px 1px",
+      "observedCount": 13
+    },
+    "small": {
+      "value": "10px",
+      "observedCount": 1
+    },
+    "source": "computed-style border-radius census, homepage, viewport 1168x975"
+  },
+  "shadows": {
+    "hairline-inset": {
+      "value": "rgba(255, 255, 255, 0.9) 0px 0px 0px 0.75px inset",
+      "observedCount": 21,
+      "source": "computed-style box-shadow census, homepage, viewport 1168x975"
+    },
+    "glass": {
+      "value": "rgba(255, 255, 255, 0.55) 0px 0px 0px 1px inset, rgba(255, 255, 255, 0.95) 1.6px 2.5px 5px -1px inset, rgba(92, 108, 138, 0.5) -3.3px -5.5px 12.1px -3.3px inset, rgba(255, 255, 255, 0.7) 0px -2px 10px -2px inset, rgba(40, 50, 74, 0.5) 0px 8px 19px -9px",
+      "observedCount": 2,
+      "note": "a second variant scales the same stack (~1.9x): rgba(255,255,255,0.55) 0 0 0 1px inset, rgba(255,255,255,0.95) 3.1px 4.6px 9.2px -1px inset, rgba(92,108,138,0.5) -6.1px -10.2px 22.4px -6.1px inset, ... — used by the glassy 3D-looking elements in the HOW section",
+      "source": "computed-style box-shadow census, homepage, viewport 1168x975"
+    },
+    "cta": {
+      "value": "none",
+      "source": "CTA section measurement, viewport 1168x975"
+    }
+  },
+  "spacing": {
+    "observedGaps": {
+      "100px": "root page wrapper flex gap (all pages, 810-1440 probed)",
+      "80px": "footer flex column gap",
+      "60px": "case-study page root flex gap (pad 144px 32px 0)",
+      "49px": "footer 3-column gap (derived: col widths 216/287/312/335/346/367 at container 746/959/1035/1104/1135/1200 all satisfy (W-2*49)/3, verified at 6 widths)",
+      "40px": "work-row flex gap; featured-case card gap at >=1280 (24px at 810-1279); hero section gap; section content gaps",
+      "24px": "featured-case card gap at 810-1279; case-study inner blocks",
+      "20px": "work-row inner content flex gap (label -> title column)",
+      "12px": "nav flex gap",
+      "10px": "CTA flex column gap; featured-case title block gap; Key Highlights list gap",
+      "4px": "bubble-game control button gap; preview wrapper gap",
+      "source": "gap measurements across passes; footer gap derived from column geometry at 6 viewport widths (iframe probes + live DOM)"
+    },
+    "pagePaddings": {
+      "root": {
+        "<=809": "64px 16px 0px (from earlier mobile pass)",
+        "810-1279": "64px 32px 0px (iframe probes w810..w1279 + live 1168)",
+        ">=1280": "64px 40px 0px (iframe probes w1280, w1440)"
+      },
+      "caseStudyRoot": "144px 32px 0px (live DOM, /work/no-code-data-builder/, viewport 1168)",
+      "nav": {
+        "<=809": "12px 16px 0px",
+        "810-1279": "12px 32px 0px",
+        ">=1280": "12px 40px 0px"
+      },
+      "ctaCard": {
+        "810-1279": "60px",
+        ">=1280": "100px"
+      },
+      "source": "iframe probes at 390/809/810/1023/1024/1099/1100/1199/1200/1279/1280/1440 + live DOM at 1168"
+    },
+    "contentMaxWidth": {
+      "value": "1200px",
+      "evidence": "hero/section width = min(container, 1200): measured heroW 1136@1200w, 1200@1279w (x40, centered), 1200@1280w (x40), 1200@1440w (x120 centered)",
+      "source": "iframe probes w1199/1200/1279/1280/1440"
+    }
+  },
+  "breakpoints": {
+    "mobileMax": "809px",
+    "tabletMin": "810px",
+    "desktopMin": "1280px",
+    "intermediateQueriesPresent": [
+      "(max-width: 1023px) and (min-width: 810px)",
+      "(max-width: 1099px) and (min-width: 810px)",
+      "(max-width: 1199px) and (min-width: 810px)",
+      "(max-width: 1279px) and (min-width: 810px)",
+      "(max-width: 809.98px)",
+      "(max-width: 809px) and (min-width: 0px)",
+      "(min-width: 810px) and (max-width: 1279.98px)",
+      "(prefers-color-scheme: dark) x1 rule"
+    ],
+    "ruleCounts": {
+      "809-mobile": "52 rules",
+      "1023": "35 rules",
+      "1099": "4 rules",
+      "1199": "11 rules",
+      "1279": "2+2 rules",
+      "dark": "1 rule"
+    },
+    "detail": "responsive-breakpoints.md",
+    "source": "CSSMediaRule walk over all document.styleSheets, homepage, viewport 1168x975 + behavioral iframe probes"
+  },
+  "motion": {
+    "appearTweens": [
+      {
+        "id": "dgmr2u (nav)",
+        "initial": {
+          "opacity": 0.001
+        },
+        "animate": {
+          "opacity": 1
+        },
+        "transition": {
+          "delay": 0.1,
+          "duration": 0.4,
+          "ease": [
+            0.36,
+            0.02,
+            0.14,
+            0.96
+          ],
+          "type": "tween"
+        },
+        "transformTemplate": "translateX(-50%) __Appear_Animation_Transform__"
+      },
+      {
+        "id": "cvhcy1",
+        "initial": {
+          "opacity": 0.001,
+          "y": 20
+        },
+        "animate": {
+          "opacity": 1,
+          "y": 0
+        },
+        "transition": {
+          "delay": 0,
+          "duration": 0.5,
+          "ease": [
+            0.58,
+            0.02,
+            0.37,
+            0.99
+          ],
+          "type": "tween"
+        }
+      },
+      {
+        "id": "1e91r9o",
+        "initial": {
+          "opacity": 0.001,
+          "y": 20
+        },
+        "animate": {
+          "opacity": 1,
+          "y": 0
+        },
+        "transition": {
+          "delay": 0.1,
+          "duration": 0.4,
+          "ease": [
+            0.44,
+            0,
+            0.32,
+            0.93
+          ],
+          "type": "tween"
+        }
+      },
+      {
+        "id": "1fe07t7",
+        "initial": {
+          "opacity": 0.001,
+          "y": 20
+        },
+        "note": "initial captured; animate transition truncated in capture — see animation-inventory.md"
+      }
+    ],
+    "cssTransitions": {
+      "color": "color 0.3s cubic-bezier(0.44, 0, 0.23, 0.99)",
+      "fadeSlide": "opacity, transform 0.6s, 0.75s ease, cubic-bezier(0.2, 0.7, 0.2, 1)"
+    },
+    "keyframes": [
+      "pulsingDotRipple",
+      "bfrise",
+      "bfwob",
+      "bfring",
+      "bfflash",
+      "bffade",
+      "bfpop",
+      "bfconf",
+      "bfspin"
+    ],
+    "detail": "animation-inventory.md",
+    "source": "#__framer__appearAnimationsContent JSON + stylesheet keyframe/transition census, homepage, viewport 1168x975"
+  },
+  "zIndex": {
+    "nav": 8,
+    "gameControls": 7,
+    "source": "fixed-position element scan (nav) + game controls inline style z-index:7, viewport 1168x975"
+  },
+  "fixedAndSticky": {
+    "nav": "position: fixed; top: 0; z-index: 8; height 45px (all pages)",
+    "caseStudyRails": "position: sticky; top: 60px (5 rails on /work/no-code-data-builder/: heights 190/190/190/215/190 at y 1136/2365/6075/7776/12614)",
+    "source": "computed position census, viewport 1168x975"
+  }
+}

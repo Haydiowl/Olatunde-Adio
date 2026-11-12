@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "site": "https://www.sandeep.design/",
+    "extractedOn": "2026-11-06",
+    "units": "CSS pixels; x/y are document-absolute (getBoundingClientRect + scrollY) unless noted 'viewport-relative'",
+    "sources": {
+      "live": "browser.evaluate computed measurements on live DOM, in-app Chromium, viewport 1168x975 DPR2 (window width fluctuated with Review pane across passes — each block records its own viewport readout)",
+      "iframe": "same-origin iframe probe: fresh '/' loaded inside a fixed-width iframe (media queries respond to iframe width); viewport = iframe width x 500-844",
+      "html": "server-rendered HTML fetched via curl (14 routes) — structural only, no geometry",
+      "sips": "sips -g pixelWidth/pixelHeight on downloaded files",
+      "screenshot": "browser.screenshot fullPage/viewport captures"
+    }
+  },
+
+  "home": {
+    "page": { "scrollHeight": 4961, "viewport": "1168x975", "source": "live", "title": "Sandeep Kumar — Product Designer", "lang": "en-US" },
+
+    "rootWrapper": { "x": 0, "y": 0, "w": 1168, "h": 4961, "display": "flex", "direction": "column (inferred from stacking)", "gap": "100px", "padding": "64px 32px 0px", "background": "rgb(255,255,255)", "element": "div.framer-P9pAQ framer-d1G5N framer-smilt framer-zOPhs framer-z", "source": "live", "viewport": "1168x975" },
+
+    "nav": {
+      "container": { "x": 0, "y": 0, "w": 1168, "h": 45, "position": "fixed", "top": "0px", "zIndex": 8, "background": "rgba(0,0,0,0) (inline: var(--token-cd708a3c..) #F9FAFB)", "borderBottom": "none", "element": "div.framer-5puuw3-container", "source": "live" },
+      "innerRow": { "w": 1168, "h": 45, "display": "flex", "justifyContent": "flex-start", "alignItems": "center", "gap": "12px", "padding": "12px 40px 0px  (NOTE: controlled iframe probes give 32px for 810-1279 and 40px only at >=1280 — this live reading of 40px was taken in a pass where the window may have been >=1280 wide; iframe probes are authoritative, see responsive-breakpoints.md)", "element": "div.framer-dYPRz...", "source": "live" },
+      "logoLink": { "text": "SANDEEP KUMAR", "href": "./", "x": 40, "y": 16, "w": 100, "h": 12, "fontSize": "12px", "fontWeight": 400, "renderedColor": "rgb(14,14,15) via --token-24044501", "display": "flex", "gap": "10px", "source": "live" },
+      "homeLink": { "text": "HOME", "x": 506, "y": 15, "w": 36, "h": 15, "fontSize": "12px", "fontWeight": 500, "letterSpacing": "0.12px", "textTransform": "uppercase", "color": "rgb(42,42,42)", "source": "live" },
+      "bookACall": { "text": "BOOK A CALL", "href": "https://cal.com/sandeep/30min", "target": "_blank", "x": 1041, "y": 16, "w": 95, "h": 15, "fontSize": "12px", "fontWeight": 500, "letterSpacing": "0.12px", "textTransform": "uppercase", "contains": "arrow SVG 20x20 (x1111 y12) + underline bar (h1, bg rgb(10,10,10), rest width 1px at y29, hover width 95.2px)", "source": "live + hover test" },
+      "dividerRule": { "x": 32, "y": 44, "w": 1104, "h": 1, "background": "rgb(33,33,33) via --token-86117d10", "element": "div.framer-kum8tb-container > div.framer-VbAlD", "source": "live" },
+      "mobileVariant": { "padding": "12px 16px 0px", "menuTrigger": { "text": "menu (renders MENU)", "element": "div.framer-WPx5v[data-highlight][tabindex=0]", "x": 306, "y": 12, "w": 68, "h": 20, "fontSize": "12px", "textAlign": "right", "hamburger": "2 bars, each 16x1px, bg rgb(14,14,15)", "source": "iframe w390" }, "source": "iframe w390/w809" }
+    },
+
+    "portfolioBar": { "text": "PORTFOLIO '26", "y": 67, "source": "live (section position pass)", "note": "direct style not captured — likely same 12px label style; see UNVERIFIED-VALUES.md" },
+
+    "hero": {
+      "section": { "ariaLabel": "Hero", "x": 32, "y": 180, "w": 1104, "h": 228, "display": "flex", "gap": "40px", "justifyContent": "flex-start", "alignItems": "flex-start", "source": "live" },
+      "h1": { "text": "Product design for complex systems that feel obvious", "x": 32, "y": 180, "w": 714, "h": 228, "fontSize": "76px", "lineHeight": "76px", "letterSpacing": "-3.04px", "fontWeight": 500, "fontFamily": "PP Neue Montreal Medium", "color": "rgb(10,10,10)", "structure": "split into per-character <span> children (staggered reveal); 'Product design' rendered in accent rgb(229,52,27)", "source": "live", "viewport": "1168x975", "crossRefs": { "iframe_810_1279": "76px/76px/-3.04px, width capped at 714px (constant across 810/1023/1099/1199/1279)", "iframe_1280": "100px/90px/-4px, measured w972 h270 at 1440", "iframe_390_809": "54px/48.6px/-2.16px, w342 x16" } },
+      "subcopy": { "y": 468, "text": "Product & UX/UI designer with 6 years building information-dense tools for startups and scale-ups. Currently open to full-time/contract roles.", "source": "live (section position pass)", "fontSize": "see typography.md" },
+      "heroRowActions": { "texts": ["HIRE ME ON CONTRA →", "GET IN TOUCH →"], "source": "screenshot home-sec1-hero.png + iframe probes (positions vary by width)" }
+    },
+
+    "sectionLabels": {
+      "example": { "text": "01 / FEATURED CASE (two lines: number, then label)", "fontSize": "12px", "letterSpacing": "normal", "textTransform": "none", "h": 33, "w": "full container width", "x": 32, "y_iframe810_1279": 617, "y_live1168": 597, "source": "iframe probes w810/1023/1099/1199/1279 + live section pass", "note": "the number line and label line are separate text nodes (innerText '01\\n\\nFEATURED CASE')" },
+      "positions_live1168": { "01_FEATURED_CASE": 597, "03_WHY": 2020, "04_HOW": 2742, "05_TRUSTED_BY": 3288, "source": "live section position pass" }
+    },
+
+    "featuredCaseCard": {
+      "card": { "x": 32, "y": 674, "w": 1104, "h": 501, "display": "flex", "flexDirection": "row", "gap": "24px", "element": "div.framer-g8nV5 framer-kxSfa...", "source": "live", "yCaveat": "children measured with a +20px transform offset (appear animation mid-flight); rest y of children = measured - 20" },
+      "leftColumn": { "x": 32, "w": 360, "h": 501, "flexDirection": "column", "source": "live", "crossRef_iframe1440": "x120 w360 (column width is fixed 360 at all widths >=810)" },
+      "titleBlock": { "x": 32, "y": 694, "w": 360, "h": 122, "gap": "10px", "texts": ["Offx: Deal Discovery & Creation Flow", "PRODUCT DESIGN (tag)"], "source": "live" },
+      "keyHighlights": { "x": 32, "y": 830, "w": 360, "h": 171, "gap": "10px", "text": "Key Highlights ・ Redesigned a fragmented OTC platform into a clearer trader workflow. ・ Moved pricing, terms, and context closer to the decision point. ・ Added guided onboarding and review steps for high-value actions.", "bulletChar": "・ (katakana middle dot)", "source": "live" },
+      "readMoreButton": { "x": 32, "y": 1163, "w": 160, "h": 32, "fontSize": "12px", "fontWeight": 400, "padding": "10px 20px", "background": "rgb(42,42,42)", "borderRadius": "0px", "display": "flex", "href": "./work/offx-redesign/", "source": "live" },
+      "imageColumn": { "x": 416, "w": 720, "h": 501, "flexDirection": "column", "source": "live", "crossRef_iframe1440": "x520 w800 (flex-1: container - 40 gap - 360)" },
+      "image": { "src": "RyTIDibqosLDiLqwTKVG5WoKhfs.jpg (served with ?width=4053&height=2424 param, base file 720x430 natural)", "x": 416, "y": 694, "w": 720, "h": 501, "objectFit": "cover", "objectPosition": "50% 50%", "source": "live", "crossRef_iframe1440": "800x557" },
+      "layoutAcrossWidths": { "810_1279": "flex-direction column, gap 24px, h 408-603 (image below text)", "1168_live": "row, gap 24px (2-col: 360 text + 720 image)", "1280plus": "row, gap 40px (360 text + flex-1 image), card w1200 h557 at 1440", "source": "iframe probes (note: at 810-1279 probes report column stacking; the 810w screenshot shows text-left/image-right because the capture included a wider underlying window — see UNVERIFIED-VALUES.md)" }
+    },
+
+    "workRows": {
+      "row_Herd_P02": { "x": 32, "y": 1332, "w": 1104, "h": 103, "display": "flex", "flexDirection": "row", "gap": "40px", "border": "none", "padding": "0px", "href": "./work/herd-simplifying-blockchain-with-ai/", "source": "live" },
+      "rowInner": { "x": 32, "w": 1104, "h": 103, "display": "flex", "gap": "20px", "source": "live" },
+      "leaves": [
+        { "text": "P. 02", "x": 32, "y": 1338, "w": 26, "h": 12, "fontSize": "12px", "color": "rgb(42,42,42)", "tag": "p" },
+        { "text": "Herd - Simplifying Blockchain with AI", "x": 92, "y": 1332, "w": 531, "h": 34, "fontSize": "26px", "fontWeight": 500, "color": "rgb(10,10,10)", "tag": "h4" },
+        { "text": "Herd.eco is a collaborative platform...", "x": 92, "y": 1376, "w": 420, "h": 59, "fontSize": "14px", "fontWeight": 400, "color": "rgb(42,42,42)", "tag": "p", "note": "line-height not directly captured; box h59 for the 2-line description implies ~29.5px — see UNVERIFIED-VALUES.md" },
+        { "text": "PRODUCT DESIGN", "x": 870, "y": 1339, "w": 104, "h": 12, "fontSize": "12px", "fontWeight": 500, "color": "rgb(42,42,42)", "tag": "p" },
+        { "text": "2025-26", "x": 1043, "y": 1339, "w": 47, "h": 12, "fontSize": "12px", "fontWeight": 500, "color": "rgb(42,42,42)", "tag": "p" },
+        { "element": "svg (arrow icon)", "x": 1117, "y": 1333, "w": 23, "h": 23, "color": "rgb(111,110,106)" }
+      ],
+      "rightClusterGeometry": { "rule": "year x = rowRight - 93; category x = rowRight - 266; arrow x = rowRight - 19 (verified at widths 810/1023/1168: year x 685/898/1043 vs row right 778/991/1136)", "source": "iframe probes + live" },
+      "previewOnHover": { "element": "div.framer-1wbsv4y (first child of row)", "rest": { "x": 692, "y": 1291, "w": 197, "h": 132, "opacity": 0 }, "hover": "opacity 0 -> 1; inner image element animates translateX(-150px) -> 0 with opacity 0.001 -> 1 (caught mid-flight at t=1000ms synthetic)", "image": "WfDIJ0KRJ019FAQYHr30yJGl0c.jpg?width=518 (197x132 rendered, object-fit cover)", "source": "live hover test (synthetic pointer events)" },
+      "rowHeightsByWidth": { "810": 140, "1023": 95, "1099": 95, "1168": 103, "1199": 103, "1279": 103, "note": "height is content-driven (description wraps to 2 lines at 810)", "source": "iframe probes + live" },
+      "homeRowLinks": ["./work/offx-redesign/ (READ MORE featured)", "./work/herd-simplifying-blockchain-with-ai/", "./work/no-code-data-builder/", "./work/corestack-enterprise-control-panel/", "./work/making-direct-mail-campaigns-easier-to-launch-manage-and-measure./", "./work/zenrock-webapp-design/", "./work/zenrock-website-design(mvp)/", "./work/getlit-webapp/", "./work/houzecheck-webapp/", "./work/mindlantic/", "./work/swoop/"], "source": "html"
+    },
+
+    "cta": {
+      "section": { "ariaLabel": "CTA", "x": 32, "y": 3491, "w": 1104, "h": 376, "display": "flex", "flexDirection": "column", "gap": "10px", "padding": "60px", "background": "rgb(229,227,219)", "borderRadius": "0px", "border": "none", "boxShadow": "none", "source": "live", "crossRef_iframe1440": "padding 100px, w1200 h456" },
+      "label": { "text": "GET IN TOUCH", "x": 118, "y": 3571, "w": 82, "fontSize": "12px", "fontWeight": 500, "lineHeight": "12px", "letterSpacing": "0.12px", "color": "rgb(42,42,42)", "source": "live", "yCaveat": "inner CTA Y values may carry +20px appear-animation offset (rest = measured - 20; label rest y = 3551 = section y + padding 60)" },
+      "heading": { "text": "Have a complex product that needs a clear next move?", "x": 92, "y": 3603, "w": 689, "fontSize": "42px", "lineHeight": "46.2px", "letterSpacing": "-0.84px", "fontWeight": 500, "color": "rgb(10,10,10)", "highlightSpan": { "text": "complex product", "x": 220, "y": 3601, "w": 295, "color": "rgb(229,52,27)" }, "source": "live", "crossRef_iframe1440": "w600 at 1440 (likely max-width; see UNVERIFIED-VALUES.md)" },
+      "buttons": [
+        { "label": "HIRE ME ON CONTRA", "labelX": 112, "labelY": 3747, "labelW": 121, "fontSize": "12px", "fontWeight": 500, "lineHeight": "12px", "letterSpacing": "0.12px", "color": "rgb(255,255,255)", "href": "https://contra.com/sandeep23?...", "target": "_blank" },
+        { "label": "EMAIL ME", "labelX": 309, "labelY": 3747, "labelW": 56, "fontSize": "12px", "fontWeight": 500, "color": "rgb(255,255,255)", "box": "120x44 (iframe probes w810-1279: emailW 120 emailH 44; at <=809 stretches to 697 wide at 809)", "href": "mailto:hello@sandeep.design", "target": "_blank" }
+      ],
+      "statusRow": [
+        { "text": "OPEN TO FULL-TIME/CONTRACT ROLES", "x": 92, "y": 3815, "w": 226, "fontSize": "12px", "fontWeight": 500, "color": "rgb(42,42,42)" },
+        { "text": "REPLIES WITHIN 2 HRS", "x": 344, "y": 3815, "w": 130, "fontSize": "12px", "fontWeight": 500, "color": "rgb(42,42,42)" }
+      ],
+      "source": "live"
+    },
+
+    "emailRow": { "text": "hello@sandeep.design", "y": 4002, "fontSize": "52px", "lineHeight": "65px", "letterSpacing": "-0.2px", "fontWeight": 500, "color": "rgb(10,10,10)", "source": "live (section pass + type census)" },
+
+    "footer": {
+      "element": "footer[aria-label=Footer] (class framer-P5Le7...)", "x": 32, "y": 3967, "w": 1104, "h": 994, "display": "flex", "gap": "80px", "background": "rgb(255,255,255)", "borderTop": "none", "source": "live",
+      "writeToMe": { "x": 32, "y": 3967, "w": 1104, "h": 115, "texts": ["WRITE TO ME", "hello@sandeep.design"], "source": "live" },
+      "linksBlock": { "x": 32, "y": 4162, "w": 1104, "h": 799, "source": "live" },
+      "columns": { "labels": ["PAGES", "ELSEWHERE", "CURRENTLY"], "geometry": "3 equal flex columns, gap 49px; x/w by width: 810w -> x32/297/562 w216 | 1023w -> x32/368/704 w287 | 1099w -> x32/393/755 w312 | 1168w -> x32/416/801 w335 | 1199w -> x32/427/821 w346 | 1279w -> x40/456/872 w367", "links": { "PAGES": ["Home", "Work", "About"], "ELSEWHERE": ["Dribbble", "LinkedIn", "Resume"], "CURRENTLY": ["Open to full-time/contract roles", "Replies within 2hrs"] }, "source": "live + iframe probes" },
+      "bottomLine": { "texts": ["COPYRIGHT 2026", "BASED IN INDIA", "WORKING WORLDWIDE", "BUILT WITH LOVE"], "source": "live innerText" },
+      "yCaveat": "earlier section pass recorded footer columns at y4174; the structure pass measured linksBlock y4162 — 12px delta is a pass-to-pass rounding/appear-state difference"
+    },
+
+    "bubbleGame": {
+      "container": { "x": 32, "y": 4305, "w": 1104, "h": 600, "position": "relative (children absolute)", "overflow": "hidden", "background": "rgb(250,249,247)", "border": "none", "borderRadius": "0px", "childCount": 3, "source": "live" },
+      "playfield": { "html": "<div style=\"position:absolute;inset:0\">", "source": "live" },
+      "score": { "html": "absolute; left:0; bottom:8px; font-family: PP Neue Montreal Regular; font-size:10px; letter-spacing:0.04em", "text": "0 SCORE · 0 POPPED (numbers wrapped in <b>)", "x": 32, "y": 4885, "w": 110, "h": 12, "fontSize": "10px", "color": "rgb(10,10,10)", "source": "live" },
+      "controls": { "container": { "html": "absolute; right:0; bottom:0; display:flex; gap:4px; z-index:7", "x": 1072, "y": 4875, "w": 64, "h": 30 }, "buttons": [ { "ariaLabel": "Toggle sound", "x": 1072, "y": 4875, "w": 30, "h": 30, "background": "transparent", "border": "0", "color": "rgb(10,10,10)" }, { "ariaLabel": "Reset", "x": 1106, "y": 4875, "w": 30, "h": 30 } ], "source": "live" },
+      "bubbles": "spawned dynamically at runtime (no bubble nodes present at rest); animation keyframes bfrise/bfwob/bfring/bfflash/bffade/bfpop/bfconf/bfspin + --travel CSS var; exact spawn parameters not observable at rest — see UNVERIFIED-VALUES.md"
+    },
+
+    "trustedBy": { "y": 3288, "element": "section[aria-label=Works] x5? + logo list", "note": "6-item logo list (list/listitem x6 in a11y tree); individual logo rects not captured — see UNVERIFIED-VALUES.md", "source": "live section pass + a11y snapshot" }
+  },
+
+  "workPage": {
+    "page": { "scrollHeight": 3671, "viewport": "1168x975", "title": "Work", "source": "live" },
+    "header": { "h1": "01 WORK", "intro": { "text": "Selected work across products, systems, and experiments", "source": "live innerText" } },
+    "firstRow_P01": {
+      "x": 32, "y": 413, "w": 1104, "h": 83, "display": "flex", "gap": "40px", "href": "./work/offx-redesign/",
+      "leaves": [
+        { "text": "P. 01", "x": 32, "y": 419, "fontSize": "12px", "fontWeight": 500, "color": "rgb(42,42,42)" },
+        { "text": "Offx: Deal Discovery & Creation Flow", "x": 92, "y": 413, "fontSize": "26px", "fontWeight": 500, "color": "rgb(10,10,10)" },
+        { "text": "Turning a fragmented multi-asset OTC platform...", "x": 92, "y": 457, "fontSize": "14px", "fontWeight": 400, "color": "rgb(42,42,42)" },
+        { "text": "PRODUCT DESIGN", "x": 870, "y": 420, "fontSize": "12px", "fontWeight": 500, "color": "rgb(42,42,42)" },
+        { "text": "2024-25", "x": 1043, "y": 420, "fontSize": "12px", "fontWeight": 500, "color": "rgb(42,42,42)" }
+      ],
+      "source": "live"
+    },
+    "rowCount": 11,
+    "rowSlugs": ["offx-redesign", "herd-simplifying-blockchain-with-ai", "no-code-data-builder", "corestack-enterprise-control-panel", "making-direct-mail-campaigns-easier-to-launch-manage-and-measure.", "zenrock-webapp-design", "zenrock-website-design(mvp)", "getlit-webapp", "houzecheck-webapp", "mindlantic", "swoop"],
+    "source": "live + html"
+  },
+
+  "aboutPage": {
+    "page": { "scrollHeight": 3891, "viewport": "1168x975", "title": "About", "source": "live" },
+    "h1": { "text": "I design things that work and look clean", "x": 32, "y": 124, "w": 714, "fontSize": "76px", "lineHeight": "76px", "letterSpacing": "-3.04px", "color": "rgb(10,10,10)", "structure": "per-character <span> split (staggered reveal)", "source": "live" },
+    "cvHeading": { "text": "Where I've worked and what I've helped build.", "x": 32, "y": 421, "w": 773, "fontSize": "48px", "lineHeight": "48px", "letterSpacing": "-1.92px", "source": "live" },
+    "beliefsHeading": { "text": "Simplicity comes from knowing what to keep, remove, and structure", "x": 32, "y": 1441, "w": 883, "fontSize": "48px", "lineHeight": "48px", "letterSpacing": "-1.92px", "source": "live" },
+    "processHeading": { "text": "What working together actually looks like.", "x": 32, "y": 1988, "w": 355, "tag": "h4", "fontSize": "26px", "lineHeight": "33.8px", "letterSpacing": "normal", "source": "live" },
+    "closingHeading": { "text": "Now you know me. Want to work together?", "x": 92, "y": 2533, "w": 590, "fontSize": "42px", "lineHeight": "46.2px", "letterSpacing": "-0.84px", "source": "live" },
+    "downloadResume": { "x": 976, "y": 485, "w": 160, "h": 32, "background_rest": "rgba(230,228,220,0)", "background_hover": "rgba(230,228,220,0.27)", "source": "live + hover test" },
+    "cvEntries": ["2022 — 2026 Delphi Digital LLC / Product Designer", "2021 — 2022 DM Applications Inc / UI/UX Designer", "2021— 2022 Fast Forward / UI/UX Designer", "2021 Strategy Compass GmbH / UI/UX Designer", "2021 Houzecheck UK / UI/UX ..."], "source": "live innerText",
+    "cvRowHover": "no computed-style change on synthetic hover (rows have React onMouseEnter handlers but no visual delta observed)", "source": "live hover test"
+  },
+
+  "caseStudyPage": {
+    "example": "/work/no-code-data-builder/",
+    "page": { "scrollHeight": 15289, "viewport": "1168x975", "title": "Work", "h1": "Crypto No code Data Builder", "source": "live" },
+    "root": { "display": "flex", "flexDirection": "column", "gap": "60px", "padding": "144px 32px 0px", "background": "rgb(255,255,255)", "element": "div.framer-6F3hC framer-zJArv framer-svwx6 framer", "source": "live" },
+    "metaRow": { "texts": ["PRODUCT DESIGN", "2022-23", "CRYPTO/FINTECH"], "source": "live innerText" },
+    "heroImage": { "src": "bin6vivTjf7oNqgZMr51mPIBpjk.jpg", "x": 32, "y": 455, "w": 1104, "h": 621, "natural": "1104x621 (16:9)", "objectFit": "cover", "objectPosition": "50% 50%", "borderRadius": "0px", "source": "live" },
+    "factRow": { "texts": ["ROLE Product Designer", "DURATION 2-3 Months", "STATUS Sunset"], "source": "live innerText" },
+    "twoColumn": { "leftRail": { "width": 266, "position": "sticky", "top": "60px", "height": 190, "element": "div.framer-y9xgw0-container (and 4 siblings)", "stickyInstances": [ { "y": 1136, "h": 190 }, { "y": 2365, "h": 190 }, { "y": 6075, "h": 190 }, { "y": 7776, "h": 215 }, { "y": 12614, "h": 190 } ] }, "contentColumn": { "x": 338, "w": 798 }, "source": "live" },
+    "contentImages": [
+      { "src": "vOjQPFNzO4h9JA5DzHtvoTygBtE.jpg", "x": 338, "y": 2836, "w": 798, "h": 1870, "natural": "1104x2587", "objectFit": "cover" },
+      { "src": "o8UtT22B8yQyQIlEcdP0Eu4.jpg", "x": 338, "y": 6832, "w": 798, "h": 823, "natural": "1104x1138", "objectFit": "cover" },
+      { "src": "v0DsYcLqvfL1OQVDju2L2D6SfXs.jpg", "x": 338, "y": 8129, "w": 798, "h": 449, "natural": "1104x621", "objectFit": "cover" },
+      { "src": "3PRZ4oOCg1PUBZJ6x2W1TT3nhc.jpg", "x": 478, "y": 8681, "w": 658, "natural": "3840x2160", "note": "inset (not full column width)" }
+    ],
+    "contentImagesNote": "content-column images render at 798px wide, object-fit cover, 50% 50%, no radius; natural sizes often 1104px wide",
+    "headings": "mapped in reference-screenshots/casestudy-no-code-data-builder-full.png; text inventory in dom-structure.md",
+    "sectionBlockGap": "40px",
+    "source": "live"
+  },
+
+  "navigationGraph": {
+    "internal": [
+      { "text": "SANDEEP KUMAR (logo)", "href": "./" },
+      { "text": "HOME", "href": "./" },
+      { "text": "WORK", "href": "./work" },
+      { "text": "ABOUT", "href": "./about" },
+      { "text": "READ MORE", "href": "./work/offx-redesign/" },
+      { "text": "P. 01 - P. 11 rows", "href": "./work/<slug>/" },
+      { "text": "footer PAGES", "href": "./, ./work, ./about" },
+      { "text": "case-study left-rail anchors", "href": "#reqs-→-decisions etc (hash scroll)" }
+    ],
+    "external": [
+      { "text": "BOOK A CALL", "href": "https://cal.com/sandeep/30min", "target": "_blank" },
+      { "text": "HIRE ME ON CONTRA", "href": "https://contra.com/sandeep23?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&referrerUsername=sandeep23", "target": "_blank" },
+      { "text": "GET IN TOUCH / EMAIL ME", "href": "mailto:hello@sandeep.design", "target": "_blank" },
+      { "text": "footer ELSEWHERE", "href": "Dribbble / LinkedIn / Resume (external)" },
+      { "text": "DOWNLOAD RESUME", "href": "resume file (About page)" }
+    ],
+    "mobileMenu": "MENU trigger (div[data-highlight][tabindex=0]) — open state could not be triggered with synthetic events; see UNVERIFIED-VALUES.md",
+    "source": "html + live"
+  }
+}

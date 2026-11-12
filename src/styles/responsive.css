@@ -1,0 +1,72 @@
+/* =============================================================================
+   responsive.css — tier tokens + nav/page-shell breakpoint overrides
+
+   SOURCE: reference-audit/responsive-breakpoints.md (verified probe matrix:
+   390/809/810/1023/1024/1099/1100/1199/1200/1279/1280/1440) + iframe probes
+   + the reference source CSS media segments (home.html <style>).
+
+   Desktop-first, matching the reference's own variant structure:
+     base        = >= 1280px  (desktop)
+     <= 1279.98  = 810-1279   (tablet; the reference's v-a5bcgu / v-gfs5rr variants)
+     <= 809.98   = <= 809     (mobile; the reference's v-erg11y / v-1vi7n4r variants)
+
+   OWNERSHIP (Phase 2 reconciliation — one owner per component):
+     - tier tokens (:root), nav + page-wrapper shell ......... this file
+     - portfolio bar, hero, section labels, s02/s03/s04/s05,
+       CTA + all preset bands (9g1z5w/1wml6uu/1xzh7l3/1w752jy/ugcj2n) ... sections.css
+     - featured card, work rows + their bands .................. projects.css
+     - footer, email bands, write-block, cols, game, bottom .... footer.css
+     - typography presets/utilities ............................. typography.css
+   This file intentionally no longer contains hero/footer/work-row/featured
+   rules (they duplicated the owners; some were wrong vs source — hero gap40,
+   footer bottom gap10, work-row desc width 190 — logged in ARCHITECTURE.md).
+
+   Only values measured at those widths appear here. Where the reference's
+   behavior was not probed (R1 in UNVERIFIED-VALUES.md), no override is
+   written — the base value continues to apply, and the gap is listed in
+   ARCHITECTURE.md → UNVERIFIED.
+   ========================================================================== */
+
+/* -----------------------------------------------------------------------------
+   Tier 2: tablet 810-1279 (probes at 810, 1023, 1024, 1099, 1100, 1199, 1200, 1279)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1279.98px) {
+  :root {
+    --gutter: 32px; /* nav/root padding 12px/64px 32px (all tablet probes) */
+    --gap-home-block: 24px; /* section 01 wrapper gap (probe at 1168) */
+    --gap-home-block-02: 24px; /* section 02 wrapper gap (probe at 1168) */
+    --gap-footer: 80px; /* footer variant v-gfs5rr (width 810) + live measure */
+    --cta-pad: 60px; /* CTA card padding (probes 810-1279) */
+  }
+}
+
+/* -----------------------------------------------------------------------------
+   Tier 3: mobile <= 809 (probes at 390 and 809; full mobile spec is R1)
+   -------------------------------------------------------------------------- */
+@media (max-width: 809.98px) {
+  :root {
+    --gutter: 16px; /* nav 12px 16px 0 / root 64px 16px 0 (mobile pass) */
+    --gap-root: 60px; /* root column gap (mobile pass) */
+    --gap-footer: 20px; /* footer variant v-1vi7n4r (width 320) */
+    --cta-pad: 40px; /* CTA card padding (mobile probe) */
+  }
+
+  /* Root / nav padding (verified) */
+  .page-wrapper {
+    padding-top: var(--root-pad-top);
+    padding-inline: var(--gutter);
+  }
+  .site-nav {
+    padding: var(--nav-pad-top) var(--gutter) 0;
+  }
+
+  /* Nav: logo + MENU trigger only (HOME/WORK/ABOUT + BOOK A CALL hidden) */
+  .site-nav__links,
+  .site-nav__cta {
+    display: none;
+  }
+  .site-nav__menu {
+    display: flex;
+  }
+
+}

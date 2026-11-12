@@ -1,0 +1,65 @@
+/* =============================================================================
+   keyframes.css — CSS keyframes from the reference stylesheet (Phase 2, task 10)
+   SOURCE: animation-inventory.md §3 (CSSKeyframesRule enumeration, live DOM).
+
+   pulsingDotRipple: exact frames captured (0% scale(.6)/opacity 1 ->
+   100% scale(var(--pulse-scale, 2.2))/opacity 0), 2s infinite ease-out.
+
+   Bubble-game keyframes (bfrise/bfwob/bfring): frames captured, but per-bubble
+   DURATIONS/iterations are UNVERIFIED (§A5 — no bubble nodes exist at rest),
+   and bfflash/bffade/bfpop/bfconf/bfspin frames were not captured at all (§A6).
+   They are therefore declared WITHOUT duration values here; Phase 3 attaches
+   timing only if/when it is measured. Do not guess durations.
+   ========================================================================== */
+
+:root {
+  --pulse-scale: 2.2; /* verified: pulsingDotRipple 100% scale target */
+}
+
+/* 7×7px status dot (OPEN TO WORK): 2s infinite ease-out (computed) */
+@keyframes pulsingDotRipple {
+  0% {
+    transform: scale(0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(var(--pulse-scale, 2.2));
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-bar__dot-ripple {
+    animation: none !important;
+  }
+}
+
+/* --- Bubble game keyframes (frames verified; timing UNVERIFIED — §A5/A6) --- */
+@keyframes bfrise {
+  100% {
+    transform: translateY(calc(-1 * var(--travel)));
+  }
+}
+
+@keyframes bfwob {
+  0% {
+    transform: translateX(-14px);
+  }
+  100% {
+    transform: translateX(14px);
+  }
+}
+
+@keyframes bfring {
+  0% {
+    transform: scale(0.7);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+
+/* bfflash / bffade / bfpop / bfconf / bfspin: frames NOT captured (§A6) —
+   intentionally absent. Add them only with transcribed frames. */

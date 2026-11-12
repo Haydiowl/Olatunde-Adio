@@ -1,0 +1,1295 @@
+/* =============================================================================
+   sections.css — portfolio bar, hero, section labels, s02 work section shell,
+   s03 (why work with me), s04 (how I work), s05 (trusted by), CTA.
+   Every value below is cited from the reference source CSS (Phase 1 §, home.html
+   <style> blocks) — see ARCHITECTURE.md for the measurement → class mapping.
+   Desktop-first: base = ≥1280; then tablet ≤1279.98; mobile ≤809.98.
+   ========================================================================== */
+
+/* -----------------------------------------------------------------------------
+   Shared: 16×1 label rule (rm892n/qf5xg2) — also reused by CTA label
+   -------------------------------------------------------------------------- */
+.label-rule {
+  width: 16px;
+  height: 1px;
+  flex: none;
+  background-color: var(--token-86117d10); /* #2a2a2a */
+}
+
+/* -----------------------------------------------------------------------------
+   Section label — col wrapper gap 20 (mobile 12): row gap 10 [number, text]
+   + full-width 1px divider (VbAlD tone). Wrapper has NO appear-id → static.
+   s3 nests the label wrapper one level deeper (12ltkm > qjpyul).
+   -------------------------------------------------------------------------- */
+.section-label {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.section-label__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-label__number,
+.section-label__text {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1em; /* preset-a3dj5b: 12/500/1em/.01em (label box h33 = 12+20+1) */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-86117d10); /* #2a2a2a */
+}
+
+/* -----------------------------------------------------------------------------
+   Rule (VbAlD): tone=dark (bar5vx #2a2a2a — labels, card verticals, nav/footer
+   bottom) · tone=light (hpeqjj rgba(111,110,106,.2) — s4 item separators,
+   footer top/col/write rules, work-row t4jlxn dividers).
+   Vertical form: align-self stretch, width 1, height 100% (≥810).
+   -------------------------------------------------------------------------- */
+.rule {
+  flex: none;
+  width: 100%;
+  height: 1px;
+  margin: 0;
+  border: 0;
+  background-color: var(--token-86117d10); /* tone=dark */
+}
+
+.rule--light {
+  background-color: rgba(111, 110, 106, 0.2);
+}
+
+.rule--mid {
+  background-color: rgb(184, 184, 184);
+}
+
+.rule--h {
+  width: 100%;
+  height: 1px;
+}
+
+.rule--v {
+  align-self: stretch;
+  width: 1px;
+  height: 100%;
+}
+
+/* -----------------------------------------------------------------------------
+   Portfolio bar — appear id `cvhcy1` (0.5s ease [0.58,.02,.37,.99], y20)
+   -------------------------------------------------------------------------- */
+.portfolio-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 16px;
+  width: 100%;
+  max-width: var(--content-max); /* 1200 */
+}
+
+.portfolio-bar__text {
+  flex: 1 0 0; /* 186wuip: flex1 w1 */
+  width: 1px;
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1em;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-24044501); /* #0a0a0a */
+}
+
+.portfolio-bar__status {
+  display: flex;
+  flex: 1 0 0; /* utpgxu: flex1 w1, justify-end, gap4 */
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  width: 1px;
+}
+
+/* qfnxsf — wraps the dot: row gap10 center, padding 0 2px 2px */
+.portfolio-bar__dot-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 0 2px 2px;
+}
+
+/* pulsing dot: span 4×4 [accent dot z2 + ripple z1, border 1px accent] */
+.portfolio-bar__dot {
+  position: relative;
+  display: inline-flex;
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+}
+
+.portfolio-bar__dot-core {
+  position: absolute;
+  inset: 0;
+  background: var(--token-b86dbd64); /* #e5341b */
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.portfolio-bar__dot-ripple {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  z-index: 1;
+  transform-origin: center;
+  border: 1px solid var(--token-b86dbd64);
+  animation: pulsingDotRipple 2s ease-out infinite; /* keyframes.css */
+}
+
+/* right label (1nrbcdp > "Open to work", preset-1tb3ij7): 10/400/1em/.01em
+   uppercase; inline extracted color resolves to token-24044501 (#0a0a0a). */
+.portfolio-bar__status p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1em;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-24044501); /* #0a0a0a */
+}
+
+/* -----------------------------------------------------------------------------
+   Hero (7u5tdv) — gap 60, NO mobile gap override (responsive.css hero gap40
+   is a Phase 1 discrepancy — removed).
+   [section 1ofsvdh col gap40 max-w1200 > [rlca3s row gap10 max-w90% > h1
+   wrapper], y9kb5y row space-between align-start max-w1200]
+   -------------------------------------------------------------------------- */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+  max-width: var(--content-max);
+}
+
+.hero__section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  max-width: var(--content-max); /* 1200 */
+}
+
+.hero__title-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 90%;
+}
+
+.hero__title-wrap {
+  flex: none;
+  width: auto;
+  max-width: 90%;
+}
+
+.hero__h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 0.9em;
+  letter-spacing: -0.04em;
+  color: var(--token-24044501); /* #0a0a0a */
+}
+
+.hero__h1-accent {
+  color: var(--token-b86dbd64); /* #e5341b — "Product design" span */
+}
+
+/* y9kb5y — SIBLING of the hero section (not nested) */
+.hero__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: var(--content-max); /* 1200 */
+}
+
+.hero__subcopy {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 420px;
+}
+
+.hero__subcopy p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 0.01em; /* preset-6wgo1q: .01em (0.12px — not 0.12em) */
+  text-align: left;
+  color: var(--token-24044501); /* #0a0a0a */
+}
+
+.hero__actions {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 24px;
+  max-width: 420px;
+}
+
+/* First hero action's appear container (1e91r9o). Flex so the inline action
+   link does not introduce an inline-block baseline gap inside the row. */
+.hero__action-appear {
+  display: flex;
+}
+
+/* -----------------------------------------------------------------------------
+   Section 01 featured (1d2ga08) — gap 40/24/16. Appear id 1d2ga08 is TRUNCATED
+   (§A1) → static (no reveal) until spec captured.
+   [label, 308svi > 83urhf > card]
+   -------------------------------------------------------------------------- */
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  max-width: var(--content-max);
+}
+
+.featured-section__content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 100%;
+}
+
+.featured-section__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+/* -----------------------------------------------------------------------------
+   Section 02 Selected (1r8a8js id="selected") — col gap 30/24/20 > label +
+   v20nff (col gap 20 center) > 4 sub-sections, each: sticky wrapper (col gap
+   20) > row + light t4jlxn divider.
+   -------------------------------------------------------------------------- */
+.works-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: var(--content-max);
+  scroll-margin-top: 60px;
+}
+
+.works-section__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+/* section wrappers mi2v37/z25d26/1aw8lux/xevhd8 — mobile gap 16 max-w 1440 */
+.works-section__group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+/* sticky wrappers 188aq46/68ehn9/1idd15f/sofepb — position sticky, col gap 20
+   (mobile gap 24). Top offset UNVERIFIED (no sticky top in source CSS dump
+   captured) — Phase 3 item; gap only here. */
+.works-section__sticky {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  position: sticky;
+}
+
+/* -----------------------------------------------------------------------------
+   Section 03 Why Work With Me (8fgpcj) — col gap 20 (mobile 24), max-w 1200.
+   Verified DOM: 8fgpcj > [12ltkm > label (12ltkm's ONLY child — its mobile
+   gap80 is moot), 1juq6ob intro, lscu9e cards] — FLAT children, gap 20.
+   The intro (1juq6ob) holds BOTH headings: col gap 40 pad 20 0 >
+   [1mga31 row gap10 max-w70 > h2 9g1z5w, 18vsea0 col gap20 max-w80 > h2
+   1wml6uu].
+   -------------------------------------------------------------------------- */
+.why-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: var(--content-max); /* 1200 */
+}
+
+/* intro 1juq6ob — col gap 40 pad 20 0 (mobile gap 24 pad 0) */
+.why-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+/* line 1: row gap 10 max-w 70% (mobile 90%) */
+.why-intro__line1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 70%;
+}
+
+/* line 2: col gap 20 max-w 80% (mobile gap 8, max-w 90%) */
+.why-intro__line2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 80%;
+}
+
+.why-intro h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 500;
+  text-transform: none;
+}
+
+.why-intro__line1 h2 {
+  flex: 1 0 0; /* 19nldkd: flex 1 0 0; width 1px */
+  width: 1px;
+  font-size: 80px;
+  line-height: 1em;
+  letter-spacing: -0.04em;
+  color: var(--token-24044501); /* #0a0a0a */
+}
+
+.why-intro__line2 h2 {
+  width: 100%; /* cymeui wrapper: width 100% */
+  font-size: 42px;
+  line-height: 1.1em;
+  letter-spacing: -0.02em;
+  color: var(--token-86117d10); /* #2a2a2a */
+}
+
+/* cards row lscu9e — row gap 24 (mobile column gap 24) */
+.why-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 100%;
+}
+
+/* cells ll0cmo/23xkn4/19ujwd0 — border-top + border-bottom 1px via data-border
+   vars (#2a2a2a); inline opacity 0 y20 but NO appear-id → static. */
+.why-cell {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0;
+  width: 1px;
+  border-top: 1px solid var(--token-86117d10);
+  border-bottom: 1px solid var(--token-86117d10);
+}
+
+/* card 1gs8gyw — col flex1 gap32 pad32 (tablet gap24 pad20; mobile flex-none
+   gap24 w100% pad24) */
+.why-card {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  gap: 32px;
+  width: 1px;
+  padding: 32px;
+}
+
+/* letter box 4wufkm — 32×32 col gap6 center, border 1px solid #6f6e6a */
+.why-card__letter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 32px;
+  height: 32px;
+  flex: none;
+  border: 1px solid var(--token-e1eb4ea5); /* #6f6e6a */
+}
+
+.why-card__letter span {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1em; /* a3dj5b */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--token-b86dbd64); /* #e5341b accent */
+}
+
+.why-card h4 {
+  margin: 0;
+  width: 100%; /* h4 wrappers (1yj5yo1/oo2pib) are width:100% in source */
+  font-family: var(--font-display);
+  font-size: 26px; /* preset-1xzh7l3 base */
+  font-weight: 500;
+  line-height: 1.3em; /* 1xzh7l3: 1.3em (33.8), ls 0 — not 1em/-.01 */
+  letter-spacing: 0em;
+  color: var(--token-24044501); /* #0a0a0a (inline token) */
+}
+
+/* Card C's h4 wrapper (hx2lhq) carries width:100%;max-width:80% in source —
+   cards A/B wrappers (1yj5yo1/oo2pib) have width:100% only, no max-width. */
+.why-cell:last-child .why-card h4 {
+  max-width: 80%;
+}
+
+/* text wrapper 5c42b9 — col gap12, align-items:center, width 100%.
+   The card's only two children are the letter box and this wrapper, so the
+   h4→body gap is 12 (not the card's 24). */
+.why-card__text {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+/* body wrapper 1cyhn23 — col gap12 align-items:center; children width:100%
+   (visually left-aligned). Text = preset-ugcj2n: 14/500/1.4/-.02 (base
+   >=1024; 16px at 810–1023 — see tablet block). */
+.why-card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.why-card__body p {
+  margin: 0;
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500; /* ugcj2n weight (source preset) */
+  line-height: 1.4em;
+  letter-spacing: -0.02em;
+  color: var(--token-86117d10); /* #2a2a2a (inline extracted) */
+}
+
+/* -----------------------------------------------------------------------------
+   Section 04 How I work (gqj69r) — col gap40 max-w1200 scroll-margin-top:60
+   (mobile gap 24). Structure: [label, 1a69g1h row gap60 (40 @810–1279,
+   column gap24 @≤809) > [left, right]]. 4trg8p (single-child wrapper around
+   the left column) is collapsed; the gap lives on .how-section__content.
+   -------------------------------------------------------------------------- */
+.how-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  max-width: var(--content-max); /* 1200 */
+  scroll-margin-top: 60px;
+}
+
+/* appear block wrapper (framer-j82z9w): label + content move together */
+.how-section__block {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.how-section__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 60px;
+  width: 100%;
+}
+
+/* left 1k33rpp — col flex1 gap8 > h4 + ca6ca4 (col gap10 > p) */
+.how-section__left {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  gap: 8px;
+  width: 1px;
+}
+
+.how-section__left h4 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 26px; /* preset-1xzh7l3 */
+  font-weight: 500;
+  line-height: 1.3em;
+  letter-spacing: 0em;
+  color: var(--token-24044501);
+}
+
+.how-section__left-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* left copy = preset-21ogod: 16/400/1.4/-.01, #2a2a2a (verified live — was #0a0a0a), no
+   breakpoint bands */
+.how-section__left-copy p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: -0.01em;
+  color: var(--token-86117d10); /* #2a2a2a */
+}
+
+/* right foj3v1 — col flex2 gap16 (mobile flex-none w100%); items row gap30
+   (tablet/mobile 20) each [code w60 pad 4 14 0 0, text col flex1 gap4];
+   light VbAlD separators between items. */
+.how-section__right {
+  display: flex;
+  flex: 2 0 0;
+  flex-direction: column;
+  gap: 16px;
+  width: 1px;
+}
+
+.how-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* 1a69g1h/lzl3uj align-items:flex-start — code stays top-aligned */
+  gap: 30px;
+  width: 100%;
+}
+
+.how-item__code {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 60px;
+  padding: 4px 14px 0 0;
+}
+
+.how-item__code span {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1em; /* a3dj5b */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-b86dbd64); /* #e5341b H.01 */
+}
+
+.how-item__text {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  gap: 4px;
+  width: 1px;
+}
+
+/* 1i1zdlp — col gap 6 width 100%; wraps the h5 (single child at capture) */
+.how-item__text-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+/* xn2vej/1qffs5c/1aqob1s/isp9ly — desc wrapper: width:100%;max-width:80%
+   (base), max-width:80% at 810–1279.98 (source media block — the ≤1023 band keeps
+   80%; only the ≤809 band drops it). */
+.how-item__desc {
+  width: 100%;
+  max-width: 80%;
+}
+
+/* how-item text = preset-1w752jy: 20/500/1.4/0 (#0a0a0a), bands 18 @810–1199,
+   16 @<=809 — see media blocks */
+.how-item__text h5 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4em;
+  letter-spacing: 0em;
+  color: var(--token-24044501);
+}
+
+/* item description = preset-ugcj2n (same as why-card body): 14/500/1.4/-.02
+   #2a2a2a, 16px at 810–1023 */
+.how-item__text p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4em;
+  letter-spacing: -0.02em;
+  color: var(--token-86117d10);
+}
+
+/* -----------------------------------------------------------------------------
+   Section 05 Previously trusted by (1icoyqm) — col gap40 max-w1200 > aa6jlb
+   (mix-blend-mode luminosity, border-radius 10px; inline appear y10, NO id →
+   static) row gap50 > ul row gap50 > 7 li.ticker-item (sizes/opacity/filter
+   live in data/home.js — trustedBy).
+   -------------------------------------------------------------------------- */
+.trusted-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  max-width: var(--content-max); /* 1200 */
+}
+
+.trusted-section__logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  mix-blend-mode: luminosity;
+  border-radius: 10px;
+}
+
+.trusted-section__logos ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.ticker-item {
+  flex: none;
+}
+
+.ticker-item img {
+  display: block;
+}
+
+/* -----------------------------------------------------------------------------
+   CTA (SUBuH) — card v-syn3b5 col gap10 w1200 pad100 (tablet pad60, mobile
+   gap48 pad40, width 100%). bg #e5e3db, border 1px #cccaca.
+   [1eiuzqn absolute bg layer z0 (canvas, static — UNVERIFIED §A7),
+   1lft1qu content col gap20 max-w1200 > [gkfvri label, 1phdmzn col gap40]]
+   -------------------------------------------------------------------------- */
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: var(--content-max); /* 1200 */
+  padding: 100px;
+  background-color: var(--token-123b8b4d); /* #e5e3db */
+  /* Live @1168 outer height 376.4 = 60*2 + content 256.4 → the 1px #cccaca line
+     is not part of the box model (border-width computes 0). Render it inset so
+     geometry matches while keeping the verified stroke. */
+  box-shadow: inset 0 0 0 1px var(--token-baeb5cb5); /* #cccaca */
+  position: relative;
+  overflow: hidden;
+}
+
+/* absolute bg layer (flat + canvas) — static placeholder layer.
+   Source: 1eiuzqn-container — z0, width100% height100%, top -.10846% left 0. */
+.cta__bg {
+  position: absolute;
+  top: -0.10846%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+.cta__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: var(--content-max); /* 1200 */
+}
+
+/* label gkfvri — row gap10 [rule 16×1, text] */
+.cta__label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.cta__label span {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1em; /* a3dj5b */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-86117d10); /* #2a2a2a */
+}
+
+.cta__body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+/* head 1jfry5k — col gap36 max-w 60% / 70% / unset (mobile) */
+.cta__head {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  max-width: 60%;
+}
+
+/* /about CTA head — max-width 60% at all tiers (verified live; home/work: 60% ≥1280,
+   70% 810–1279.98). */
+.cta__head.about-cta {
+  max-width: 60%;
+}
+
+.cta__head h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.1em;
+  letter-spacing: -0.02em;
+  color: var(--token-24044501); /* #0a0a0a */
+}
+
+.cta__head h2 .accent {
+  color: var(--token-b86dbd64); /* #e5341b */
+}
+
+/* buttons 1tdxm2y — row gap12 (mobile column w100%) */
+.cta__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+/* status 13ax8be — row gap10 [text, dot 6×6 accent, text] (mobile flex-wrap) */
+.cta__status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.cta__status span {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1em; /* a3dj5b */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--token-86117d10); /* #2a2a2a */
+}
+
+.cta__status-dot {
+  width: 6px;
+  height: 6px;
+  flex: none;
+  border-radius: 50%;
+  background-color: var(--token-b86dbd64); /* #e5341b */
+}
+
+/* =============================================================================
+   Tier 2 — tablet ≤1279.98 (also 810–1279.98 for section-specific rules)
+   ========================================================================== */
+@media (max-width: 1279.98px) {
+  /* hero H1: 76/76/-3.04 measured at every tablet probe */
+  .hero__h1 {
+    font-size: 76px;
+    line-height: 1em;
+    letter-spacing: -0.04em;
+    width: 714px;
+    max-width: 714px;
+  }
+
+  .hero__title-wrap {
+    max-width: 714px;
+  }
+
+  .featured-section {
+    gap: 24px;
+  }
+
+  .featured-section__content {
+    gap: 40px;
+  }
+
+  .featured-section__inner {
+    gap: 20px;
+  }
+
+  .works-section {
+    gap: 24px;
+  }
+
+  /* why-section: NO tablet override in source (base 20 stays at 810-1279) */
+
+  .why-card {
+    gap: 24px;
+    padding: 20px;
+  }
+
+  /* how-section: NO tablet override (base 40 stays at 810-1279) */
+
+  .how-section__content {
+    gap: 40px;
+  }
+
+  .how-item {
+    gap: 20px;
+  }
+
+  /* desc wrapper max-width:80% stays at 810–1279.98 (source media block for
+     xn2vej/1qffs5c/1aqob1s/isp9ly — the ≤1023 band keeps 80%) */
+  .cta {
+    padding: var(--cta-pad); /* 60px */
+  }
+
+  .cta__head {
+    max-width: 70%;
+  }
+}
+
+/* --- Preset media bands (source CSS, home.html <style>) --------------------
+   9g1z5w 80→48→38 · 1wml6uu 42→30(810-1023)→24 · 1xzh7l3 26→20(810-1099)→18
+   1w752jy 20→18(810-1199)→16 · ugcj2n 14→16(810-1023)→14                  */
+@media (min-width: 810px) and (max-width: 1279.98px) {
+  .why-intro__line1 h2 {
+    font-size: 48px;
+    line-height: 1em;
+    letter-spacing: -0.04em;
+  }
+}
+
+@media (min-width: 810px) and (max-width: 1199.98px) {
+  .how-item__text h5 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 810px) and (max-width: 1099.98px) {
+  .why-card h4,
+  .how-section__left h4 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 810px) and (max-width: 1023.98px) {
+  .why-intro__line2 h2,
+  .cta__head h2 {
+    font-size: 30px;
+    line-height: 1.15em;
+    letter-spacing: -0.02em;
+  }
+
+  .why-card__body p,
+  .how-item__text p {
+    font-size: 16px;
+  }
+}
+
+/* =============================================================================
+   Tier 3 — mobile ≤809.98
+   ========================================================================== */
+@media (max-width: 809.98px) {
+  /* section label gap 12 (shared group 1ywsj7j/1iasy21/qjpyul/1nerglw/35efds) */
+  .section-label {
+    gap: 12px;
+  }
+
+  .hero__h1 {
+    font-size: 54px;
+    line-height: 0.9em;
+    letter-spacing: -0.04em;
+    width: auto;
+    max-width: min(342px, 100%);
+  }
+
+  .hero__title-wrap {
+    max-width: min(342px, 100%);
+  }
+
+  /* y9kb5y mobile: column, justify flex-start, gap 20 */
+  .hero__bottom {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  /* qw82zz mobile: flex:none; width:100%; max-width:300px */
+  .hero__subcopy {
+    flex: none;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* v9azgo mobile: max-width:unset; flex:none; width:min-content */
+  .hero__actions {
+    flex: none;
+    justify-content: flex-start;
+    max-width: unset;
+    width: min-content;
+  }
+
+  .featured-section {
+    gap: 16px;
+  }
+
+  .featured-section__content {
+    gap: 40px;
+    max-width: 1440px;
+  }
+
+  .featured-section__inner {
+    gap: 24px;
+  }
+
+  .works-section {
+    gap: 20px;
+  }
+
+  /* s2 wrappers: mobile gap 16, max-w 1440 */
+  .works-section__group {
+    gap: 16px;
+    max-width: 1440px;
+  }
+
+  .works-section__sticky {
+    gap: 24px;
+  }
+
+  .why-section {
+    gap: 24px;
+  }
+
+  .why-intro {
+    gap: 24px;
+    padding: 0;
+  }
+
+  .why-intro__line1 {
+    max-width: 90%;
+  }
+
+  .why-intro__line1 h2 {
+    font-size: 38px;
+  }
+
+  .why-intro__line2 {
+    gap: 8px;
+    max-width: 90%;
+  }
+
+  .why-intro__line2 h2 {
+    font-size: 24px;
+    line-height: 1.15em; /* 1wml6uu mobile band (not 1.2) */
+    letter-spacing: -0.02em;
+  }
+
+  .why-card h4,
+  .how-section__left h4 {
+    font-size: 18px; /* 1xzh7l3 mobile band */
+  }
+
+  .how-item__text h5 {
+    font-size: 16px; /* 1w752jy mobile band */
+  }
+
+  .why-cards {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .why-cell {
+    flex: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .why-card {
+    flex: none;
+    gap: 24px;
+    width: 100%;
+    padding: 24px;
+  }
+
+  /* vertical rules between cards become horizontal on mobile */
+  .rule--v {
+    align-self: unset;
+    width: 100%;
+    height: 1px;
+  }
+
+  .how-section {
+    gap: 24px;
+  }
+
+  .how-section__content {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .how-section__left,
+  .how-section__right {
+    flex: none;
+    width: 100%;
+  }
+
+  .how-item {
+    gap: 20px;
+  }
+
+  .cta {
+    gap: 48px;
+    padding: 40px;
+    width: 100%;
+    max-width: none;
+  }
+
+  /* 1lft1qu keeps gap 20 at every width (no mobile override in source) */
+
+  .cta__head {
+    max-width: none;
+  }
+
+  .cta__head h2 {
+    font-size: 24px; /* 1wml6uu mobile band */
+    line-height: 1.15em;
+    letter-spacing: -0.02em;
+  }
+
+  /* buttons become a full-width column (v-maw0dh 1tdxm2y: column,
+     align-items flex-start, width 100%; button containers w100%) */
+  .cta__buttons {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .cta__buttons .btn {
+    width: 100%;
+  }
+
+  .cta__status {
+    flex-wrap: wrap;
+  }
+}
+
+/* =============================================================================
+   /about — "Things I believe" (#my-role) — label + heading block (h2 + intro +
+   divider) + cards row (tdyeoa: row gap 40 base / 32 tablet; mobile column) with
+   vertical dark rules between cards.
+   ========================================================================== */
+.beliefs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  max-width: var(--content-max);
+  scroll-margin-top: 60px;
+}
+
+.beliefs__block {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.beliefs__heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.beliefs__heading-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 80%;
+}
+
+.beliefs__heading-block h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 80px; /* preset-9g1z5w base; 48 @810-1279.98, 38 @<=809.98 */
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: -0.04em;
+  color: var(--token-24044501); /* #0a0a0a */
+}
+
+.beliefs__intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 70%; /* live @1168: intro wrapper 618.2 = 70% of 883.2 */
+}
+
+.beliefs__intro p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: -0.16px;
+  color: var(--token-24044501); /* #0a0a0a */
+  white-space: pre-line;
+}
+
+.beliefs__cards {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 100%;
+}
+
+.beliefs__cell {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  width: 1px;
+}
+
+.beliefs__card {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 0;
+}
+
+.beliefs__card-label {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+}
+
+.beliefs__card-label span {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--color-accent); /* #e5341b (T.0x accent) */
+}
+
+.beliefs__card-text {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.beliefs__card-text h5 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 18px; /* preset-1w752jy @810–1199 */
+  font-weight: 500;
+  line-height: 25.2px;
+  color: var(--token-24044501); /* #0a0a0a */
+}
+
+.beliefs__card-desc {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+}
+
+.beliefs__card-desc p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: -0.28px;
+  color: var(--token-86117d10); /* #2a2a2a */
+}
+
+/* --- Beliefs tier bands ----------------------------------------------------
+   Live @1168: section/block/cards gap 32; h2 preset-9g1z5w 48/1em.
+   Mobile: h2 38/1em, cards stack (vertical rules become horizontal via .rule--v). */
+@media (max-width: 1279.98px) {
+  .beliefs,
+  .beliefs__block,
+  .beliefs__cards {
+    gap: 32px;
+  }
+
+  .beliefs__heading-block h2 {
+    font-size: 48px;
+    line-height: 1em;
+    letter-spacing: -0.04em;
+  }
+}
+
+@media (max-width: 809.98px) {
+  .beliefs__heading-block h2 {
+    font-size: 38px;
+    line-height: 1em;
+    letter-spacing: -0.04em;
+  }
+
+  .beliefs__cards {
+    flex-direction: column;
+  }
+
+  .beliefs__cell {
+    flex: none;
+    width: 100%;
+  }
+}
